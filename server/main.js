@@ -17,8 +17,11 @@ function sfy(d) {
 }
 
 app.configure(function(){
-	app.use(express.static(__dirname + '/../client'));
-	app.use(express.bodyParser());
+	// Middleware for static file requests
+	app.use('/assets', express.static(path.join('../', '/assets')));
+
+	// Middleware for API requests
+	app.use('/api', express.bodyParser());
 	app.use(express.cookieParser());
 });
 
@@ -157,6 +160,14 @@ app.post('/api/places/:id/notification', logRequest, function (req, res) {
 			});
 		}
 	});
+});
+
+// For non-API requests
+app.get('/*', function (req, res) {
+	logger.debug(req.path + ' GET');
+
+	//res.send("What up");
+	res.sendfile(path.join('../', '/index.html'));
 });
 
 function logRequest(req, res, next) {

@@ -2,7 +2,49 @@
 	"places": [
 		{
 			"name": "ChildLine Schools Service Oxfordshire, Reading & West Berks",
-			"address": "ChildLine Schools Service Oxfordshire, Reading & West Berks, Weston House, Curtain Road, London, EC2A 3NH"
+			"address": "ChildLine Schools Service Oxfordshire, Reading & West Berks, Weston House, Curtain Road, London, EC2A 3NH",
+			"telephone": "07767 346 911",
+			"email": "Fiona.Hill@NSPCC.org.uk"
 		},
+		{
+			"name": "Volunteer Centre Tower Hamlets",
+			"address": "Volunteer Centre Tower Hamlets, Norvin House, 45-55 Commercial Street, London, E1 6BD",
+			"telephone":"020 7377 0956",
+			"email":"info@vcth.org.uk",
+			"website":"http://www.vcth.org.uk"
+		},
+		{
+			"name": "Memory Walk",
+			"address": "Memory Walk, Devon House, 58 St Katharine Way, E1W 1LB",
+			"email":"jane.foster@alzheimers.org.uk",
+			"telephone":"0207 264 5981"
+		},
+		{
+			"name": "Alzheimer's Society (Central Services)",
+			"address": "Alzheimer's Society (Central Services), 58 St Katharine's Way, Tower Hamlets, London, E1W 1LB",
+			"telephone":"020 7423 5138",
+			"email":"volscentraloffice@alzheimers.org.uk"
+		},
+		{
+			"name": "Dementia Friends",
+			"address": "Dementia Friends, Devon House, 58 St.Katherine's way, London, E1W 1LB",
+			"telephone":"020 75555 555",
+			"email":"nathan.jelf-mannion@alzheimers.org.uk",
+			"website":"http://dementiafriends.org.uk"
+		},
+		{
+			"name": "Volunteer Centre Southwark",
+			"address": "Volunteer Centre Southwark, Unit 215/216, Upper Floor Elephant And Castle Shopping Centre, London, SE1 6TE",
+			"telephone":"0207 703 4205",
+			"email":"response@volunteercentres.org.uk",
+			"website":"http://www.volunteercentres.org.uk/"
+		},
+		{
+			"name": "Vitalise BDC",
+			"address": "Vitalise BDC, Vitalise, 212 Business Design Centre, 52 Upper Street, London, N10QH",
+			"telephone":"03033 030145",
+			"email":"Volunteer@Vitalise.org.uk",
+			"website":"http://www.vitalise.org.uk/"
+		}
 	]
 }
