@@ -10,12 +10,72 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <script src="assets/js/libs/angular.min.js"></script>
+    <script src="assets/js/gogive.js"></script>
 </head>
 <body>
     <div class="wrapper">
         <header>
-            <h1>GoGive</h1>
+            <h1>Go<strong>Give</strong></h1>
+            
+            <form class="search">
+                <input type="text">
+                <button class="btn btn-alt">Go</button>
+            </form>
         </header>
+
+        <div class="hero">
+
+            <p>I have
+                <select name="category">
+                    <option></option>
+                    <option>Clothes</option>
+                    <option>Money</option>
+                    <option>Food</option>
+                    <option>Time</option>
+                </select>
+                to donate
+            </p>
+            
+        </div>
+
+        <div class="results">
+            <h2 class="access">Results</h2>
+
+            <div class="filter">
+                <label for="location">Location</label>
+                <input type="text" id="location" name="location">
+            </div>
+
+            <div class="results-list">
+                <div class="result grid">
+                    <div class="col w-25">
+
+                        {meters}
+
+                    </div>
+                    <div class="col w-75">
+
+                        <h3>
+                            <a href="#">Battersea Dogs &amp; Cats Home</a>
+                        </h3>
+
+                        <p class="location">
+                            <strong>Waterloo</strong> 4 Battersea Park RdLondon SW8 4AA
+                        </p>
+
+                        <ul class="tags">
+                            <li><a href="#">Food</a></li>
+                            <li><a href="#">Adoption</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <a href="#">gogive.co</a>
+        </footer>
     </div>
 </body>
 </html>

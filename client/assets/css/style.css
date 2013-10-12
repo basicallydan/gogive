@@ -218,4 +218,4 @@ footer { padding: 10px 0; border-top: 1px solid #cccccc; margin: 20px 0 0; }
 /* line 24, ../sass/_results.scss */
 .result .tags li { float: left; }
 /* line 28, ../sass/_results.scss */
-.result .tags a { display: block; margin: 0 5px 5px 0; padding: 4px 5px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; font-size: 11px; background: #eee; color: #666; text-decoration: none; }
+.result .tags a { display: block; margin: 0 7px 7px 0; padding: 4px 5px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; font-size: 11px; background: #eee; color: #666; text-decoration: none; }
