@@ -1,0 +1,14 @@
+.donations-wanted,
+.donations-urgent {
+	color: #fff;
+	padding: 5px 10px;
+	background-color: #5d86ee;
+
+	.needs & {
+		margin-top: -5px;
+	}
+}
+
+.donations-urgent {
+	background-color: #d81c1c;
+}

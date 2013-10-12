@@ -8,12 +8,13 @@
   "scripts": {
     "start": "server/main.js"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "node": "0.10.x"
   },
   "dependencies": {
     "express": "3.4.x",
-    "mongoose": "3.6.x"
+    "mongoose": "3.6.x",
+    "twilio": "1.2.x"
   }
 }

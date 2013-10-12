@@ -1,20 +1,80 @@
-var options = {
-  enableHighAccuracy: true,
-  timeout: 5000,
-  maximumAge: 0
-};
-
-function success(pos) {
-  var crd = pos.coords;
-  console.log(pos);
-  // console.log('Your current position is:');
-  // console.log('Latitude : ' + crd.latitude);
-  // console.log('Longitude: ' + crd.longitude);
-  // console.log('More or less ' + crd.accuracy + ' meters.');
-};
-
-function error(err) {
-  console.warn('ERROR(' + err.code + '): ' + err.message);
-};
-
-navigator.geolocation.getCurrentPosition(success, error, options);
+var goGive = angular.module('goGive',[]);
+ 
+goGive.controller('results', ['$scope', function($scope) {
+    $scope.results = [{
+        name: 'NAME!',
+        needs: [
+            {
+                title: 'Food donations urgently needed',
+                style: 'donations-urgent'
+            },
+            {
+                title: 'Food',
+                url: '#'
+            },
+            {
+                title: 'Food',
+                url: '#'
+            },
+        ],
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        website: "http://test.com/"
+    },{
+        name: 'NAME!',
+        needs: [
+            {
+                title: 'Food donations urgently needed',
+                style: 'donations-urgent'
+            },
+            {
+                title: 'Food',
+                url: '#'
+            },
+            {
+                title: 'Food',
+                url: '#'
+            },
+        ],
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        website: "http://test.com/"
+    },{
+        name: 'NAME!',
+        needs: [
+            {
+                title: 'Food donations urgently needed',
+                style: 'donations-urgent'
+            },
+            {
+                title: 'Food',
+                url: '#'
+            },
+            {
+                title: 'Food',
+                url: '#'
+            },
+        ],
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        website: "http://test.com/"
+    },{
+        name: 'NAME!',
+        needs: [
+            {
+                title: 'Food donations urgently needed',
+                style: 'donations-urgent'
+            },
+            {
+                title: 'Food',
+                url: '#'
+            },
+            {
+                title: 'Food',
+                url: '#'
+            },
+        ],
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        website: "http://test.com/"
+    }];
+    $scope.isExists = function(item) {
+        return !(typeof item == 'undefined');
+    };
+}]);

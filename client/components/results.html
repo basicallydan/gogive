@@ -1,0 +1,53 @@
+<div class="results" ng-controller="results">
+    <div class="filter"></div>
+
+    <h2 class="access">Results</h2>
+
+    <div class="results-list">
+        <div class="result" ng-repeat="result in results">
+            <div class="head">
+                <h3>
+                    <a href="{{result.url}}">{{result.name}}</a>
+                </h3>
+                <a href="details.html" class="btn btn-sml">
+                    Give &#187;
+                </a>
+            </div>
+            <div class="grid">
+                <div class="col w-66">
+                    <div class="pad">
+                       
+                        <h4 class="access">Needs</h4>
+                        <ul class="needs">
+                            <li ng-repeat="need in result.needs" ng-switch on="isExists(need.style)">
+                                <div ng-switch-when="true" class="{{need.style}}">
+                                    {{need.title}}
+                                </div>
+                                <a ng-switch-default href="{{need.url}}">
+                                    {{need.title}}
+                                </a>
+                            </li>                            
+                        </ul>
+                        <div class="description">
+                            {{result.description}}
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col w-33">
+                    <div class="pad location">
+
+                        <h4 class="access">Location</h4>
+                        <p>{{result.address}}</p>
+                        <div class="website">
+                            <a href="{{result.website}}">
+                                {{result.website}}
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

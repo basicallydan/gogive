@@ -1,11 +1,11 @@
 .results {
 	@include cf;
-	
-	margin: $pad-lrg 0 0;
+	border-top: 10px solid #f6f6f6;
 }
 
 .filter {
 	background: #f6f6f6;
+	margin-top: -10px; // Offset top border;
 	padding: ($pad-lrg - ($pad-lrg/2)) $pad-lrg;
 }
 
@@ -28,12 +28,7 @@
 		.btn {
 			position: absolute;
 			right: 0;
-			top: 4px;
+			top: 3px;
 		}
-	}
-
-	.location {
-		text-align: right;
-		color: #aaa;
 	}
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="goGive">
 <head>
     <title>GoGive</title>
     <meta charset="utf-8">
@@ -26,71 +26,8 @@
             </form>
         </header>
 
-        <!-- Content -->
-        <div class="hero">
-
-            I have
-                <select name="category">
-                    <option></option>
-                    <option>Clothes</option>
-                    <option>Money</option>
-                    <option>Food</option>
-                    <option>Blood</option>
-                    <option>Time</option>
-                </select>
-            to donate
-            
-        </div>
-
-        <div class="results">
-            <h2 class="access">Results</h2>
-
-            <div class="filter">
-                <label for="location">Location</label>
-                <input type="text" id="location" name="location">
-            </div>
-
-            <div class="results-list">
-                <div class="result">
-                    <div class="head">
-                        <h3>
-                            <a href="details.html">Battersea Dogs &amp; Cats Home</a>
-                        </h3>
-                        <a href="details.html" class="btn btn-sml">
-                            Give &#187;
-                        </a>
-                    </div>
-                    <div class="grid">
-                        <div class="col w-66">
-                            <div class="pad">
-                               
-                                <h4 class="access">Needs</h4>
-                                <ul class="needs">
-                                    <li><a href="#">Food</a></li>
-                                    <li><a href="#">Adoption</a></li>
-                                </ul>
-                                <div class="description">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="col w-33">
-                            <div class="pad location">
-
-                                <h4 class="access">Location</h4>
-                                <p>4 Battersea Park Rd<br>London SW8 4AA</p>
-                                <div class="website">
-                                    <a href="#">http://www.website.com/</a>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /Content -->
+        <div ng-include src="'components/hero.html'"></div>        
+        <div ng-include src="'components/results.html'"></div>        
 
         <footer>
             <a href="#">gogive.co</a>
