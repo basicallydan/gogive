@@ -1,7 +1,8 @@
 var numberOfCharities = 10;
 var possibleNeeds = ['food', 'time', 'blood', 'money', 'books', 'furniture'];
+var config = require('../config/config.json');
 var mongoose = require('./models');
-mongoose.connect('mongodb://localhost/gogive');
+mongoose.connect(config.mongoConnectionString);
 var Place = mongoose.model('Place');
 var done = 0;
 

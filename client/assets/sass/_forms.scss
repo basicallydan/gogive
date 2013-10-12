@@ -17,6 +17,7 @@ textarea,
     border: 1px solid $color-light;
     @include border-radius(0);
     font-family: sans-serif;
+    @include box-shadow(inset 2px 2px 0 #eee);
 }
 
 // Checkbox & Radio
@@ -30,16 +31,17 @@ input[type="radio"] {
 
 // Labels
 label {
+    font-size: 16px;
 	margin-right: 10px;
 }
 
 // Buttons
-.btn {
+.btn { 
     border: 0;
     line-height: 1;
     margin: 0;
     padding: 10px 15px;
-    background-color: #333;
+    background-color: $color-main;
     color: #fff;
     font-size: 16px;
     font-weight: 700;
@@ -49,10 +51,11 @@ label {
     text-align: center;
     float: left;
     @include border-radius(0);
+    @include box-shadow(none);
 
     &:hover,
     &:focus {
-        background-color: #555
+        background-color: lighten($color-main, 5%);
     }
     &:hover {
         cursor: pointer;
@@ -60,32 +63,31 @@ label {
     &:focus {
         text-decoration: underline;
     }
+    .admin & {
+        background-color: $color-admin-main;
+
+        &:hover,
+        &:focus {
+            background-color: lighten($color-admin-main, 5%);
+        }
+
+    }
 }
 
 button.btn-alt,
 input.btn-alt,
 .btn-alt {
-    background-color: $color-main;
+    background-color: #333;
 
     &:hover,
     &:focus {
-        background-color: lighten($color-main, 5%);
-    }
-
-    .admin & {
-    	background-color: $color-admin-main;
-
-	    &:hover,
-	    &:focus {
-	        background-color: lighten($color-admin-main, 5%);
-	    }
-
+        background-color: #555
     }
 }
 
 input.btn-sml,
 .btn-sml {
-    padding: 5px 8px;
+    padding: 6px 8px;
     font-size: 14px;
     font-weight: 400;
 }

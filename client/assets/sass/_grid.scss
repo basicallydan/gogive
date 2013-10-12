@@ -3,13 +3,6 @@
     @include cf;
 }
 
-.pad {
-	padding: 0 0 0 $pad-lrg;
-
-	.col:first-child & {
-		padding-left: 0;
-	}
-}
 
 .col {
     float: left;
@@ -17,6 +10,14 @@
 }
 
 @media only screen and (min-width: $mq-lrg) {
+    
+    .pad {
+    	padding: 0 0 0 $pad-lrg;
+
+    	.col:first-child & {
+    		padding-left: 0;
+    	}
+    }
 
      .w-5 { width:  5%; }
     .w-10 { width: 10%; }

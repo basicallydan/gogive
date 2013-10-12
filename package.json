@@ -1,0 +1,19 @@
+{
+  "name": "gogive",
+  "subdomain": "gogive",
+  "domains": [
+    "gogive.co",
+    "www.gogive.co"
+  ],
+  "scripts": {
+    "start": "server/main.js"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "express": "3.4.x",
+    "mongoose": "3.6.x"
+  }
+}

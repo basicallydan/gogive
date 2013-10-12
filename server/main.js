@@ -1,11 +1,11 @@
 var express = require('express');
 var app = express();
 var server = require('http').createServer(app);
+var config = require('../config/config.json');
 var mongoose = require('./models');
-mongoose.connect('mongodb://localhost/gogive');
+mongoose.connect(config.mongoConnectionString);
 var Place = mongoose.model('Place');
 var twilio = require('twilio');
-var config = require('../config/config.json');
  
 // Create a new REST API client to make authenticated requests against the
 // twilio back end

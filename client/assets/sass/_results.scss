@@ -1,7 +1,6 @@
 .results {
 	@include cf;
 	
-	border-top: 1px solid $color-light;
 	margin: $pad-lrg 0 0;
 }
 
@@ -18,22 +17,23 @@
 		border-top: 0;
 	}
 
-	.tags {
-		@include cf;
-		
-		li {
-			float: left;
-		}
-		
+	.head {
+		position: relative;
+		padding-right: 100px;
+
 		a {
 			display: block;
-			margin: 0 7px 7px 0;
-			padding: 4px 5px;
-			@include border-radius(3px);
-			font-size: 11px;
-			background: #eee;
-			color: #666;
-			text-decoration: none;
 		}
+
+		.btn {
+			position: absolute;
+			right: 0;
+			top: 4px;
+		}
+	}
+
+	.location {
+		text-align: right;
+		color: #aaa;
 	}
 }
