@@ -1,5 +1,5 @@
 var numberOfCharities = 10;
-var possibleNeeds = ['food', 'time', 'blood', 'money', 'books', 'furniture'];
+var possibleNeeds = ['food', 'time', 'blood', 'money', 'books', 'furniture', 'clothes'];
 var config = require('../config/config.json');
 var mongoose = require('./models');
 mongoose.connect(config.mongoConnectionString);

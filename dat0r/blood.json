@@ -1,0 +1,36 @@
+{
+	"places": [
+		{
+			"name": "Covent Garden, Freemasons Hall",
+			"address": "FREEMASONS HALL, 60 GREAT QUEEN STREET, COVENT GARDEN, LONDON
+		WC2B 5AZ"
+		},
+		{
+			"name": "Holborn, Conway Hall",
+			"address": "MAIN HALL, CONWAY HALL, 25 RED LION SQUARE, LONDON, WC1R 4RL"
+		},
+		{
+			"name": "Holborn Viaduct, City Temple",
+			"address": "CITY TEMPLE, HOLBORN VIADUCT, LONDON, EC1A 2DE"
+		},
+		{
+			"name": "Euston, Friends House",
+			"address": "ROOMS 789 & BUFFET ROOM, FRIENDS HOUSE, 173/177 EUSTON ROAD, EUSTON, LONDON, NW1 2BJ"
+		},
+		{
+			"name": "Euston, Friends House",
+			"address": "Westgate House, Edgware Community Hospital, Burnt Oak Broadway, Edgware, Middlesex, HA8 0AD",
+			"telephone": "0208 6271700"
+		},
+		{
+			"name": "Tooting Blood Center",
+			"address": "75 Cranmer Terrace, Tooting, London, SW17 0RB",
+			"telephone": "0203 123 8368"
+		},
+		{
+			"name": "West End Donor Centre",
+			"address": "26 Margaret Street, London, W1W 8NB",
+			"telephone": "020 7166 6900"
+		}
+	]
+}
