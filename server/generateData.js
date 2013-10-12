@@ -31,11 +31,11 @@ function getRandomNeeds() {
 var blood = require('../dat0r/blood.json');
 var volunteering = require('../dat0r/volunteering.json');
 var shelters = require('../dat0r/homelessuk.json');
-// var o = require('../dat0r/homelessuk.json');
+var oxfam = require('../dat0r/oxfam.json');
 
 function checkIfDone() {
 	done++;
-	if (done === blood.places.length + volunteering.places.length) {
+	if (done === blood.places.length + volunteering.places.length + shelters.places.length + oxfam.places.length) {
 		console.log('SORTED!');
 	}
 }
@@ -56,7 +56,7 @@ for (var i = blood.places.length - 1; i >= 0; i--) {
 	}
 	placedata.latLng = [0,0];
 
-	placedata.publicId = '#blood' + i;
+	placedata.publicId = 'blood' + i;
 
 	placedata.needs = ['blood'];
 	var newplace = new Place(placedata);
@@ -87,7 +87,7 @@ for (var i = volunteering.places.length - 1; i >= 0; i--) {
 	}
 	placedata.latLng = [0,0];
 
-	placedata.publicId = '#volun' + i;
+	placedata.publicId = 'volun' + i;
 
 	placedata.needs = ['time'];
 	var newplace = new Place(placedata);
@@ -104,21 +104,39 @@ for (var i = volunteering.places.length - 1; i >= 0; i--) {
 
 for (var i = shelters.places.length - 1; i >= 0; i--) {
 	var placedata = shelters.places[i];
+
+	if (placedata.name) {
+		placedata.name = placedata.name[0];
+	}
+
+	if (placedata.address) {
+		placedata.address = placedata.address[0];
+	}
+
 	if (!placedata.telephone) {
 		placedata.telephone = '02091 981543';
+	} else {
+		placedata.telephone = placedata.telephone[0];
 	}
 	if (!placedata.email) {
 		placedata.email = placedata.name.replace(/[^A-Za-z0-9]/g,'') + '@shelter.org.uk';
+	} else {
+		placedata.email = placedata.email[0];
 	}
 	if (!placedata.website) {
 		placedata.website = 'http://www.shelter.org.uk/' + placedata.name.replace(/[^A-Za-z0-9]/g,'');
+	} else {
+		placedata.website = placedata.website[0];
 	}
 	if (!placedata.description) {
 		placedata.description = placedata.name + " is a homeless shelter dedicated to protecting and helping those in need.";
+	} else {
+		placedata.description = placedata.description[0];
 	}
+
 	placedata.latLng = [0,0];
 
-	placedata.publicId = '#shelter' + i;
+	placedata.publicId = 'shelter' + i;
 
 	placedata.needs = ['food','clothes'];
 	if (getRandomInt(0, 2) === 1) {
@@ -138,21 +156,38 @@ for (var i = shelters.places.length - 1; i >= 0; i--) {
 
 for (var i = oxfam.places.length - 1; i >= 0; i--) {
 	var placedata = oxfam.places[i];
+
+	if (placedata.name) {
+		placedata.name = placedata.name[0];
+	}
+
+	if (placedata.address) {
+		placedata.address = placedata.address[0];
+	}
+
 	if (!placedata.telephone) {
-		placedata.telephone = '02091 123987';
+		placedata.telephone = '02041 987123';
+	} else {
+		placedata.telephone = placedata.telephone[0];
 	}
 	if (!placedata.email) {
-		placedata.email = placedata.name.replace(/[^A-Za-z0-9]/g,'') + '@shelter.org.uk';
+		placedata.email = placedata.name.replace(/[^A-Za-z0-9]/g,'') + '@oxfam.org.uk';
+	} else {
+		placedata.email = placedata.email[0];
 	}
 	if (!placedata.website) {
-		placedata.website = 'http://www.shelter.org.uk/' + placedata.name.replace(/[^A-Za-z0-9]/g,'');
+		placedata.website = 'http://www.oxfam.org.uk/' + placedata.name.replace(/[^A-Za-z0-9]/g,'');
+	} else {
+		placedata.website = placedata.website[0];
 	}
 	if (!placedata.description) {
-		placedata.description = placedata.name + " is a homeless shelter dedicated to protecting and helping those in need.";
+		placedata.description = placedata.name + " sells books, furniture and clothes. All proceeds go good causes.";
+	} else {
+		placedata.description = placedata.description[0];
 	}
 	placedata.latLng = [0,0];
 
-	placedata.publicId = '#charity' + i;
+	placedata.publicId = 'charity' + i;
 
 	placedata.needs = ['food','clothes'];
 	if (getRandomInt(0, 2) === 1) {
