@@ -1,4 +1,4 @@
-var numberOfCharities = 50;
+var numberOfCharities = 10;
 var possibleNeeds = ['food', 'time', 'blood', 'money', 'books', 'furniture'];
 var mongoose = require('./models');
 mongoose.connect('mongodb://localhost/gogive');
@@ -35,7 +35,11 @@ for (var i = 0; i < numberOfCharities; i++) {
 		needs: getRandomNeeds(),
 		telephone: '01923 5722' + i + getRandomInt(0, 9),
 		email: 'contact@charity' + i + '.com',
-		paypalEmail: 'contact@charity' + i + '.com'
+		paypalEmail: 'contact@charity' + i + '.com',
+		description: 'this is charity' + i + ', we need some things and like stuff etc.',
+		website: 'http://www.charity.com',
+		publicId: 'char' + i,
+		phoneSubscribers: [ '+44 7986533037' ]
 	});
 
 	org.save(function (err) {

@@ -7,7 +7,11 @@ var Place = mongoose.model('Place', {
 	needs: [ String ],
 	telephone: String,
 	email: String,
-	paypalEmail: String
+	paypalEmail: String,
+	phoneSubscribers: [ String ],
+	description: String,
+	website: String,
+	publicId: String
 });
 
 module.exports = mongoose;
