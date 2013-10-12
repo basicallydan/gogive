@@ -5,7 +5,11 @@ var config = require('../config/config.json');
 var mongoose = require('./models');
 mongoose.connect(config.mongoConnectionString);
 var Place = mongoose.model('Place');
+var path = require('path');
 var twilio = require('twilio');
+var applicationRoot = __dirname;
+var clientPath = path.join(applicationRoot, '/../client');
+var indexPath = path.join(applicationRoot, '/../client/index.html');
  
 // Create a new REST API client to make authenticated requests against the
 // twilio back end
@@ -18,7 +22,7 @@ function sfy(d) {
 
 app.configure(function(){
 	// Middleware for static file requests
-	app.use('/assets', express.static(path.join('../', '/assets')));
+	app.use('/assets', express.static(path.join(clientPath, '/assets')));
 
 	// Middleware for API requests
 	app.use('/api', express.bodyParser());
@@ -163,11 +167,9 @@ app.post('/api/places/:id/notification', logRequest, function (req, res) {
 });
 
 // For non-API requests
-app.get('/*', function (req, res) {
-	logger.debug(req.path + ' GET');
-
+app.get('/*', logRequest, function (req, res) {
 	//res.send("What up");
-	res.sendfile(path.join('../', '/index.html'));
+	res.sendfile(path.join(clientPath, '/index.html'));
 });
 
 function logRequest(req, res, next) {
