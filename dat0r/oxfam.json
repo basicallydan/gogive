@@ -1,0 +1,1162 @@
+{
+  "generated": {
+    "timestamp": 1381611904000,
+    "human": "October 12th 2013, 10:05:04pm",
+    "by": {
+      "username": "basicallydan",
+      "roles": [
+        "USER"
+      ],
+      "email": "daniel.hough@gmail.com",
+      "orgGuid": "00000000-0000-0000-0000-000000000000",
+      "guid": "b0af7268-49bd-4ace-b2fd-eb78259a2998"
+    }
+  },
+  "columns": [
+    {
+      "id": "widgetName",
+      "name": "Widget",
+      "special": true
+    },
+    {
+      "id": "sourceName",
+      "name": "Data Source",
+      "special": true
+    },
+    {
+      "id": "resultNumber",
+      "name": "Result Row",
+      "special": true
+    },
+    {
+      "id": "resultSource",
+      "name": "Source Page URL",
+      "special": true
+    },
+    {
+      "id": "name",
+      "name": "Name",
+      "special": false
+    },
+    {
+      "id": "address",
+      "name": "Address",
+      "special": false
+    },
+    {
+      "id": "telephone",
+      "name": "Telephone",
+      "special": false
+    },
+    {
+      "id": "email",
+      "name": "Email",
+      "special": false
+    }
+  ],
+  "data": [
+    {
+      "email": [
+        "oxfamshopf8048@oxfam.org.uk"
+      ],
+      "address": [
+        "29 Islington High Street, Islington, London, N1 9LH"
+      ],
+      "name": [
+        "Oxfam Shop Islington"
+      ],
+      "telephone": [
+        "020 7 8372394"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf8083@oxfam.org.uk"
+      ],
+      "address": [
+        "48 Upper Street, Islington, N1 0PN"
+      ],
+      "name": [
+        "Oxfam Bookshop Islington"
+      ],
+      "telephone": [
+        "020 7 3596020"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf8081@oxfam.org.uk"
+      ],
+      "address": [
+        "Bloomsbury Street, London, WC1B 3QA"
+      ],
+      "name": [
+        "Oxfam Bookshop Bloomsbury Street"
+      ],
+      "telephone": [
+        "020 7 6374610"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf8023@oxfam.org.uk"
+      ],
+      "address": [
+        "23 Drury Lane, Covent Garden, London, WC2B 5RH"
+      ],
+      "name": [
+        "Oxfam Shop Covent Garden"
+      ],
+      "telephone": [
+        "020 7 2403769"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf8084@oxfam.org.uk"
+      ],
+      "address": [
+        "514-518 Kingsland Road, Dalston, London, E8 4AR"
+      ],
+      "name": [
+        "Oxfam Shop Kingsland Road"
+      ],
+      "telephone": [
+        "020 7 2545318"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf4101@oxfam.org.uk"
+      ],
+      "address": [
+        "76/78 High Street, Shirley, Southampton, SO15 3NE"
+      ],
+      "name": [
+        "Oxfam Shop Southampton"
+      ],
+      "telephone": [
+        "023 80 773192"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf0635@oxfam.org.uk"
+      ],
+      "address": [
+        "7 Goodramgate, York, YO1 7LJ"
+      ],
+      "name": [
+        "Oxfam Shop York"
+      ],
+      "telephone": [
+        "01904 659001"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf3319@oxfam.org.uk"
+      ],
+      "address": [
+        "136 High Street, Poole, Poole, BH15 1DN"
+      ],
+      "name": [
+        "Oxfam Shop Poole"
+      ],
+      "telephone": [
+        "01202 674086"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf2114@oxfam.org.uk"
+      ],
+      "address": [
+        "300 Walsgrave Road, Coventry, CV2 4BL"
+      ],
+      "name": [
+        "Oxfam Shop Coventry"
+      ],
+      "telephone": [
+        "024 76 455968"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf2515@oxfam.org.uk"
+      ],
+      "address": [
+        "20 Burleigh Street, Cambridge, CB1 1DG"
+      ],
+      "name": [
+        "Oxfam Shop Burleigh Street"
+      ],
+      "telephone": [
+        "01223 329841"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf0702@oxfam.org.uk"
+      ],
+      "address": [
+        "56/58 Darley Street, Bradford, BD1 3HN"
+      ],
+      "name": [
+        "Oxfam Shop Darley Street"
+      ],
+      "telephone": [
+        "01274 306700"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf2924@oxfam.org.uk"
+      ],
+      "address": [
+        "5 The Bridge, Chippenham, SN15 1HA"
+      ],
+      "name": [
+        "Oxfam Shop Chippenham"
+      ],
+      "telephone": [
+        "01249 447061"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf1718@oxfam.org.uk"
+      ],
+      "address": [
+        "22 Market Street, Leicester, LE1 6DP"
+      ],
+      "name": [
+        "Oxfam Shop Market Street"
+      ],
+      "telephone": [
+        "0116 2556455"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf4214@oxfam.org.uk"
+      ],
+      "address": [
+        "42 High Street, Leatherhead, KT22 8AJ"
+      ],
+      "name": [
+        "Oxfam Shop Leatherhead"
+      ],
+      "telephone": [
+        "01372 378819"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf1224@oxfam.org.uk"
+      ],
+      "address": [
+        "258/258a Telegraph Road, Heswall, CH60 7SG"
+      ],
+      "name": [
+        "Oxfam Shop Heswall"
+      ],
+      "telephone": [
+        "0151 342 8416"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf5802@oxfam.org.uk"
+      ],
+      "address": [
+        "64 Raeburn Place, Edinburgh, EH4 1HJ"
+      ],
+      "name": [
+        "Oxfam Music Shop Raeburn Place"
+      ],
+      "telephone": [
+        "0131 332 7593"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf4754@oxfam.org.uk"
+      ],
+      "address": [
+        "23 The Green, Ealing, London, W5 5DA"
+      ],
+      "name": [
+        "Oxfam Music & Audio Ealing"
+      ],
+      "telephone": [
+        "020 8 8101932"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf3214@oxfam.org.uk"
+      ],
+      "address": [
+        "97 South Street, Exeter, EX1 1EN"
+      ],
+      "name": [
+        "Oxfam Music & Art Shop Exeter"
+      ],
+      "telephone": [
+        "01392 253796"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf3944@oxfam.org.uk"
+      ],
+      "address": [
+        "9 Duke Street, Reading, RG1 4SA"
+      ],
+      "name": [
+        "Oxfam Music Shop Reading"
+      ],
+      "telephone": [
+        "0118 956 1598"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf4082@oxfam.org.uk"
+      ],
+      "address": [
+        "1 East Street, Southampton, SO14 3HE"
+      ],
+      "name": [
+        "Oxfam Music Shop Southampton"
+      ],
+      "telephone": [
+        "023 80 236 581"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf6028@oxfam.org.uk"
+      ],
+      "address": [
+        "171 Byres Road, Glasgow, G12 8TS"
+      ],
+      "name": [
+        "Oxfam Music Shop Byres Road"
+      ],
+      "telephone": [
+        "0141 334 7669"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf1529@oxfam.org.uk"
+      ],
+      "address": [
+        "155-157 Nottingham Road, Arnold, Nottingham, NG5 6JN"
+      ],
+      "name": [
+        "Oxfam Shop Nottingham Road"
+      ],
+      "telephone": [
+        "0115 920 8780"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf2304@oxfam.org.uk"
+      ],
+      "address": [
+        "28 Wood Street, Stratford upon Avon, CV37 6JF"
+      ],
+      "name": [
+        "Oxfam Shop Stratford upon Avon"
+      ],
+      "telephone": [
+        "01789 295943"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf0799@oxfam.org.uk"
+      ],
+      "address": [
+        "9 Colne Road, Huddersfield, HD1 3ER"
+      ],
+      "name": [
+        "Oxfam Shop Colne Road"
+      ],
+      "telephone": [
+        "01484 431563"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf8093@oxfam.org.uk"
+      ],
+      "address": [
+        "24-26 The High Parade, Streatham High Road, Streatham, London, SW16 1EX"
+      ],
+      "name": [
+        "Oxfam Shop Streatham High Road"
+      ],
+      "telephone": [
+        "020 8 7691291"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf2402@oxfam.org.uk"
+      ],
+      "address": [
+        "8/10 Magdalen Street, Norwich, NR3 1HU"
+      ],
+      "name": [
+        "Oxfam Shop Magdalen Street"
+      ],
+      "telephone": [
+        "01603 665508"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf3407@oxfam.org.uk"
+      ],
+      "address": [
+        "40 High Street North, Dunstable, LU6 1LA"
+      ],
+      "name": [
+        "Oxfam Shop Dunstable"
+      ],
+      "telephone": [
+        "01582 660040"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf0734@oxfam.org.uk"
+      ],
+      "address": [
+        "12a Austhorpe Rd, Leeds, LS15 8DX"
+      ],
+      "name": [
+        "Oxfam Shop Leeds"
+      ],
+      "telephone": [
+        "0113 2604843"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf0845@oxfam.org.uk"
+      ],
+      "address": [
+        "Foldhead Mills, Huddersfield Road, Mirfield, WF14 8BE"
+      ],
+      "name": [
+        "Oxfam Furniture Mirfield"
+      ],
+      "telephone": [
+        "01924 489085"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf4349@oxfam.org.uk"
+      ],
+      "address": [
+        "25-29 High Street, Rochester, ME1 1LN"
+      ],
+      "name": [
+        "Oxfam Shop Rochester"
+      ],
+      "telephone": [
+        "01634 814790"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf4061@oxfam.org.uk"
+      ],
+      "address": [
+        "Oakhill Hse Romsey Rd, Shirley, Southampton, SO16 4BZ"
+      ],
+      "name": [
+        "Oxfam Furniture Shop Southampton"
+      ],
+      "telephone": [
+        "023 80 779580"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf0827@oxfam.org.uk"
+      ],
+      "address": [
+        "281/283 Fulwood Road, Sheffield, S10 3BD"
+      ],
+      "name": [
+        "Oxfam Shop Fulwood Road"
+      ],
+      "telephone": [
+        "0114 2664307"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf1225@oxfam.org.uk"
+      ],
+      "address": [
+        "609-613 Smithdown Road, Liverpool, L15 5AG"
+      ],
+      "name": [
+        "Oxfam Shop Smithdown Road"
+      ],
+      "telephone": [
+        "0151 7336641"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf4668@oxfam.org.uk"
+      ],
+      "address": [
+        "190 Chiswick High Road, Chiswick, London, W4 1PP"
+      ],
+      "name": [
+        "Oxfam Boutique Chiswick"
+      ],
+      "telephone": [
+        "020 8 9944888"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf3911@oxfam.org.uk"
+      ],
+      "address": [
+        "1 Queen Anne's Court, Windsor, SL4 1DG"
+      ],
+      "name": [
+        "Oxfam Boutique Windsor"
+      ],
+      "telephone": [
+        "01753 831802"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf5313@oxfam.org.uk"
+      ],
+      "address": [
+        "34 St Mary Street, Cardiff, CF10 1AB"
+      ],
+      "name": [
+        "Oxfam Boutique Cardiff"
+      ],
+      "telephone": [
+        "029 20 220736"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf8013@oxfam.org.uk"
+      ],
+      "address": [
+        "245 Westbourne Grove, London, W11 2SE"
+      ],
+      "name": [
+        "Oxfam Boutique Westbourne Grove"
+      ],
+      "telephone": [
+        "020 7 2295000"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf0406@oxfam.org.uk"
+      ],
+      "address": [
+        "18 Elvet Bridge, Durham, DH1 3AD"
+      ],
+      "name": [
+        "Oxfam Boutique Durham"
+      ],
+      "telephone": [
+        "0191 3847440"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf8069@oxfam.org.uk"
+      ],
+      "address": [
+        "123a Shawfield St, King's Road, Chelsea, London, SW3 4PL"
+      ],
+      "name": [
+        "Oxfam Boutique King's Road"
+      ],
+      "telephone": [
+        "020 7 3517979"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf2802@oxfam.org.uk"
+      ],
+      "address": [
+        "12a George St/Gay St, Bath, BA1 2EH"
+      ],
+      "name": [
+        "Oxfam Boutique Bath"
+      ],
+      "telephone": [
+        "01225 464838"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf5905@oxfam.org.uk"
+      ],
+      "address": [
+        "Unit 28, The Avenue Shopping Centre, Ayr Road, Newton Mearns, G77 6AA"
+      ],
+      "name": [
+        "Oxfam Boutique Newton Mearns"
+      ],
+      "telephone": [
+        "0141 616 2525"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf6015@oxfam.org.uk"
+      ],
+      "address": [
+        "231 Byres Road, Glasgow, G12 8UD"
+      ],
+      "name": [
+        "Oxfam DIY Glasgow"
+      ],
+      "telephone": [
+        "0141 3393111"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf1531@oxfam.org.uk"
+      ],
+      "address": [
+        "16-22 Goose Gate, Hockley, Nottingham, NG1 1FF"
+      ],
+      "name": [
+        "Oxfam DIY Shop Hockley"
+      ],
+      "telephone": [
+        "0115 950 7132"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf8047@oxfam.org.uk"
+      ],
+      "address": [
+        "89 Camden High Street, Camden, London, NW1 7JL"
+      ],
+      "name": [
+        "Oxfam DIY Camden"
+      ],
+      "telephone": [
+        "020 7 3874354"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf1638@oxfam.org.uk"
+      ],
+      "address": [
+        "16 Wrawby Street, Brigg, DN20 8JJ"
+      ],
+      "name": [
+        "Oxfam Bookshop Brigg"
+      ],
+      "telephone": [
+        "01652 659434"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf4066@oxfam.org.uk"
+      ],
+      "address": [
+        "20 West Street, Bridport, DT6 3QP"
+      ],
+      "name": [
+        "Oxfam Books & Music Bridport"
+      ],
+      "telephone": [
+        "01308 422117"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf8090@oxfam.org.uk"
+      ],
+      "address": [
+        "c/o Oxfam Southern Logistics Centre, Milton Point, Garamonde Drive, Wymbush, Milton Keynes, MK8 8DF"
+      ],
+      "name": [
+        "Oxfam Hub Milton Point"
+      ],
+      "telephone": [
+        "01908 568012"
+      ]
+    },
+    {
+      "email": [
+        "depotox@googlemail.com"
+      ],
+      "address": [
+        "6 Victoria Park Road, Winton, Bournemouth, BH9 2RE"
+      ],
+      "name": [
+        "Oxfam Distribution Centre Bournemouth"
+      ],
+      "telephone": [
+        "01202 523149"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf0325@oxfam.org.uk"
+      ],
+      "address": [
+        "17 Bank Street, Carlisle, CA3 8HG"
+      ],
+      "name": [
+        "Oxfam Bookshop Carlisle"
+      ],
+      "telephone": [
+        "01228 523450"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf4008@oxfam.org.uk"
+      ],
+      "address": [
+        "29 High Street, Eastleigh, SO50 5LF"
+      ],
+      "name": [
+        "Oxfam Shop Eastleigh"
+      ],
+      "telephone": [
+        "023 80 610917"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf3215@oxfam.org.uk"
+      ],
+      "address": [
+        "83-84 West Street, Tavistock, PL19 8AQ"
+      ],
+      "name": [
+        "Oxfam Shop Tavistock"
+      ],
+      "telephone": [
+        "01822 615534"
+      ]
+    },
+    {
+      "email": [
+        "nfahy@oxfam.org.uk"
+      ],
+      "address": [
+        "Oxfam Online Hub Mill Forest Way, Grange Road, Batley, WF17 6RA"
+      ],
+      "name": [
+        "Wastesaver Batley"
+      ],
+      "telephone": [
+        "01924 351892"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf4725@oxfam.org.uk"
+      ],
+      "address": [
+        "17 Terminus Road, Eastbourne, BN21 3QL"
+      ],
+      "name": [
+        "Oxfam Shop Eastbourne"
+      ],
+      "telephone": [
+        "01323 640731"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf4626@oxfam.org.uk"
+      ],
+      "address": [
+        "61 Gayton Road, Hampstead, London, NW3 1TU"
+      ],
+      "name": [
+        "Oxfam Shop Hampstead"
+      ],
+      "telephone": [
+        "020 7 7944474"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf3728@oxfam.org.uk"
+      ],
+      "address": [
+        "54 St Mary's Street, Wallingford, OX10 0EL"
+      ],
+      "name": [
+        "Oxfam Bookshop Wallingford"
+      ],
+      "telephone": [
+        "01491 835831"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf4530@oxfam.org.uk"
+      ],
+      "address": [
+        "96a Montague Street, Worthing, BN11 3HF"
+      ],
+      "name": [
+        "Oxfam Shop Worthing"
+      ],
+      "telephone": [
+        "01903 207390"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf3229@oxfam.org.uk"
+      ],
+      "address": [
+        "96 South Street, Exeter, EX1 1EN"
+      ],
+      "name": [
+        "Oxfam Shop Exeter"
+      ],
+      "telephone": [
+        "01392 437385"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf3108@oxfam.org.uk"
+      ],
+      "address": [
+        "9 New Bridge Street, Truro, TR1 2AA"
+      ],
+      "name": [
+        "Oxfam Bookshop Truro"
+      ],
+      "telephone": [
+        "01872 278792"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf0328@oxfam.org.uk"
+      ],
+      "address": [
+        "1 King St, Corner House, Ulverston, LA12 7DY"
+      ],
+      "name": [
+        "Oxfam Shop Ulverston"
+      ],
+      "telephone": [
+        "01229 586318"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf1639@oxfam.org.uk"
+      ],
+      "address": [
+        "15-17 Cornhill, Lincoln, LN5 7HE"
+      ],
+      "name": [
+        "Oxfam Shop Lincoln"
+      ],
+      "telephone": [
+        "01522 510858"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf3240@oxfam.org.uk"
+      ],
+      "address": [
+        "45 Fore Street, Kingsbridge, TQ7 1PG"
+      ],
+      "name": [
+        "Oxfam Shop Kingsbridge"
+      ],
+      "telephone": [
+        "01548 857936"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf5945@oxfam.org.uk"
+      ],
+      "address": [
+        "Unit 1, 49 Academy Street, Troon, KA10 6HR"
+      ],
+      "name": [
+        "Oxfam Shop Troon"
+      ],
+      "telephone": [
+        "01292 317712"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf4749@oxfam.org.uk"
+      ],
+      "address": [
+        "8-10 Catherine Street, St Albans, AL3 5BX"
+      ],
+      "name": [
+        "Oxfam Bookshop St Albans"
+      ],
+      "telephone": [
+        "01727 861589"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf3011@oxfam.org.uk"
+      ],
+      "address": [
+        "79 Middle Street, Yeovil, BA20 1LN"
+      ],
+      "name": [
+        "Oxfam Shop Yeovil"
+      ],
+      "telephone": [
+        "01935 476621"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf0204@oxfam.org.uk"
+      ],
+      "address": [
+        "57 St George's Terrace, Jesmond, Newcastle upon Tyne, NE2 2SX"
+      ],
+      "name": [
+        "Oxfam Books & Music Jesmond"
+      ],
+      "telephone": [
+        "0191 2818383"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf3017@oxfam.org.uk"
+      ],
+      "address": [
+        "59/61 High Street, Wells, BA5 2AG"
+      ],
+      "name": [
+        "Oxfam Books & Music Wells"
+      ],
+      "telephone": [
+        "01749 677562"
+      ]
+    },
+    {
+      "address": [
+        "65a King Street, Belper, DE56 1QA"
+      ],
+      "name": [
+        "Oxfam Books & Music Belper"
+      ],
+      "telephone": [
+        "01773 823410"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf2405@oxfam.org.uk"
+      ],
+      "address": [
+        "9-11 Bedford Street, Norwich, NR2 1AR"
+      ],
+      "name": [
+        "Oxfam Books & Music Norwich"
+      ],
+      "telephone": [
+        "01603 628392"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf4009@oxfam.org.uk"
+      ],
+      "address": [
+        "182 West Street, Fareham, PO16 0EQ"
+      ],
+      "name": [
+        "Oxfam Books & Music Fareham"
+      ],
+      "telephone": [
+        "01329 286531"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf1402@oxfam.org.uk"
+      ],
+      "address": [
+        "67 St Peter's Street, Derby, DE1 2AB"
+      ],
+      "name": [
+        "Oxfam Shop Derby"
+      ],
+      "telephone": [
+        "01332 384820"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf2511@oxfam.org.uk"
+      ],
+      "address": [
+        "51 Bridge Street, Peterborough, PE1 1HA"
+      ],
+      "name": [
+        "Oxfam Shop Peterborough"
+      ],
+      "telephone": [
+        "01733 563717"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf0327@oxfam.org.uk"
+      ],
+      "address": [
+        "1 Museum Square, Keswick, CA12 5DZ"
+      ],
+      "name": [
+        "Oxfam Shop Keswick"
+      ],
+      "telephone": [
+        "01768 774494"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf1715@oxfam.org.uk"
+      ],
+      "address": [
+        "53 Market Street, Loughborough, LE11 3ER"
+      ],
+      "name": [
+        "Oxfam Shop Loughborough"
+      ],
+      "telephone": [
+        "01509 235072"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf4625@oxfam.org.uk"
+      ],
+      "address": [
+        "45 Heath Street, Hampstead, London, NW3 6UA"
+      ],
+      "name": [
+        "Oxfam Bookshop Hampstead"
+      ],
+      "telephone": [
+        "020 7 7943060"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf4070@oxfam.org.uk"
+      ],
+      "address": [
+        "73 High Street, Lymington, SO41 9AL"
+      ],
+      "name": [
+        "Oxfam Bookshop Lymington"
+      ],
+      "telephone": [
+        "01590 671580"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf3238@oxfam.org.uk"
+      ],
+      "address": [
+        "51 Boutport Street, Barnstaple, EX31 1SH"
+      ],
+      "name": [
+        "Oxfam Shop Barnstaple"
+      ],
+      "telephone": [
+        "01271 372450"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf0725@oxfam.org.uk"
+      ],
+      "address": [
+        "45/47 Otley Rd, Headingley, Leeds, LS6 3AB"
+      ],
+      "name": [
+        "Oxfam Shop Headingley"
+      ],
+      "telephone": [
+        "0113 2751734"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf5212@oxfam.org.uk"
+      ],
+      "address": [
+        "21 Wyndham Street, Bridgend, CF31 1ED"
+      ],
+      "name": [
+        "Oxfam Shop Bridgend"
+      ],
+      "telephone": [
+        "01656 665298"
+      ]
+    },
+    {
+      "email": [
+        "oxfamshopf0810@oxfam.org.uk"
+      ],
+      "address": [
+        "276 Glossop Road, Sheffield, S10 2HS"
+      ],
+      "name": [
+        "Oxfam Bookshop Glossop Road"
+      ],
+      "telephone": [
+        "0114 2494918"
+      ]
+    }
+  ]
+}

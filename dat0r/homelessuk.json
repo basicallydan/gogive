@@ -1,1 +1,2691 @@
-{"generated":{"timestamp":1381604655000,"human":"October 12th 2013, 8:04:15pm","by":{"username":"basicallydan","roles":["USER"],"email":"daniel.hough@gmail.com","orgGuid":"00000000-0000-0000-0000-000000000000","guid":"b0af7268-49bd-4ace-b2fd-eb78259a2998"}},"columns":[{"id":"widgetName","name":"Widget","special":true},{"id":"sourceName","name":"Data Source","special":true},{"id":"resultNumber","name":"Result Row","special":true},{"id":"resultSource","name":"Source Page URL","special":true},{"id":"name","name":"Name","special":false},{"id":"address","name":"Address","special":false},{"id":"telephone","name":"Telephone","special":false},{"id":"email","name":"Email","special":false},{"id":"description","name":"Description","special":false},{"id":"website","name":"Website","special":false}],"data":[{"email":["www.channelmogo.org"],"address":["Youthpoint 206-210 Lower High Street Watford WD17 2EL"],"description":["Advice, information and guidance on careers, employment and training opportunities for young people aged 13-19. Vacancy and placing service for local employers. Service also available at 146 Manor Way, Borehamwood, WD6 1QX, Monday-Thursday 1.30pm-4.30pm, Friday 1.30pm-4pm."],"name":["Youth Connexions Herts - Watford One Stop Shop"],"telephone":["01923 482828"]},{"email":["www.eastriding.gov.uk"],"address":["Youth Service County Hall Beverley HU17 9BA"],"description":["Counselling and information service for 13-25 year olds. Subjects covered include alcohol, drugs, finding accommodation, homelessness and housing rights, health and sexual health, emotional problems and relationship difficulties."],"name":["Youth Information Counselling Unit (YICU)"],"telephone":["01482 392806"]},{"email":["www.youthoria.org"],"address":["Young People March 2-4 City Road March PE15 9LS"],"description":["Support service for all 13-19 year olds. Information, advice and guidance on education and training opportunities, career planning, jobs and other issues including housing, benefits and grants, health, relationships and personal development activities."],"name":["Youth Support Service - March"],"telephone":["01354 750359"]},{"email":["www.aberdeenshire.gov.uk"],"address":["Woodhill House Westburn Road Aberdeen AB16 5GB"],"description":["Social work head office for Aberdeenshire area. Provides criminal justice services and a range of social services for children/families, older people, people with disabilities, learning difficulties and mental health problems. Several specialist teams. Out of hours emergencies phone 0845 840 0070."],"name":["Aberdeenshire Social Work - Head Office"],"telephone":["01224 664999"]},{"website":["www.ypeople.org.uk"],"email":["admin@ypeople.org.uk"],"address":["William Harte House 15 Dava Street Glasgow G51 2JA"],"description":["Range of youth and community, residential and leisure programmes. Drop-ins, counselling services, advice and information services, group work and activities for young people. Resettlement and support team working with rough sleepers and a young adults detached project. Accommodation and support for asylum seekers."],"name":["Ypeople Glasgow"],"telephone":["0141 565 1200"]},{"website":["www.actionforchildren.org.uk"],"email":["genr8@actionforchildren.org.uk"],"address":["Westwood Business Centre 69 Aberdalgie Road Glasgow G34 9HJ"],"description":["Housing support service for 16-24 year olds who are homeless or are at risk of homelessness. Support with obtaining and securing a tenancy, help with independent living skills such as budgeting, cooking, coping with neighbours etc. Advice on education, training, finding and keeping a job. Personal and emotional support."],"name":["Action for Children - GEN R 8 Project"],"telephone":["0141 771 6161"]},{"email":["www.wales.nhs.uk/sitesplus/902"],"address":["Water Street Business Centre Water Street Aberafan Neath Port Talbot SA12 6LF"],"description":["Advice and information for the general public about their rights as NHS users and obtaining access to local health services. Advice and assistance with making a complaint about any aspect of NHS services including hospitals, GPs, dentists, opticians."],"name":["Abertawe Bro Morgannwg Community Health Council"],"telephone":["01639 892271"]},{"email":["www.youthconcern.org.uk"],"address":["Uptown Coffee Bar Whitehill Lane Aylesbury Buckinghamshire HP19 8FL"],"description":["Offers support to young people aged 13-25 years. Drop-in centre offers young people a safe place to meet, get a hot meal and access advice, support and guidance on a range of issues. Resources include an in-house music studio, IT suite, shower and laundry facilities. Also offer counselling services. Nightstop offers emergency host accommodation to young people aged 16-25 facing a homeless crisis."],"name":["Youth Concern - Aylesbury"],"telephone":["01296 431183"]},{"website":["www.combatstress.org.uk"],"email":["contactus@combatstress.org.uk"],"address":["Tyrwhitt House Oaklawn Road Leatherhead Surrey KT22 0BX"],"description":["Advice, support and information for ex-service and Merchant Navy men and women who have mental health problems as a direct result of their experiences in conflict. Help with war pensions, appeals, home and hospital visits, respite care. Run 3 short term treatment centres in Surrey, Shropshire and Ayrshire and a welfare office in Belfast."],"name":["Ex-Services Mental Welfare Society - Combat Stress"],"telephone":["0800 138 1619 helpline"]},{"website":["www.actionforchildren.org.uk"],"email":["NW.BCYP@actionforchildren.org.uk"],"address":["Trinity House Breightmet Street Bolton BL2 1BR"],"description":["Range of services for children and young people up the age of 21. Individual support and group work. Supported lodging scheme. Advocacy."],"name":["Action for Children - Bolton Children and Young People's Service"],"telephone":["01204 362002"]},{"website":["www.northyorks.gov.uk"],"email":["trax@northyorks.gov.uk"],"address":["Trax@Harrogate 15-17 Station Bridge Harrogate HG1 1SP"],"description":["Advice, information and guidance on careers, employment and training opportunities for young people aged 13-19. Vacancy and placing service for local employers."],"name":["Youth Support Service Centre - Harrogate"],"telephone":["01609 532380"]},{"email":["aberconwywa@btconnect.com"],"address":["Town Hall Lloyd Street Llandudno Conwy LL30 2UP"],"description":["Advice, support and assistance for women and their children experiencing domestic violence. Referrals to refuges and other emergency accommodation. Advice and help with related legal issues, eg injunctions, housing and benefits."],"name":["Aberconwy Women's Aid"],"telephone":["01492 872992"]},{"email":["www.channelmogo.org"],"address":["The XC Centre Jarman Park Hemel Hempstead HP2 4JS"],"description":["Advice, information and guidance on careers, employment and training opportunities for young people aged 13-19. Vacancy and placing service for local employers."],"name":["Youth Connexions Herts - Hemel Hempstead One Stop Shop"],"telephone":["01442 454934"]},{"website":["www.samaritans.org"],"email":["admin@samaritans.org"],"address":["The Upper Mill Kingston Road Ewell Surrey KT17 2AF"],"description":["Emotional support 24 hours a day for people experiencing feelings of distress or despair, including those that could lead to suicide. Support also available by email and letter."],"name":["Samaritans - Head Office"],"telephone":["08457 90 90 90"]},{"website":["www.42ndstreet.org.uk"],"email":["theteam@42ndstreet.org.uk"],"address":["The Space 87-91 Great Ancoats Street Manchester M4 5JW"],"description":["Advice, support and helpline for young people under stress or with a mental health problem. Advice on mental health, bullying, sexuality, physical or sexual abuse. Support groups, counselling, young women's groups. Projects on suicide, self harm, gay, lesbian and bisexual issues and for young men, black young people and disabled young people. Mental health team offer support in community venues."],"name":["42nd Street"],"telephone":["0161 228 1888 helpline"]},{"website":["www.ypicounselling.co.uk"],"email":["ypi@tesco.net"],"address":["The Orchard White Hart Lane Basingstoke RG21 4AF"],"description":["Counselling service for young people aged 11-25."],"name":["YPI Counselling"],"telephone":["01256 , 0800 910 1822"]},{"website":["www.caox.org.uk"],"email":["admin@abingdon.cabnet.org.uk"],"address":["The Old Abbey House Abbey Close Abingdon Oxfordshire OX14 3JD"],"description":["Advice and information on a range of issues, including benefits and welfare rights, consumer issues, employment and housing rights, legal issues, money and debt."],"name":["Abingdon and District CAB"],"telephone":["08444 111 444"]},{"website":["www.abmediation.co.uk"],"email":["info@abmediation.co.uk"],"address":["The New Meeting House St Peter's Court Station Street Mansfield Nottinghamshire NG18 1EF"],"description":["Family mediation for married or unmarried couples who are divorcing or separating and for other family members. Deal with issues relating to children, property and finance."],"name":["A B Mediation"],"telephone":["01623 625262"]},{"website":["www.youthstart.org.uk"],"email":["youthstart@rotherham.gov.uk"],"address":["The Eric Manns Building 45 Moorgate Street Rotherham S60 2RB"],"description":["Information, advice, counselling and support service for young people aged 11-25. Subjects covered include abuse, alcohol, benefits, bullying, debt, drugs, housing, relationships, sexual health, self harm, stress and young people's rights. Sexwise youth clinic Tuesdays 3.30pm-6pm. Family planning service. Limited outreach service. Appointments can be arranged outside drop-in times."],"name":["Youth Start"],"telephone":["01709 255266"]},{"website":["www.bxyes.org"],"email":["bxyes@hotmail.com"],"address":["The Edge Bolton Street Brixham Devon TQ5 9DH"],"description":["Information, advice and support service for young people. Drop-in centre. Information on a range of subjects including benefits, drugs and alcohol, education and employment, relationships, health and sexual health, legal issues, housing and finding accommodation. Counselling by appointment. Volunteering opportunities. Intergenerational woordwork and metalwork workshops. Community cafe."],"name":["Youth Enquiry Service - Brixham"],"telephone":["01803 851414"]},{"website":["www.spaces.org.uk"],"email":["spaces@riverside.org.uk"],"address":["The Beacon Marne Road Catterick Garrison Catterick North Yorkshire DL9 3AU"],"description":["Helpline for single people leaving any of the armed services with no permanent home to go to. Housing advice and help finding accommodation anywhere in the UK. Assessments carried out by phone or face-to-face. Can also offer ongoing support with moving to new accommodation, becoming homeless again or issues arising with subsequent accommodation."],"name":["SPACES (Single Persons Accommodation Centre for the Ex-Services)"],"telephone":["01748 833797, 872940"]},{"website":["www.youthoria.org"],"email":["connexions.stneots@cambridgeshire.gov.uk"],"address":["The Bargroves Cromwell Road St Neots PE19 2EY"],"description":["Support service for all 13-19 year olds. Information, advice and guidance on education and training opportunities, career planning, jobs and other issues including housing, benefits and grants, health, relationships and personal development activities."],"name":["Youth Support Service - St Neots"],"telephone":["01480 376298"]},{"address":["Taylor Building Farnham Road Hospital Farnham Road Guildford Surrey GU2 5LX"],"description":["Services for adults (18+) experiencing problems with alcohol or drugs. Advice, assessment, counselling and group work. Medical assessment. Detox. GP/nurse advice. Alternative therapies. Harm reduction prescribing clinics. Needle exchange. Group work and support for families and carers. Service for people with a dual diagnosis."],"name":["Acorn (Guildford) - Community Drug and Alcohol Service"],"telephone":["01483 450256"]},{"website":["www.aceofclubs.org.uk"],"email":["sarahmiles@aceofclubs.org.uk"],"address":["St Alphonsus Road London SW4 7AS"],"description":["Day centre for the homeless, vulnerable and others in need. Cheap meals, access to physical and mental health care, laundry, shower facilities. Advice on benefits and housing Monday-Friday. Advice on finding accommodation. Welfare advice. IT Suite with basic computing lessons and budgeting classes provided by CityLit and internet café sessions for online benefit claims and job searches."],"name":["Ace of Clubs"],"telephone":["020 7720 2811"]},{"website":["www.aberdeencity.gov.uk"],"email":["duty@aberdeencity.gov.uk"],"address":["Social Work Duty Team Exchequer House 3 Exchequer Row Aberdeen AB11 5BW"],"description":["Telephone and face-to-face support for women experiencing domestic abuse."],"name":["Aberdeen City Council - Domestic Abuse Project"],"telephone":["0845 345 6766"]},{"website":["www.ajex.org.uk"],"email":["headoffice@ajex.org.uk"],"address":["Shield House Harmony Way, off Victoria Road Hendon London NW4 2BZ"],"description":["Assistance in the provision of welfare services for Jewish ex-servicemen and women and their dependents. Advice on pensions and benefits. Home and hospital visits, assistance at old people's homes. Emergency and financial assistance for ex-servicemen and women and their dependants who are in need of help. Liaison with other civilian and military charities."],"name":["AJEX - Association of Jewish Ex-Service Men and Women"],"telephone":["020 8202 2323"]},{"email":["pipinfo@accordha.org.uk"],"address":["Rubery Owen Holdings Booth Street Darlaston WS10 8JB"],"description":["People who require support around maintaining their tenancy."],"name":["Accord HA - Promoting Independence Project"],"telephone":["0121 568 3965"]},{"website":["www.youngscot.org"],"email":["infoline@youngscot.org"],"address":["Roseberry House 9 Haymarket Terrace Edinburgh EH12 5EZ"],"description":["Helpline providing information to young people aged 11-26 living in Scotland on money, health, housing and the arts."],"name":["Young Scot Info Line"],"telephone":["0808 801 0338 freephone"]},{"website":["www.veterans-uk.info"],"email":["veterans.help@spva.gsi.gov.uk"],"address":["Room 6303 Tomlinson House Norcross Thornton Cleveleys Lancashire FY5 3WP"],"description":["Single point of contact within the Ministry of Defence for veterans and their dependants seeking help, information and advice. Answer queries directly or put callers in touch with an appropriate organisation who can help. Also responsible for claims for and administration of War Disablement Pensions and War Widows Pensions, together with claims under the Armed Forces Compensation Scheme."],"name":["Service Personnel and Veterans Agency Helpline"],"telephone":["0800 169 2277 freephone"]},{"website":["www.allwaleshelpline.org.uk"],"email":["info@wdah.org.uk"],"address":["PO Box 82 Caernarfon LL54 6ZH"],"description":["Bilingual helpline for anyone experiencing any form of domestic abuse or any form of sexual violence, or who is concerned about someone they know. Support, listening and information, including possible options such as emergency refuge, face-to-face support services provided by other agencies, safety planning, police, court, housing etc."],"name":["All Wales Domestic Abuse and Sexual Violence Helpline"],"telephone":["0808 80 10 800"]},{"website":["www.ywhp.org.uk"],"email":["ywhp@ywhp.org.uk"],"address":["PO Box 303 Sheffield S1 1YD"],"description":["Vulnerable young women aged 16-25, including women who are homeless, women who have experienced sexual abuse, sexual/domestic violence, sexual exploitation and women with mental health problems. Have 4 units for women with children."],"name":["Young Women's Housing Project"],"telephone":["0114 268 0580"]},{"website":["www.runawayhelpline.org.uk"],"email":["runaway@missingpeople.org.uk"],"address":["PO Box 28908 London SW14 7ZU"],"description":["National 24 hour helpline for anyone aged 17 or under who has run away or been forced to leave home or care. Give advice, make referrals to other organisations and can help a child or young person get to a place of safety. Can also pass a message to enable them to get in touch with their family or carers."],"name":["Runaway Helpline"],"telephone":["116 000 freephone"]},{"email":["youth.service@walthamforest.gov.uk"],"address":["Outset Building 2a Grange Road Walthamstow London E17 8AH"],"description":["Information, advice and guidance on careers, employment and training opportunities for young people aged under 20."],"name":["Youth Support Service - Careers Advice and Guidance (Waltham Forest)"],"telephone":["020 8496 1530"]},{"email":["info@aberwa.org.uk"],"address":["One Stop 42 Portland Road Aberystwyth SY23 2NL"],"description":["Advice, support and assistance for women and children experiencing domestic violence. Referrals to refuges and other emergency accommodation. Advice and help with related legal issues, eg injunctions. Information centre 2 days a week. 24 hour telephone service."],"name":["Aberystwyth Women's Aid"],"telephone":["01970 625585"]},{"email":["www.nextdoor.z2k.org"],"address":["Office 6 Beethoven Centre Third Avenue London W10 4JL"],"description":["Information, advice and advocacy services for households threatened with homelessness. Private rented secor access scheme open to anyone unable to access statutory assistance ie non-priority and intentionally homeless families. A 6 week deposit guarantee is available."],"name":["Zaccheaus 2000 Trust - NextDoor Project"],"telephone":["08088 020 508"]},{"website":["www.aberdeenfoyer.com"],"email":["enquiries@aberddeenfoyer.com"],"address":["Marywell Centre Marywell Street Aberdeen AB11 6JF"],"description":["Young people aged 16-25 who are homeless or at risk where they live who are committed to developing their training, education and employment opportunities. Couples accepted."],"name":["Aberdeen Foyer"],"telephone":["01224 212924 or 373880"]},{"email":["www.aberdeenfoyer.com"],"address":["Marywell Centre Marywell Street Aberdeen AB11 6JF"],"description":["Range of services for young people aged 16-25. Supported accommodation for 16-25. Community health services, education, training and employment programmes. Work experience and volunteering opportunities. Leisure and social facilities. Courses for all age groups."],"name":["Aberdeen Foyer"],"telephone":["01224 212924"]},{"email":["www.getconnectednow.co.uk"],"address":["Langton Road Norton Malton YO17 9AE"],"description":["Information and guidance on benefits, careers, employment and training opportunities for young people aged 11-19 (up to 25 for care leavers or those with special needs)."],"name":["Youth Support Services - Malton"],"telephone":["0845 034 9491"]},{"website":["www.accordfamilymediation.co.uk"],"email":["info@accord-mediation.co.uk"],"address":["Lammas House School Lane Mickleham Dorking RH5 6EW"],"description":["Family mediation for couples who are divorcing or separating. Deal with issues relating to children, property and finance. Service for other family members such as grandparents. Evening and Saturday appointments available. Outreach services in Barnes, Horsham, Purley, Putney and Wallington."],"name":["Accord Family Mediation"],"telephone":["01372 360321"]},{"email":["www.raw4youth.com"],"address":["Jules One-Stop Melton Road Oakham Rutland LE15 6AY"],"description":["Information and guidance on careers, employment and training opportunities for young people aged 13-19. Young person's helpline on 0800 052 9977. Services for adults. Lincolnshire Learning Line (0800 163026) for adults. Vacancy and placing service for local employers."],"name":["Youth Options Service - Oakham"],"telephone":["01572 756655"]},{"email":["www.getconnectednow.co.uk"],"address":["Integrated Youth Support Otley Street Skipton BD23 1ET"],"description":["Advice, information and guidance on careers, employment and training opportunities for young people aged 13-19. Vacancy and placing service for local employers."],"name":["Youth Support Service Centre - Skipton"],"telephone":["01609 532412"]},{"address":["Hyndelle Lodge King Street Wigan WN2 3AW"],"description":["Service for young people (up to the age of 18) who are experiencing problems or have general concerns about drugs and alcohol. One-to-one support, wide range of treatment options."],"name":["Young People's Drug and Alcohol Team - Wigan"],"telephone":["01942 777720"]},{"website":["www.aberdeenshire.gov.uk"],"email":["housing@aberdeenshire.gov.uk"],"address":["Housing and Social Work Baltic House 51 Broad Street Peterhead AB42 1JL"],"description":["General housing advice and information for private and council tenants and homeless people."],"name":["Aberdeenshire Council - Housing Services (Peterhead)"],"telephone":["01779 477363"]},{"website":["www.aberdeenshire.gov.uk"],"email":["housing@aberdeenshire.gov.uk"],"address":["Housing and Social Work 55 Mid Street Fraserburgh AB43 9EP"],"description":["General housing advice and information for private and council tenants and homeless people."],"name":["Aberdeenshire Council - Housing Services (Fraserburgh)"],"telephone":["01346 514866"]},{"website":["www.aberdeenshire.gov.uk"],"email":["housing@aberdeenshire.gov.uk"],"address":["Housing and Social Work 32 Low Street Banff AB45 1AY"],"description":["General housing advice and information for private and council tenants and homeless people."],"name":["Aberdeenshire Council - Housing Services (Banff)"],"telephone":["01261 813200"]},{"website":["www.aberdeenshire.gov.uk"],"email":["housing@aberdeenshire.gov.uk"],"address":["Housing and Social Work 16-22 Allardice Street Stonehaven AB39 2BR"],"description":["General housing advice and information for private and council tenants and homeless people."],"name":["Aberdeenshire Council - Housing Services (Stonehaven)"],"telephone":["01569 762001"]},{"website":["www.action-for-change.org"],"email":["reception.hh@action-for-change.org"],"address":["Hanover House Marine Court St Leonards on Sea TN38 0DX"],"description":["Services for adults aged 18 and over with alcohol problems. Advice and information on all aspects of alcohol related harm. Access into the service is via information and advice clinics, available throughout East Sussex - check website for latest times. Assessment. Community detox and treatment. GP advice. Access to rehab services. Individual counselling. Structured group work."],"name":["Action for Change - Hastings"],"telephone":["0300 111 2470"]},{"website":["www.action-for-change.org"],"email":["reception.sr@action-for-change.org"],"address":["Greencoat House 32 St Leonards Road Eastbourne East Sussex BN21 3UT"],"description":["Services for people experiencing problems with alcohol. Advice and information, medical assessment, referrals to detox. GP/nurse advice. Drop-in facilities. Individual counselling. Aftercare and follow-up. Service for young people. Support for partners and friends and for anyone affected by another person's alcohol use."],"name":["Action for Change - Eastbourne"],"telephone":["01323 721000"]},{"address":["Gospel Hall 14 Church Walk Worksop S80 2EJ"],"description":["Drop-in day centre for people in Worksop who are homeless or marginalised through debt or addiction problems. Breakfast and lunch provided. Help for rough sleepers to contact emergency accommodation providers. Shower and laundry facilities and free clothes store. Signposting to specialist services such as GPs and drug and alcohol workers. Social groups to help clients build life skills."],"name":["7 Project"],"telephone":["07923 109652"]},{"website":["www.aberdeenshire.gov.uk"],"email":["housing@aberdeenshire.gov.uk"],"address":["Gordon House Blackhall Road Inverurie AB51 3WA"],"description":["General housing advice and information for private and council tenants and homeless people."],"name":["Aberdeenshire Council - Housing Services (Inverurie)"],"telephone":["01467 620981"]},{"email":["ad.team@bradford.gov.uk"],"address":["Future House Bolling Road Bradford BD4 7EB"],"description":["Outreach service providing advice, information and support about alcohol and drugs for young people aged under 18 and their families. Group work, one-to-one and family interventions. Alternative therapies. Referral to detox services. Self referral."],"name":["Young Peoples Drug and Alcohol Service"],"telephone":["01274 385506"]},{"email":["www.acorntreatment.org"],"address":["Fulstone House 130 Mile End Lane Stockport SK2 6BY"],"description":["Services for adults aged 18+ experiencing problems with alcohol or drugs. Advice and information, assessment, structured day programme. Individual counselling and group work. Referrals to detox. Alternative therapies. People must be alcohol/drug free when attending groups. Support for partners and friends. Supported residential facilities."],"name":["Acorn Treatment and Housing"],"telephone":["0161 484 0000"]},{"website":["www.talktofrank.com"],"email":["frank@talktofrank.com"],"address":["Freepost PO Box 4000 Glasgow G3 8XX"],"description":["Helpline for anyone concerned about drug or solvent misuse. Advice and information for drug misusers, their families, friends, carers, and professionals. Callers from Scotland re-routed to Know the Score, phone 0800 587 5879 (website www.knowthescore.info)."],"name":["FRANK"],"telephone":["0800 77 66 00 freephone"]},{"address":["Freepost PO Box 4000 Glasgow G3 8XX"],"description":["Advice and information for people with alcohol problems or anyone concerned about alcohol misuse. Provide advice on sensible drinking and information on services to help people cut down on their drinking. Leaflets and literature available. Signposting to other services. Drinkline Scotland available on 0800 7314 314."],"name":["Drinkline"],"telephone":["0800 917 8282 freephone"]},{"website":["www.ssafa.org.uk"],"email":["info@ssafa.org.uk"],"address":["Freepost PO Box 1312 Pewsey Wiltshire SN9 6NW"],"description":["Telephone helpline and email support service operating 365 days a year. Listening service, support and signposting for serving or ex-serving military personnel and families. Email support via website. Support line calls from Germany on 0800 182 7395, from Cyprus on 800 91065. Call back service from anywhere in the world. Service is quite separate from Forces chain of command."],"name":["SSAFA - Forces Help Confidential Support Line"],"telephone":["0800 731 4880 freephone"]},{"website":["www.youthconnexions-hertfordshire.org"],"email":["feedbackyouthconnexions@hertscc.gov.uk"],"address":["First Floor, Farnham House Six Hills Way Stevenage SG1 2FQ"],"description":["Advice, information and guidance on careers, employment and training opportunities for young people aged 13-19. Personal development and social activities. Vacancy and placing service for young people and local employers."],"name":["Youth Connexions Hertfordshire"],"telephone":["01438 843690"]},{"website":["www.youthoria.org"],"email":["connexions.ely@cambridgeshire.gov.uk"],"address":["Ely Library 6 The Cloisters Ely CB7 4ZH"],"description":["Support service for all 13-19 year olds. Information, advice and guidance on education and training opportunities, career planning, jobs and other issues including housing, benefits and grants, health, relationships and personal development activities."],"name":["Youth Support Service - Ely"],"telephone":["01353 616990"]},{"website":["www.700club.org.uk"],"email":["st-georges.hall@700club.org.uk"],"address":["Elmfield Street Darlington DL3 6DA"],"description":["Homeless people with medium to high support needs. Priority given to applicants with a local connection to Darlington."],"name":["700 Club - St George's Hall"],"telephone":["01325 464385"]},{"website":["www.a4u.org.uk"],"email":["advice@a4u.org.uk"],"address":["Disability Advice Centre The Guildhall Frankwell Quay Shrewsbury SY3 8HB"],"description":["Information and advice for people with disabilities, their carers and professionals. Specialist help in community care, debt, housing and welfare benefits. Information on holidays and travel, housing adaptations, equipment, wheelchairs, respite care, support groups and community care issues. Access point in Telford."],"name":["A4U - Action, Advice, Advocacy"],"telephone":["01743 256218"]},{"website":["www.aberdeencity.gov.uk"],"email":["homeless@aberdeencity.gov.uk"],"address":["Customer Service Centre Marischal College Broad Street Aberdeen AB10 1AB"],"description":["Assessment of entitlement to housing for people who are homeless or threatened with homelessness. Provision of housing for people considered in priority need of housing. Temporary accommodation may be available while enquiries are made about eligibility. Out of hours emergencies phone 01224 693350."],"name":["Aberdeen City Council - Homelessness Section"],"telephone":["01224 522210"]},{"website":["www.4realcountydurham.co.uk"],"email":["4real@durham.gov.uk"],"address":["Council Offices Green Lane Spennymoor Co Durham DL16 6JQ"],"description":["Advice, support and treatment for young people under the age of 18 who have problems with drugs and/or alcohol. Specialist assessment and care planning. Pharmacological interventions. Harm minimisation. Detox. One-to-one and group support. Family support. Diversionary activities. Alcohol brief interventions."],"name":["4REAL"],"telephone":["03000 267567"]},{"website":["www.harrow.gov.uk"],"email":["socialservices@harrow.gov.uk"],"address":["Civic 1 Civic Centre Harrow HA1 2FR"],"description":["Social services assistance for adults who live in Harrow. Out of hours emergencies phone 020 8424 0999."],"name":["Access Harrow - Adult Services"],"telephone":["020 8901 2060"]},{"website":["www.yourhealthsunderland.com/ydap"],"email":["ydap.project@sunderland.gov.uk"],"address":["Children's Centre East Old Hendon Health Centre Meaburn Terrace Sunderland SR1 2LR"],"description":["Advice and information, counselling and alternative therapies for young people aged 10-18 with substance misuse issues."],"name":["Youth Drug and Alcohol Project (YDAP)"],"telephone":["0191 561 2852"]},{"website":["www.anationalvoice.org"],"email":["info@anationalvoice.org"],"address":["Central Hall Oldham Street Manchester M1 1JQ"],"description":["Service run by and for young people who are in or who are leaving care. Helps young people set up and join in local in-care and aftercare groups. Helps young people to share their experiences of the care system and suggest positive changes to the system."],"name":["A National Voice (Head Office)"],"telephone":["0161 237 5577"]},{"website":["www.a1housing.co.uk"],"email":["customer.services@a1housing.co.uk"],"address":["Carlton Forest House 100 Acre Lane Worksop Nottinghamshire S81 0TS"],"description":["General housing and benefits advice and information for private and council tenants and the general public. Council tax advice. Out of hours emergencies phone 0800 590542."],"name":["A1 Housing Bassetlaw"],"telephone":["0800 590542"]},{"website":["www.childline.org.uk"],"email":["reception@childline.org.uk"],"address":["c/o NSPCC Weston House 42 Curtain Road London EC2A 3NH"],"description":["Helpline for children and young people in danger or distress. Telephone counselling for any child with any problem. Provides support and advice and refers children in danger to appropriate helping agencies. Freepost address for children at ChildLine, Freepost NATN1111, London E1 6BR. Also runs The Line for children living away from home 0800 884444 (Mon-Fri 3.30pm-9.30pm, Sat and Sun 2pm-8pm)."],"name":["ChildLine"],"telephone":["0800 1111 freephone"]},{"website":["www.1625ip.co.uk"],"email":["enquiries@1625ip.co.uk"],"address":["c/o Kingsley Hall 59 Old Market Street Bristol BS2 0ER"],"description":["Young single people aged 16-25 with low support needs who are homeless or in housing need and have a local connection to the Bristol area. Applicants must be willing to engage with the support on offer."],"name":["1625 Independent People"],"telephone":["0117 317 8800"]},{"website":["www.justhomes.org.uk"],"email":["referrals@justhomes.org.uk"],"address":["c/o Just Homes 5 Cooper Street Canning Town London E16 1QU"],"description":["Single homeless men who are moving on from first stage hostel accommodation, mainly from the East London area. Must be willing to pursue employment and/or training opportunities. Priority given to those with a local connection."],"name":["1 Cumberland Road"],"telephone":["020 7473 5286"]},{"website":["www.zimbabwecommunityassociation.org"],"email":["zimcoass@yahoo.co.uk"],"address":["c/o Camden BME Alliance 44 Hampstead Road London NW1 2PY"],"description":["Advice and support for the Zimbabwean community, including refugees and asylum seekers and students. Interpretation and translating. Signposting to specialist advice. Range of cultural and recreational activities for children and young people. Policy lobbying and consultations."],"name":["Zimbabwe Community Association"],"telephone":["07809 157111"]},{"email":["www.ability-housing.co.uk"],"address":["c/o Ability Housing Asssociation 10 Southern Court South Street Reading RG1 2QS"],"description":["People who are homeless or in housing need. Must have support needs and evidence of previously managing a tenancy. Prioritise applicants with a local connection to Reading."],"name":["Ability HA - Shepton House"],"telephone":["0118 956 7210"]},{"email":["www.ability-housing.co.uk"],"address":["c/o Ability Housing Association 10 Southern Court South St Reading RG1 4QS"],"description":["People who are homeless or in housing need. Must have support needs and evidence of previously managing a tenancy. Prioritise applicants with a local connection to Reading."],"name":["Ability HA - Southampton Street"],"telephone":["0118 956 7210"]},{"website":["www.a2dominion.co.uk"],"email":["cityroad@a2dominion.co.uk"],"address":["c/o 33 Staple Gardens Winchester SO23 8SR"],"description":["Vulnerable young single homeless people aged 16-22 (will accept up to 24 year olds with a disability) with a local connection to the Winchester area."],"name":["A2Dominion - City Road"],"telephone":["07730 066508, 07786 516285"]},{"address":["c/o 33 Staple Gardens Winchester SO23 8SR"],"description":["Vulnerable young single homeless people with a local connection to the Winchester area."],"name":["A2Dominion - Westgate Place"],"telephone":["01962 840273"]},{"email":["www.aberdeencity.gov.uk"],"address":["Business Hub 3 Ground Floor South Marischal College, Broad Street Aberdeen AB10 1AB"],"description":["Social work head office for Aberdeen area. Provides a range of social services for children/families, older people, people with disabilities, learning difficulties and mental health problems through several area offices. Several specialist teams. Also provides hospital based services. Out of hours emergencies phone 01224 693936."],"name":["Aberdeen City Council Social Care and Wellbeing"],"telephone":["01224 522000 switchboard 522055 direct"]},{"website":["www.mod.uk/jshao"],"email":["aws-jshao-mailbox@mod.uk"],"address":["Building 183 Trenchard Lines Upavon Wiltshire SN9 6BE"],"description":["Housing information and advice for members of the Armed Forces and their families. JSHAO gives civilian housing options advice to members of the armed forces while they are serving and when they are about to return to civilian life. JSHAO also provides help and information to ex-Service personnel who are still in Service Families’ Accommodation."],"name":["Joint Service Housing Advice Office"],"telephone":["01980 618925"]},{"email":["www.cambridgeshire.net"],"address":["Broad Leas Centre Broad Leas St Ives Cambridgeshire PE27 5QB"],"description":["Advice, guidance and information for young people aged 13-19. Subjects covered include benefits, education and training, employment, finding accommodation, homelessness, housing rights and substance use. Sexual health information including pregnancy testing and contraception."],"name":["Youth Support Service - Cambridge County Council"],"telephone":["01480 398257 St Ives Locality Team"]},{"website":["www.channelmogo.org"],"email":["stevenage.onestopshop@hertscc.gov.uk"],"address":["Bowes Lyon Centre St George's Way Stevenage SG1 1XY"],"description":["Advice, information & guidance on careers, employment and training opportunities for young people aged 16-19 (up to 25 if you have a disability). Vacancy & placing service for local employers. Access to sexual health support & counselling services for young people. Information on alcohol & drugs, housing & other issues of concern to young people. Pregnancy testing & condom distribution service."],"name":["Youth Connexions Herts - Stevenage One Stop Shop"],"telephone":["01438 749147"]},{"website":["www.aanchal.org.uk"],"email":["info@aanchal.org.uk"],"address":["Asian Women's Domestic Violence Project Bryant Street Community Centre Bryant Street London E15 4RU"],"description":["Services for Asian women and children who have experienced domestic violence. Telephone helpline. Emotional support. Advice, practical help and casework on housing and matrimonial matters, welfare rights, benefits, referrals to solicitors. Women's health group, youth groups and empowerment programes. Online support for children (up to 18)."],"name":["Aanchal Women's Aid"],"telephone":["0845 451 2547 24 hour helpline"]},{"email":["www.whatnowglos.co.uk"],"address":["92-96 Westgate Street Gloucester GL1 2PE"],"description":["Information and guidance on careers, employment and training opportunities for young people aged 13-19. Vacancy and placing service for local employers."],"name":["Youth Support Service - Gloucester"],"telephone":["01452 426900"]},{"email":["info@abubakr.org.uk"],"address":["9 Park Road North Middlesbrough TS1 3LF"],"description":["Centre for the local community. Advice on education, training, employment, finding accommodation and childcare. Business centre providing advice on finding employment and starting a small business. Adult education. Social and cultural gatherings, sports, excursions for families. Library. Fax and photocopying facilities."],"name":["Abu-Bakr Mosque and Community Centre"],"telephone":["01642 873305"]},{"website":["www.phoenixalcoholproject.org.uk"],"email":["phoenix9oxfordroad@ntlworld.com"],"address":["9 Oxford Road Colchester CO3 3HN"],"description":["Support for people (18+) wanting to make changes to their alcohol use. Day care programme with groups, sessions and activities. Groups for men and women. Drop-in facilities. Structured groups, including anger management, anxiety management, assertiveness training and relapse awareness. People must be alcohol free when attending the project."],"name":["9 Oxford Road Alcohol Project"],"telephone":["01206 546854/503490"]},{"website":["www.phoenixalcoholproject.org.uk"],"email":["phoenix9oxfordroad@ntlworld.com"],"address":["9 Oxford Road Colchester CO3 3HN"],"description":["People with alcohol misuse problems who need a period of respite. Must be 'dry' and attending the project's full day care programme. Residents must have an alternative place to stay once they leave the project."],"name":["9 Oxford Road Alcohol Project"],"telephone":["01206 546854"]},{"website":["www.aclc.org.uk"],"email":["aclc@btconnect.com"],"address":["9 Clarendon Road Hornsey London N8 0DJ"],"description":["Counselling, psychotherapy & family mediation service for the African & Caribbean communities. Counselling on relationship difficulties, bereavement & other emotional problems. Support & counselling for people with problems around alcohol, drugs, mental health, sexual & physical abuse, racial harassment. Family mediation & dispute resolution. Senior citizens club, elderly daycare."],"name":["ACLC Counselling Service"],"telephone":["020 8881 5881"]},{"email":["www.accordha.org.uk"],"address":["87-89 Walhouse Road Walsall WS1 2BH"],"description":["Single people with mental health problems who are in housing crisis and need some support to sustain a tenancy."],"name":["Accord HA - Walhouse Road"],"telephone":["01922 725418"]},{"email":["www.conwy.gov.uk"],"address":["74 Conway Road Colwyn Bay LL29 7LD"],"description":["Integrated health and social work team providing advice, information and support for young people with drug or alcohol problems and their families."],"name":["Young People's Substance Misuse Service (Colwyn Bay)"],"telephone":["01492 523500"]},{"address":["722 Leytonstone High Road London E11 3AJ"],"description":["Services for young people up to the age of 19 who are using/misusing drugs and alcohol, or affected by others' drug and alcohol use/misuse. Advice and information, reduction planning, quit plans, harm reduction advice, psychosocial interventions, substitute prescribing, needle exchange. Family support."],"name":["722 Young People's Substance Use Service"],"telephone":["020 8496 5020"]},{"website":["www.a2dominion.co.uk"],"email":["carrick.house@a2dominion.co.uk"],"address":["7 Stakes Hill Road Waterlooville PO7 7JA"],"description":["Young single homeless people aged 16-24. Prioritise applicants with a local connection to Havant."],"name":["A2Dominion - Carrick House"],"telephone":["023 9226 6328"]},{"website":["www.accordmediation.co.uk"],"email":["info@accordmediation.co.uk"],"address":["7 Princes Street Truro Cornwall TR1 2ES"],"description":["Mediation to enable couples in dispute to settle their arrangements regarding children, property and finance, at the time of separation or divorce."],"name":["Accord Mediation"],"telephone":["01872 225022"]},{"email":["www.youngscot.org"],"address":["68-86 Scott Street Perth PH2 8JW"],"description":["Information and counselling for young people. Subjects covered include health, alcohol, drugs, housing, education, benefits and employment. Use of facilities including computers, photocopier and telephone. Careers guidance session Friday 9.30am-5pm. Resource base for youth workers and issue-based youth groups. Young people's health team drop-in Monday 2.30pm-4.30pm, Saturday 1pm-4pm."],"name":["Youth Services City Base (Perth)"],"telephone":["01738 474580"]},{"website":["www.sussexcentralymca.org.uk"],"email":["yacservices@sussexcentralymca.org.uk"],"address":["65 Blatchington Road Hove East Sussex BN3 3YJ"],"description":["Drop-in advice Monday-Thursday 3pm-6pm. Housing advice and resettlement service Thursdays 3pm-6pm. Sexual health nurse available Tuesday 3pm-5.30pm. Wellbeing worker Monday 3pm-6pm."],"name":["Youth Advice Centre (YAC)"],"telephone":["01273 889292"]},{"website":["www.afbp.org"],"email":["central@afbp.org"],"address":["53 Sandgate Street London SE15 1LE"],"description":["Advice and information on visual impairment, service provision and welfare rights. Mobile information and advice service demonstrates equipment, offers advice and information. Employment services. Self contained independent flats and hotels. Visual awareness training for employers."],"name":["Action for Blind People"],"telephone":["0303 123 9999, 020 7635 4800"]},{"email":["www.700club.org.uk"],"address":["52-54 Grange Road Darlington DL1 5NP"],"description":["Single homeless people with a local connection to Darlington."],"name":["700 Club - Hope House"],"telephone":["01325 350051"]},{"website":["www.ypsf.co.uk"],"email":["info@ypsf.co.uk"],"address":["52 Oldham Street Manchester M4 1LE"],"description":["Resource centre for young people aged 16-25. Homelessness prevention and support, including advice, information, cafe/drop-in, showers, laundry. Groupwork activities, workshops, training and volunteering opportunities. Outreach services and home visits for people unable to call in. Supported housing and resettlement services."],"name":["Young People's Support Foundation - Manchester City Centre Project"],"telephone":["0161 228 7654"]},{"website":["www.youthenquiryservice.org.uk"],"email":["enquiries@yeswycombe.org.uk"],"address":["52 Frogmoor High Wycombe HP13 5DG"],"description":["Information, advice, counselling and support for young people aged 13-25. Cover a range of subjects, including advice about rights, accommodation, money problems, relationships, pregnancy. Sexual health service offered advice and support, condoms, pregnancy and chlamydia testing."],"name":["Youth Enquiry Service - High Wycombe"],"telephone":["01494 437373"]},{"website":["www.mediationnorth.org.uk"],"email":["mediationnorth@actionforchildren.org.uk"],"address":["4th Floor, MEA House Ellison Place Newcastle upon Tyne NE1 8XS"],"description":["Helps separating or divorcing parents to reach agreement over arrangements for their children, property and finance. Also works with grandparents."],"name":["Action for Children - Mediation North"],"telephone":["0191 261 9212"]},{"website":["www.accordmediation.co.uk"],"email":["enquiries@accordmediation.co.uk"],"address":["4th Floor, Cobourg House 32 Mayflower Street Plymouth PL1 1QX"],"description":["Mediation to enable couples in dispute to settle their arrangements regarding children, property, possessions and finances, at the time of separation or divorce."],"name":["Accord Mediation (Plymouth)"],"telephone":["01752 226800"]},{"email":["ypsms@gloucestershire.gov.uk"],"address":["48 London Road Gloucester GL1 3NZ"],"description":["Range of services for children and young people up to the age of 18 who have a problem with substances such as alcohol, solvents, cannabis and heroin. Advice and information, assessment, individual counselling, prescribing, referrals to detox services."],"name":["Youth Support Team, Specialist Substance Misuse Team"],"telephone":["01452 547540"]},{"website":["www.stjohnshousing.org.uk"],"email":["phoenixhouse@stjohnshousing.org"],"address":["45-46 Kirkley Cliff Lowestoft NR33 0DF"],"description":["Young single homeless people aged 16-25. Plus 1 emergency room for a single person aged 16-17."],"name":["Access Community Trust - Phoenix House"],"telephone":["01502 587061"]},{"email":["www.a2dominion.co.uk"],"address":["45 Vineyard Abingdon OX14 3NQ"],"description":["Single homeless or potentially homeless people with low to medium support needs. Primary group is over 25, but will also take 18-25 year olds at risk."],"name":["A2Dominion - 45 Vineyard"],"telephone":["01235 526716"]},{"website":["www.zonehousing.org.uk"],"email":["info@zonehousing.org"],"address":["44a Loveday Street Birmingham B4 6NP"],"description":["Tenancy support for up to 2 years for adults (18+), including ex-offenders and people with substance misuse problems. Project staff visit service users weekly and provide support around living skills, benefits, dealing with disputes, securing accommodation, tenancy sustainment, rent arrears, housing rights and accessing training and employment."],"name":["Zone Resettlement Services"],"telephone":["0121 333 7422"]},{"website":["www.999club.org"],"email":["office@999club.org"],"address":["424 Downham Way Downham Bromley BR1 5HR"],"description":["Drop-in centre offering social and practical support for the homeless and those with alcohol, drug, and mental and physical health problems. Tea and toast served all day. Advice and advocacy in relation to wide range of benefit issues and support in finding housing, Tuesday and Thursday. On site consultations by other specialist agencies."],"name":["999 Club - Downham Drop-in"],"telephone":["020 8698 9403"]},{"email":["bureau@aberdeencab.casonline.org.uk"],"address":["41 Union Street Aberdeen AB11 5BN"],"description":["Advice and information on a range of issues, including housing and welfare rights, benefits, money and debt, immigration, consumer and employment rights. Service at Aberdeen Royal Infirmary Monday and Thursday 9.30am-12.30pm. In-court advice project at Aberdeen Sheriff Court by appointment."],"name":["Aberdeen CAB"],"telephone":["01224 586255"]},{"website":["www.veterans-aid.net"],"email":["info@veterans-aid.net"],"address":["40 Buckingham Palace Road London SW1W 0RE"],"description":["Advice for homeless ex-service personnel, merchant seamen and their families. Issues dealt with include accommodation, benefits, employment, substance misuse. Provides practical help including financial grants, food vouchers, clothing, travel warrants. Also runs a hostel."],"name":["Veterans Aid"],"telephone":["020 7828 2468"]},{"address":["37 Park Road Loughborough LE11 2ED"],"description":["Young single homeless people aged 16-25. Priority given to those with a local connection to Charnwood."],"name":["Youth Shelter"],"telephone":["01509 232656"]},{"website":["www.ypas.org.uk"],"email":["support@ypas.org.uk"],"address":["36 Bolton Street Liverpool L3 5LX"],"description":["Advice, information and support for young people aged 10-25 in Merseyside. Cover a range of issues, including welfare benefits, housing, alcohol, drugs, sexual health. Counselling on bullying, self harm and self injury, eating disorders, anxiety. Support group for young people who self injure. Anger awareness group. Drop-in with informal group work. Personal development worker. Connexions worker."],"name":["Young Person's Advisory Service"],"telephone":["0151 707 1025"]},{"email":["www.derbyshirefamilysolutions.org.uk"],"address":["32a Newbold Road Chesterfield S41 7PH"],"description":["Mediators assist those involved in family breakdown to communicate better and to reach decisions about the issues arising from separation or divorce. Issues include arrangements for children, such as contact and residence, distribution of money or property."],"name":["Action for Children - Family Solutions (Derbyshire)"],"telephone":["01246 277422"]},{"website":["www.aberconwymind.org.uk"],"email":["mind@mindaberconwy.co.uk"],"address":["3 Trinity Square Llandudno Conwy LL30 2PY"],"description":["Day centre for people experiencing emotional distress or mental ill health. Provides a meeting place and offers information on mental health issues, welfare benefits and local services. Range of activities and self-help groups."],"name":["Aberconwy Mind"],"telephone":["01492 879907"]},{"email":["www.actionforchildren.org.uk"],"address":["3 The Boulevard Ascot Road Watford WD18 8AG"],"description":["Central office of Action for Children (formerly NCH). Supports vulnerable children, young people and families. Services include family and community centres, short breaks for disabled children, leaving care services and youth homelessness projects."],"name":["Action for Children"],"telephone":["0300 123 2112 information service"]},{"website":["www.actionforchildren.org.uk"],"email":["sharedhousing.westsuffolk@actionforchildren.org.uk"],"address":["3 Abbeyfields Bury St Edmunds IP33 1AQ"],"description":["Young single homeless people aged 16-21 with support needs. Priority given to people with a local connection. Must be willing to engage with the support on offer."],"name":["Action for Children - West Suffolk Shared Housing"],"telephone":["01284 749063"]},{"website":["www.actionforchildren.org.uk"],"email":["sperrinfloatingsupport@actionforchildren.org.uk"],"address":["2a Holmview Terrace Campsie Omagh BT79 0AH"],"description":["Young homeless people and care leavers. Can provide support to people with children."],"name":["Action for Children - Floating Support Service"],"telephone":["028 8225 9495"]},{"website":["www.abplus.org.uk"],"email":["enquiry@abplus.org.uk"],"address":["29-30 Lower Essex Street Birmingham B5 6SN"],"description":["Drop-in centre for people living with or affected by HIV. Peer support, individual support, Information on treatment options. Counselling. Women's group, gay men's group and mens group meet monthly. Access to other local agencies and statutory bodies on site."],"name":["ABplus"],"telephone":["0121 622 6471"]},{"website":["www.youthtalk.org.uk"],"email":["info@youthtalk.org.uk"],"address":["28 Spencer Street St Albans Hertfordshire AL3 5EG"],"description":["Counselling service for young people aged 14-25. Issues covered include family problems, depression, loneliness and isolation, sex, drugs, alcohol, bereavement, racism, bullying, eating disorders."],"name":["Youth Talk"],"telephone":["01727 868684"]},{"website":["www.theabingdonbridge.org.uk"],"email":["tabcentre@yahoo.co.uk"],"address":["27 Bridge Street Abingdon Oxfordshire OX14 3HN"],"description":["Drop-in centre offering information, support and counselling for young people aged 13-25. Subjects covered include housing, benefits, drugs and alcohol, education, sexual health, self harm. Free condoms, pregnancy testing for girls aged 16+. Computer club and internet access. CLAIT courses. Young parents service. Support around bullying and domestic violence."],"name":["Abingdon Bridge"],"telephone":["01235 522375"]},{"website":["www.accommodationconcern.co.uk"],"email":["accomm-concern@btconnect.com"],"address":["25-26 Dalkeith Place Kettering NN16 0BS"],"description":["Advice and casework for anyone with housing problems, including homelessness. Advice and assistance with finding and keeping accommodation for single homeless people and those without access to social housing. Tenancy support services in Kettering and Corby boroughs. Street outreach services."],"name":["Accommodation Concern"],"telephone":["01536 416560"]},{"website":["www.9livesfurniture.org.uk"],"email":["marie@9livesfurniture.org.uk"],"address":["25 Wharf Lane Rickmansworth WD3 1HA"],"description":["Collection and redistribution of furniture and other household items to people in need. Two tier pricing system ensures people on low incomes are supplied with goods at low cost. Furniture showroom also open to the general public."],"name":["9 Lives Furniture Recycling Scheme"],"telephone":["01923 718666"]},{"website":["www.240project.org.uk"],"email":["lancasterroadproject@yahoo.co.uk"],"address":["240 Lancaster Road London W11 4AH"],"description":["Activity centre for ex-homeless people who have been resettled in the area (especially those at risk of losing their tenancies), and for people who are vulnerable or excluded. Social activities, weekly workshops in drama, art, music, poetry, cooking. Free lunch Monday-Wednesday. Motivational group. Peer to peer education. Adult literacy."],"name":["240 Project"],"telephone":["020 7221 7530"]},{"website":["www.yir.org.uk"],"email":["info@yir.org.uk"],"address":["23 Bell Street Romsey SO51 8GY"],"description":["Drop-in centre for 11-25 year olds. Advice and information on range of issues. Drinks, snacks and free internet access. Job club and Connexions advice. Sexual health clinic Thursday 3.30-5.30pm. Support for young carers."],"name":["Youth In Romsey"],"telephone":["01794 500581"]},{"website":["www.999club.org"],"email":["office@999club.org"],"address":["21 Deptford Broadway Deptford London SE8 4PA"],"description":["Drop-in centre offering social and practical support for the homeless and those with alcohol, drug, and mental and physical health problems. Tea and toast served all day, light lunch. Laundry facilities. Advice and advocacy in relation to wide range of benefit issues and support in finding housing. Free nursery for children of disadvantaged families. On site consultations by NHS nurses."],"name":["999 Club - Deptford Drop-in"],"telephone":["020 8691 7734"]},{"email":["www.youthoria.org"],"address":["20 St Benedicts Court Huntingdon PE29 3PN"],"description":["Support service for all 13-19 year olds. Information, advice and guidance on education and training opportunities, career planning, jobs and other issues including housing, benefits and grants, health, relationships and personal development activities."],"name":["Youth Support Service - Huntingdon"],"telephone":["01480 376800"]},{"website":["www.hullcc.gov.uk"],"email":["ypss.stonefield@hullcc.gov.uk"],"address":["1st Floor, Stonefield House 16-20 King Edward Street Hull HU1 3SS"],"description":["Support, advice and casework for young people in need, including those who are care leavers, homeless, asylum seekers, substance misusers, at risk of offending or who have physical or learning disabilities. Issues covered include accommodation, welfare rights, education and training and employment."],"name":["Young People's Support Service"],"telephone":["01482 331000"]},{"website":["www.sane.org.uk"],"email":["info@sane.org.uk"],"address":["1st Floor, Cityside House 40 Adler Street London E1 1EE"],"description":["Helpline and email service providing information and support for anyone affected by mental health problems, including families and carers."],"name":["SANE Services"],"telephone":["0845 767 8000 local rate"]},{"address":["1st Floor, Bellenden Old School Bellenden Road London SE15 4DG"],"description":["Support, information and signposting for South Asian, Muslim and refugee women and their children. Includes welfare rights, housing, immigration, domestic violence, health, educational opportunities and training. Interpreting service. CV preparation and help with gaining employment. Parenting support. Health and fitness class, with creche. Sewing class Friday 10am-12 noon. Summer playschemes."],"name":["Aaina Women's Group"],"telephone":["020 7358 0697"]},{"website":["www.ch1.org.uk"],"email":["2ndchance@ch1.org.uk"],"address":["1a Weddington Terrace Nuneaton CV10 0AG"],"description":["Collect donated furniture and household goods and sell them on favourable terms to people on low incomes, benefits or in financial hardship."],"name":["2nd Chance Furniture Re-Use"],"telephone":["024 7632 6189"]},{"email":["abergavennycab@yahoo.co.uk"],"address":["19a-19b Cross Street Abergavenny NP7 5EW"],"description":["Advice and information on a range of issues, including benefits and welfare rights, consumer, employment and housing rights, money and debt. Also run the Better Advice Better Health Project (by appointment)."],"name":["Abergavenny, Crickhowell and District CAB"],"telephone":["0844 477 2020"]},{"address":["199-201 Grove Street Deptford London SE8 3PG"],"description":["Community centre for local residents. Information leaflets and signposting on a range of subjects, including social welfare, benefits, money and debt, housing, education, employment and health issues. Childcare services, after school clubs, health and fitness clubs. Meeting venue for older people's groups, residents' associations and youth forums. Internet access for older people."],"name":["2000 Community Action Centre"],"telephone":["020 8692 2760"]},{"website":["www.170communityproject.org.uk"],"email":["info@170cp.org.uk"],"address":["170 New Cross Road New Cross London SE14 5AA"],"description":["Community centre with a range of services and activities. Advice on benefits, housing rights, finding accommodation and employment Monday, Wednesday and Friday mornings. Domestic violence project Tuesday-Friday 9am-5pm. Health project."],"name":["170 Community Project"],"telephone":["020 7732 9716"]},{"website":["www.actionforchildren.org.uk"],"email":["hype@actionforchildren.org.uk"],"address":["17-18 London Road Edinburgh EH7 5AT"],"description":["Work with young substance users (under 18), including specialist workers for looked after and accommodated young people. Assessment for substitute prescribing, detox and support around mental health difficulties."],"name":["Action for Children - HYPE (Help for Young People in Edinburgh)"],"telephone":["0131 466 4600"]},{"website":["www.youthaid.org.uk"],"email":["youthaid@aol.com"],"address":["17 Brownhill Road London SE6 2HG"],"description":["Advice, information and support for young people (13-25) on a range of issues, including housing, finding accommodation, benefits, careers, employment. Homelessness advice Monday, Wednesday, Friday 11am-6pm. Legal advice by appointment. Advice on personal and relationship problems. Groupwork programmes. Young leadership programme. Counselling by appointment (places limited). Free condoms."],"name":["Youth AID (Advice, Information, Development) Lewisham"],"telephone":["020 8697 7435, 020 8697 2152"]},{"website":["www.zerocentre.org.uk"],"email":["zerocentre@aol.com"],"address":["169-171 Laird Street Birkenhead CH41 0AA"],"description":["Support for women, children and young people who have experienced domestic violence. Information, referrals, counselling and empowerment programmes. Access to solicitors. Youth programme for children aged 11-16. Healing programmes for children aged 5-11."],"name":["Zero Centre"],"telephone":["0151 670 1528"]},{"address":["161-167 Clapham Manor Street London SW4 6DB"],"description":["Advice and support for ex-service men and women from the West Indies and their dependents. Provides information and advice on subjects including benefits, pensions, welfare rights, housing. Lunch club on Thursdays providing an opportunity to socialise and play bingo, dominoes etc."],"name":["West Indian Ex-Servicemen's and Women's Association"],"telephone":["020 7627 0702"]},{"website":["www.zestni.org"],"email":["zestni@yahoo.co.uk"],"address":["15a Queen Street Derry BT48 7EQ"],"description":["Counselling and support service for people who self harm or attempt suicide. Individual and group counselling. Listening ear and telephone support. Also offer support to families and friends. Training for health professionals working in the areas of self harm and suicide."],"name":["Zest"],"telephone":["028 7126 6999"]},{"website":["www.accesstoindustry.co.uk"],"email":["admin@accesstoindustry.co.uk"],"address":["156 Cowgate Edinburgh EH1 1RP"],"description":["One-to-one support for care leavers, young offenders, adult prison leavers and recovering substance users to facilitate personal development and move on to employment, training or education. Recovering substance users can access the transition mini-college to gain accredited qualifications. Advice on matters relating to health, accommodation offending and finances."],"name":["Access to Industry - Transition and Passport"],"telephone":["0131 260 9721"]},{"website":["www.actionforchildren.org.uk"],"email":["bayswaterfc@actionforchildren.org.uk"],"address":["14-18 Newton Road London W2 5LT"],"description":["Drop-in centre for families who are homeless, on a low income, asylum seekers or refugees. Creche and drop-in play facilities for under 5s. Social work, casework. Drop-in advice on benefits, housing, childcare. Emergency welfare assistance with food and clothing. Domestic violence counselling. ESOL and computer classes. Laundry facilities, use of kitchen."],"name":["Action for Children - Bayswater Families Centre"],"telephone":["020 7221 3290"]},{"address":["12 Cambrian Place Aberystwyth SY23 1NT"],"description":["Advice and information on a range of issues, including benefits and welfare rights, consumer issues, employment and housing rights, legal issues, money and debt. Specialist help in debt."],"name":["Aberystwyth and District CAB"],"telephone":["01970 612817"]},{"email":["ackeehousing@btconnect.com"],"address":["103 Stoke Newington Road London N16 8BX"],"description":["Young single homeless black women aged 17-21 with low support needs. Must have a local connection to LB Haringey. Priority to those who have been in local authority care."],"name":["Ackee Housing Project"],"telephone":["020 7254 5159"]},{"website":["www.1625ip.co.uk"],"email":["stgeorgeshouse@1625ip.co.uk"],"address":["101 St George's Road Bristol BS1 5UP"],"description":["Young single people aged 16-21 who are homeless or at risk of homelessness and have high support needs. Local connection to Bristol required."],"name":["1625 Independent People - St George House"],"telephone":["0117 927 6600"]},{"website":["www.ability-housing.co.uk"],"email":["info@ability-housing.co.uk"],"address":["10 Southern Court South Street Reading RG1 4QS"],"description":["Floating support service for single people without dependents who need support to obtain and/or keep appropriate housing. Also offer advice and information on housing options and sources of specialist advice."],"name":["Ability Housing Association - Reading"],"telephone":["0118 956 7210"]},{"email":["simon.house@a2dominion.co.uk"],"address":["1-5 Paradise Street Oxford OX1 1LD"],"description":["Single homeless people who are vulnerable due to drug/alcohol dependency, mental health issues, learning difficulties, physical disabilities, old age. Can accept 2 couples. 6 beds for under 25s. Must have local connection."],"name":["A2Dominion - Simon House"],"telephone":["020 8825 1066"]},{"website":["www.actionhomeless.org.uk"],"email":["info@actionhomeless.org.uk"],"address":["1 Nottingham Road Leicester LE5 3TT"],"description":["Single homeless men with low to medium support needs, including drug and/or alcohol problems, mental health problems, learning difficulties and ex-offenders. Local connection to Leicester preferred."],"name":["Action Homeless - Jarvis House"],"telephone":["0116 221 1860"]},{"address":["08457 725 725 local rate"],"description":["Advice and information for serving and ex-service personnel, their families and the general public on all issues related to ex-service personnel. Subjects covered include war pensions, benevolent help, benefits, housing/care homes, training and employment, remembrance travel and guidance on tracing and research enquiries."],"name":["Legionline"],"telephone":["info@britishlegion.org.uk"]},{"address":["0808 800 4444 freephone"],"description":["Telephone advice and information for people with a housing problem or who are homeless. Issues dealt with include housing rights, harassment, illegal eviction, rent and mortgage arrears, disrepair, housing benefit, domestic violence, hostel placements and finding accommodation. Helpline open 8am-8pm Monday-Friday and 8am-5pm at weekends."],"name":["Shelter's Free Housing Advice Helpline"],"telephone":["www.shelter.org.uk"]},{"address":["0808 2000 247 freephone helpline"],"description":["Helpline for women experiencing physical, emotional or sexual violence in the home. Advice, information and support. Can refer callers to local refuges and emergency and temporary accommodation across England. Helpline website: www.nationaldomesticviolencehelpline. org.uk. Service run in partnership between Women's Aid England and Refuge."],"name":["National Domestic Violence Helpline"],"telephone":["helpline@womensaid.org.uk"]},{"address":["0800 917 1414 freephone"],"description":["24 hour helpline offering information, crisis intervention and support for anyone affected by domestic violence. The helpline acts as a referral to refuge accommodation and provides information for family members and statutory and voluntary agencies. Managed by Women's Aid Federation Northern Ireland."],"name":["Women's Aid Federation NI - 24 Hour Domestic Violence Helpline"],"telephone":["info@womensaidni.org"]},{"address":["0800 027 1234 freephone"],"description":["Information and support for those affected by domestic abuse. Calls are answered by women who have been trained in all issues relating to domestic abuse. Crisis support and a listening ear."],"name":["Scottish Domestic Abuse Helpline"],"telephone":["contactsdahelpline@yahoo.co.uk"]},{"address":["020 8896 3675 helpline"],"description":["Telephone, email and online helpline offering emotional support, run by young people for young people aged 11-19. A project of the charity Kidscape."],"name":["Youth2Youth"],"telephone":["talk@youth2youth.co.uk"]},{"name":["Advice - How can I volunteer in a project for homeless people?"]},{"name":["Advice - How can homeless people being admitted to or discharged from hospital be helped?"]},{"name":["Where to go for emergency help if you are homeless"]},{"name":["Who can help?"]},{"name":["How do I get into a hostel?"]},{"name":["Types of Accommodation on Homeless UK"]},{"name":["Types of Accommodation on Homeless UK"]},{"name":["Bookmarks"]},{"name":["Registering as a user"]},{"name":["Accommodation search - Quick"]},{"name":["Agency accounts"]},{"name":["Accommodation search - Results"]},{"name":["Notes"]},{"name":["Saved searches"]},{"name":["Links search"]},{"name":["How to use Homeless UK"]},{"name":["Accommodation search - Advanced"]},{"name":["Site search"]},{"name":["Search all services - Results"]},{"name":["Search all services"]},{"name":["Notes"]},{"name":["Saved searches"]},{"name":["Bookmarks"]},{"name":["Registering as a user"]},{"name":["Contact us"]},{"name":["Advice - Can I get private rented accommodation?"]},{"name":["Advice - What type of accommodation is available to homeless people?"]},{"name":["Advice - What support is available for ex-service personnel?"]},{"name":["Homeless UK - Which advice and support services are included?"]},{"name":["Homeless UK - Which services are not included?"]},{"name":["Homeless UK - Which hostels and accommodation projects are included?"]},{"name":["Advice - What services should I contact first if I'm homeless?"]},{"name":["Advice - How many services are there for homeless people in the UK?"]},{"name":["Advice - What non-accommodation services are available for homeless people?"]},{"name":["Advice - What support is available to people with no recourse to public funds"]},{"name":["Advice - How to get help if sleeping rough?"]},{"name":["Advice - Can I get Housing Association accommodation?"]},{"name":["Homeless UK - Why are some services for homeless families not included?"]},{"name":["Advice - Can I get Council Housing?"]},{"name":["Advice - How can I get help if I'm sleeping on a friend's floor?"]},{"name":["Advice - I've been threatened with eviction, what are my housing rights?"]},{"name":["Advice - What advice and support is there for migrants from Central and Eastern Europe?"]},{"name":["ECHG"]},{"name":["Dog's Trust"]},{"name":["St Mungo's"]},{"name":["Crisis"]},{"name":["YMCA England"]},{"name":["Novas Scarman Group"]},{"name":["Depaul Nightstop UK"]},{"name":["Centrepoint"]},{"name":["Homeless in Preston"]},{"name":["Depaul Trust"]},{"name":["North East Aid"]},{"name":["Housingnet"]},{"name":["Thames Reach"]},{"name":["Tenant Services Authority"]},{"name":["Salvation Army"]}]}
+{
+  "places": [
+    {
+      "email": [
+        "www.channelmogo.org"
+      ],
+      "address": [
+        "Youthpoint 206-210 Lower High Street Watford WD17 2EL"
+      ],
+      "description": [
+        "Advice, information and guidance on careers, employment and training opportunities for young people aged 13-19. Vacancy and placing service for local employers. Service also available at 146 Manor Way, Borehamwood, WD6 1QX, Monday-Thursday 1.30pm-4.30pm, Friday 1.30pm-4pm."
+      ],
+      "name": [
+        "Youth Connexions Herts - Watford One Stop Shop"
+      ],
+      "telephone": [
+        "01923 482828"
+      ]
+    },
+    {
+      "email": [
+        "www.eastriding.gov.uk"
+      ],
+      "address": [
+        "Youth Service County Hall Beverley HU17 9BA"
+      ],
+      "description": [
+        "Counselling and information service for 13-25 year olds. Subjects covered include alcohol, drugs, finding accommodation, homelessness and housing rights, health and sexual health, emotional problems and relationship difficulties."
+      ],
+      "name": [
+        "Youth Information Counselling Unit (YICU)"
+      ],
+      "telephone": [
+        "01482 392806"
+      ]
+    },
+    {
+      "email": [
+        "www.youthoria.org"
+      ],
+      "address": [
+        "Young People March 2-4 City Road March PE15 9LS"
+      ],
+      "description": [
+        "Support service for all 13-19 year olds. Information, advice and guidance on education and training opportunities, career planning, jobs and other issues including housing, benefits and grants, health, relationships and personal development activities."
+      ],
+      "name": [
+        "Youth Support Service - March"
+      ],
+      "telephone": [
+        "01354 750359"
+      ]
+    },
+    {
+      "email": [
+        "www.aberdeenshire.gov.uk"
+      ],
+      "address": [
+        "Woodhill House Westburn Road Aberdeen AB16 5GB"
+      ],
+      "description": [
+        "Social work head office for Aberdeenshire area. Provides criminal justice services and a range of social services for children/families, older people, people with disabilities, learning difficulties and mental health problems. Several specialist teams. Out of hours emergencies phone 0845 840 0070."
+      ],
+      "name": [
+        "Aberdeenshire Social Work - Head Office"
+      ],
+      "telephone": [
+        "01224 664999"
+      ]
+    },
+    {
+      "website": [
+        "www.ypeople.org.uk"
+      ],
+      "email": [
+        "admin@ypeople.org.uk"
+      ],
+      "address": [
+        "William Harte House 15 Dava Street Glasgow G51 2JA"
+      ],
+      "description": [
+        "Range of youth and community, residential and leisure programmes. Drop-ins, counselling services, advice and information services, group work and activities for young people. Resettlement and support team working with rough sleepers and a young adults detached project. Accommodation and support for asylum seekers."
+      ],
+      "name": [
+        "Ypeople Glasgow"
+      ],
+      "telephone": [
+        "0141 565 1200"
+      ]
+    },
+    {
+      "website": [
+        "www.actionforchildren.org.uk"
+      ],
+      "email": [
+        "genr8@actionforchildren.org.uk"
+      ],
+      "address": [
+        "Westwood Business Centre 69 Aberdalgie Road Glasgow G34 9HJ"
+      ],
+      "description": [
+        "Housing support service for 16-24 year olds who are homeless or are at risk of homelessness. Support with obtaining and securing a tenancy, help with independent living skills such as budgeting, cooking, coping with neighbours etc. Advice on education, training, finding and keeping a job. Personal and emotional support."
+      ],
+      "name": [
+        "Action for Children - GEN R 8 Project"
+      ],
+      "telephone": [
+        "0141 771 6161"
+      ]
+    },
+    {
+      "email": [
+        "www.wales.nhs.uk/sitesplus/902"
+      ],
+      "address": [
+        "Water Street Business Centre Water Street Aberafan Neath Port Talbot SA12 6LF"
+      ],
+      "description": [
+        "Advice and information for the general public about their rights as NHS users and obtaining access to local health services. Advice and assistance with making a complaint about any aspect of NHS services including hospitals, GPs, dentists, opticians."
+      ],
+      "name": [
+        "Abertawe Bro Morgannwg Community Health Council"
+      ],
+      "telephone": [
+        "01639 892271"
+      ]
+    },
+    {
+      "email": [
+        "www.youthconcern.org.uk"
+      ],
+      "address": [
+        "Uptown Coffee Bar Whitehill Lane Aylesbury Buckinghamshire HP19 8FL"
+      ],
+      "description": [
+        "Offers support to young people aged 13-25 years. Drop-in centre offers young people a safe place to meet, get a hot meal and access advice, support and guidance on a range of issues. Resources include an in-house music studio, IT suite, shower and laundry facilities. Also offer counselling services. Nightstop offers emergency host accommodation to young people aged 16-25 facing a homeless crisis."
+      ],
+      "name": [
+        "Youth Concern - Aylesbury"
+      ],
+      "telephone": [
+        "01296 431183"
+      ]
+    },
+    {
+      "website": [
+        "www.combatstress.org.uk"
+      ],
+      "email": [
+        "contactus@combatstress.org.uk"
+      ],
+      "address": [
+        "Tyrwhitt House Oaklawn Road Leatherhead Surrey KT22 0BX"
+      ],
+      "description": [
+        "Advice, support and information for ex-service and Merchant Navy men and women who have mental health problems as a direct result of their experiences in conflict. Help with war pensions, appeals, home and hospital visits, respite care. Run 3 short term treatment centres in Surrey, Shropshire and Ayrshire and a welfare office in Belfast."
+      ],
+      "name": [
+        "Ex-Services Mental Welfare Society - Combat Stress"
+      ],
+      "telephone": [
+        "0800 138 1619 helpline"
+      ]
+    },
+    {
+      "website": [
+        "www.actionforchildren.org.uk"
+      ],
+      "email": [
+        "NW.BCYP@actionforchildren.org.uk"
+      ],
+      "address": [
+        "Trinity House Breightmet Street Bolton BL2 1BR"
+      ],
+      "description": [
+        "Range of services for children and young people up the age of 21. Individual support and group work. Supported lodging scheme. Advocacy."
+      ],
+      "name": [
+        "Action for Children - Bolton Children and Young People's Service"
+      ],
+      "telephone": [
+        "01204 362002"
+      ]
+    },
+    {
+      "website": [
+        "www.northyorks.gov.uk"
+      ],
+      "email": [
+        "trax@northyorks.gov.uk"
+      ],
+      "address": [
+        "Trax@Harrogate 15-17 Station Bridge Harrogate HG1 1SP"
+      ],
+      "description": [
+        "Advice, information and guidance on careers, employment and training opportunities for young people aged 13-19. Vacancy and placing service for local employers."
+      ],
+      "name": [
+        "Youth Support Service Centre - Harrogate"
+      ],
+      "telephone": [
+        "01609 532380"
+      ]
+    },
+    {
+      "email": [
+        "aberconwywa@btconnect.com"
+      ],
+      "address": [
+        "Town Hall Lloyd Street Llandudno Conwy LL30 2UP"
+      ],
+      "description": [
+        "Advice, support and assistance for women and their children experiencing domestic violence. Referrals to refuges and other emergency accommodation. Advice and help with related legal issues, eg injunctions, housing and benefits."
+      ],
+      "name": [
+        "Aberconwy Women's Aid"
+      ],
+      "telephone": [
+        "01492 872992"
+      ]
+    },
+    {
+      "email": [
+        "www.channelmogo.org"
+      ],
+      "address": [
+        "The XC Centre Jarman Park Hemel Hempstead HP2 4JS"
+      ],
+      "description": [
+        "Advice, information and guidance on careers, employment and training opportunities for young people aged 13-19. Vacancy and placing service for local employers."
+      ],
+      "name": [
+        "Youth Connexions Herts - Hemel Hempstead One Stop Shop"
+      ],
+      "telephone": [
+        "01442 454934"
+      ]
+    },
+    {
+      "website": [
+        "www.samaritans.org"
+      ],
+      "email": [
+        "admin@samaritans.org"
+      ],
+      "address": [
+        "The Upper Mill Kingston Road Ewell Surrey KT17 2AF"
+      ],
+      "description": [
+        "Emotional support 24 hours a day for people experiencing feelings of distress or despair, including those that could lead to suicide. Support also available by email and letter."
+      ],
+      "name": [
+        "Samaritans - Head Office"
+      ],
+      "telephone": [
+        "08457 90 90 90"
+      ]
+    },
+    {
+      "website": [
+        "www.42ndstreet.org.uk"
+      ],
+      "email": [
+        "theteam@42ndstreet.org.uk"
+      ],
+      "address": [
+        "The Space 87-91 Great Ancoats Street Manchester M4 5JW"
+      ],
+      "description": [
+        "Advice, support and helpline for young people under stress or with a mental health problem. Advice on mental health, bullying, sexuality, physical or sexual abuse. Support groups, counselling, young women's groups. Projects on suicide, self harm, gay, lesbian and bisexual issues and for young men, black young people and disabled young people. Mental health team offer support in community venues."
+      ],
+      "name": [
+        "42nd Street"
+      ],
+      "telephone": [
+        "0161 228 1888 helpline"
+      ]
+    },
+    {
+      "website": [
+        "www.ypicounselling.co.uk"
+      ],
+      "email": [
+        "ypi@tesco.net"
+      ],
+      "address": [
+        "The Orchard White Hart Lane Basingstoke RG21 4AF"
+      ],
+      "description": [
+        "Counselling service for young people aged 11-25."
+      ],
+      "name": [
+        "YPI Counselling"
+      ],
+      "telephone": [
+        "01256 , 0800 910 1822"
+      ]
+    },
+    {
+      "website": [
+        "www.caox.org.uk"
+      ],
+      "email": [
+        "admin@abingdon.cabnet.org.uk"
+      ],
+      "address": [
+        "The Old Abbey House Abbey Close Abingdon Oxfordshire OX14 3JD"
+      ],
+      "description": [
+        "Advice and information on a range of issues, including benefits and welfare rights, consumer issues, employment and housing rights, legal issues, money and debt."
+      ],
+      "name": [
+        "Abingdon and District CAB"
+      ],
+      "telephone": [
+        "08444 111 444"
+      ]
+    },
+    {
+      "website": [
+        "www.abmediation.co.uk"
+      ],
+      "email": [
+        "info@abmediation.co.uk"
+      ],
+      "address": [
+        "The New Meeting House St Peter's Court Station Street Mansfield Nottinghamshire NG18 1EF"
+      ],
+      "description": [
+        "Family mediation for married or unmarried couples who are divorcing or separating and for other family members. Deal with issues relating to children, property and finance."
+      ],
+      "name": [
+        "A B Mediation"
+      ],
+      "telephone": [
+        "01623 625262"
+      ]
+    },
+    {
+      "website": [
+        "www.youthstart.org.uk"
+      ],
+      "email": [
+        "youthstart@rotherham.gov.uk"
+      ],
+      "address": [
+        "The Eric Manns Building 45 Moorgate Street Rotherham S60 2RB"
+      ],
+      "description": [
+        "Information, advice, counselling and support service for young people aged 11-25. Subjects covered include abuse, alcohol, benefits, bullying, debt, drugs, housing, relationships, sexual health, self harm, stress and young people's rights. Sexwise youth clinic Tuesdays 3.30pm-6pm. Family planning service. Limited outreach service. Appointments can be arranged outside drop-in times."
+      ],
+      "name": [
+        "Youth Start"
+      ],
+      "telephone": [
+        "01709 255266"
+      ]
+    },
+    {
+      "website": [
+        "www.bxyes.org"
+      ],
+      "email": [
+        "bxyes@hotmail.com"
+      ],
+      "address": [
+        "The Edge Bolton Street Brixham Devon TQ5 9DH"
+      ],
+      "description": [
+        "Information, advice and support service for young people. Drop-in centre. Information on a range of subjects including benefits, drugs and alcohol, education and employment, relationships, health and sexual health, legal issues, housing and finding accommodation. Counselling by appointment. Volunteering opportunities. Intergenerational woordwork and metalwork workshops. Community cafe."
+      ],
+      "name": [
+        "Youth Enquiry Service - Brixham"
+      ],
+      "telephone": [
+        "01803 851414"
+      ]
+    },
+    {
+      "website": [
+        "www.spaces.org.uk"
+      ],
+      "email": [
+        "spaces@riverside.org.uk"
+      ],
+      "address": [
+        "The Beacon Marne Road Catterick Garrison Catterick North Yorkshire DL9 3AU"
+      ],
+      "description": [
+        "Helpline for single people leaving any of the armed services with no permanent home to go to. Housing advice and help finding accommodation anywhere in the UK. Assessments carried out by phone or face-to-face. Can also offer ongoing support with moving to new accommodation, becoming homeless again or issues arising with subsequent accommodation."
+      ],
+      "name": [
+        "SPACES (Single Persons Accommodation Centre for the Ex-Services)"
+      ],
+      "telephone": [
+        "01748 833797, 872940"
+      ]
+    },
+    {
+      "website": [
+        "www.youthoria.org"
+      ],
+      "email": [
+        "connexions.stneots@cambridgeshire.gov.uk"
+      ],
+      "address": [
+        "The Bargroves Cromwell Road St Neots PE19 2EY"
+      ],
+      "description": [
+        "Support service for all 13-19 year olds. Information, advice and guidance on education and training opportunities, career planning, jobs and other issues including housing, benefits and grants, health, relationships and personal development activities."
+      ],
+      "name": [
+        "Youth Support Service - St Neots"
+      ],
+      "telephone": [
+        "01480 376298"
+      ]
+    },
+    {
+      "address": [
+        "Taylor Building Farnham Road Hospital Farnham Road Guildford Surrey GU2 5LX"
+      ],
+      "description": [
+        "Services for adults (18+) experiencing problems with alcohol or drugs. Advice, assessment, counselling and group work. Medical assessment. Detox. GP/nurse advice. Alternative therapies. Harm reduction prescribing clinics. Needle exchange. Group work and support for families and carers. Service for people with a dual diagnosis."
+      ],
+      "name": [
+        "Acorn (Guildford) - Community Drug and Alcohol Service"
+      ],
+      "telephone": [
+        "01483 450256"
+      ]
+    },
+    {
+      "website": [
+        "www.aceofclubs.org.uk"
+      ],
+      "email": [
+        "sarahmiles@aceofclubs.org.uk"
+      ],
+      "address": [
+        "St Alphonsus Road London SW4 7AS"
+      ],
+      "description": [
+        "Day centre for the homeless, vulnerable and others in need. Cheap meals, access to physical and mental health care, laundry, shower facilities. Advice on benefits and housing Monday-Friday. Advice on finding accommodation. Welfare advice. IT Suite with basic computing lessons and budgeting classes provided by CityLit and internet café sessions for online benefit claims and job searches."
+      ],
+      "name": [
+        "Ace of Clubs"
+      ],
+      "telephone": [
+        "020 7720 2811"
+      ]
+    },
+    {
+      "website": [
+        "www.aberdeencity.gov.uk"
+      ],
+      "email": [
+        "duty@aberdeencity.gov.uk"
+      ],
+      "address": [
+        "Social Work Duty Team Exchequer House 3 Exchequer Row Aberdeen AB11 5BW"
+      ],
+      "description": [
+        "Telephone and face-to-face support for women experiencing domestic abuse."
+      ],
+      "name": [
+        "Aberdeen City Council - Domestic Abuse Project"
+      ],
+      "telephone": [
+        "0845 345 6766"
+      ]
+    },
+    {
+      "website": [
+        "www.ajex.org.uk"
+      ],
+      "email": [
+        "headoffice@ajex.org.uk"
+      ],
+      "address": [
+        "Shield House Harmony Way, off Victoria Road Hendon London NW4 2BZ"
+      ],
+      "description": [
+        "Assistance in the provision of welfare services for Jewish ex-servicemen and women and their dependents. Advice on pensions and benefits. Home and hospital visits, assistance at old people's homes. Emergency and financial assistance for ex-servicemen and women and their dependants who are in need of help. Liaison with other civilian and military charities."
+      ],
+      "name": [
+        "AJEX - Association of Jewish Ex-Service Men and Women"
+      ],
+      "telephone": [
+        "020 8202 2323"
+      ]
+    },
+    {
+      "email": [
+        "pipinfo@accordha.org.uk"
+      ],
+      "address": [
+        "Rubery Owen Holdings Booth Street Darlaston WS10 8JB"
+      ],
+      "description": [
+        "People who require support around maintaining their tenancy."
+      ],
+      "name": [
+        "Accord HA - Promoting Independence Project"
+      ],
+      "telephone": [
+        "0121 568 3965"
+      ]
+    },
+    {
+      "website": [
+        "www.youngscot.org"
+      ],
+      "email": [
+        "infoline@youngscot.org"
+      ],
+      "address": [
+        "Roseberry House 9 Haymarket Terrace Edinburgh EH12 5EZ"
+      ],
+      "description": [
+        "Helpline providing information to young people aged 11-26 living in Scotland on money, health, housing and the arts."
+      ],
+      "name": [
+        "Young Scot Info Line"
+      ],
+      "telephone": [
+        "0808 801 0338 freephone"
+      ]
+    },
+    {
+      "website": [
+        "www.veterans-uk.info"
+      ],
+      "email": [
+        "veterans.help@spva.gsi.gov.uk"
+      ],
+      "address": [
+        "Room 6303 Tomlinson House Norcross Thornton Cleveleys Lancashire FY5 3WP"
+      ],
+      "description": [
+        "Single point of contact within the Ministry of Defence for veterans and their dependants seeking help, information and advice. Answer queries directly or put callers in touch with an appropriate organisation who can help. Also responsible for claims for and administration of War Disablement Pensions and War Widows Pensions, together with claims under the Armed Forces Compensation Scheme."
+      ],
+      "name": [
+        "Service Personnel and Veterans Agency Helpline"
+      ],
+      "telephone": [
+        "0800 169 2277 freephone"
+      ]
+    },
+    {
+      "website": [
+        "www.allwaleshelpline.org.uk"
+      ],
+      "email": [
+        "info@wdah.org.uk"
+      ],
+      "address": [
+        "PO Box 82 Caernarfon LL54 6ZH"
+      ],
+      "description": [
+        "Bilingual helpline for anyone experiencing any form of domestic abuse or any form of sexual violence, or who is concerned about someone they know. Support, listening and information, including possible options such as emergency refuge, face-to-face support services provided by other agencies, safety planning, police, court, housing etc."
+      ],
+      "name": [
+        "All Wales Domestic Abuse and Sexual Violence Helpline"
+      ],
+      "telephone": [
+        "0808 80 10 800"
+      ]
+    },
+    {
+      "website": [
+        "www.ywhp.org.uk"
+      ],
+      "email": [
+        "ywhp@ywhp.org.uk"
+      ],
+      "address": [
+        "PO Box 303 Sheffield S1 1YD"
+      ],
+      "description": [
+        "Vulnerable young women aged 16-25, including women who are homeless, women who have experienced sexual abuse, sexual/domestic violence, sexual exploitation and women with mental health problems. Have 4 units for women with children."
+      ],
+      "name": [
+        "Young Women's Housing Project"
+      ],
+      "telephone": [
+        "0114 268 0580"
+      ]
+    },
+    {
+      "website": [
+        "www.runawayhelpline.org.uk"
+      ],
+      "email": [
+        "runaway@missingpeople.org.uk"
+      ],
+      "address": [
+        "PO Box 28908 London SW14 7ZU"
+      ],
+      "description": [
+        "National 24 hour helpline for anyone aged 17 or under who has run away or been forced to leave home or care. Give advice, make referrals to other organisations and can help a child or young person get to a place of safety. Can also pass a message to enable them to get in touch with their family or carers."
+      ],
+      "name": [
+        "Runaway Helpline"
+      ],
+      "telephone": [
+        "116 000 freephone"
+      ]
+    },
+    {
+      "email": [
+        "youth.service@walthamforest.gov.uk"
+      ],
+      "address": [
+        "Outset Building 2a Grange Road Walthamstow London E17 8AH"
+      ],
+      "description": [
+        "Information, advice and guidance on careers, employment and training opportunities for young people aged under 20."
+      ],
+      "name": [
+        "Youth Support Service - Careers Advice and Guidance (Waltham Forest)"
+      ],
+      "telephone": [
+        "020 8496 1530"
+      ]
+    },
+    {
+      "email": [
+        "info@aberwa.org.uk"
+      ],
+      "address": [
+        "One Stop 42 Portland Road Aberystwyth SY23 2NL"
+      ],
+      "description": [
+        "Advice, support and assistance for women and children experiencing domestic violence. Referrals to refuges and other emergency accommodation. Advice and help with related legal issues, eg injunctions. Information centre 2 days a week. 24 hour telephone service."
+      ],
+      "name": [
+        "Aberystwyth Women's Aid"
+      ],
+      "telephone": [
+        "01970 625585"
+      ]
+    },
+    {
+      "email": [
+        "www.nextdoor.z2k.org"
+      ],
+      "address": [
+        "Office 6 Beethoven Centre Third Avenue London W10 4JL"
+      ],
+      "description": [
+        "Information, advice and advocacy services for households threatened with homelessness. Private rented secor access scheme open to anyone unable to access statutory assistance ie non-priority and intentionally homeless families. A 6 week deposit guarantee is available."
+      ],
+      "name": [
+        "Zaccheaus 2000 Trust - NextDoor Project"
+      ],
+      "telephone": [
+        "08088 020 508"
+      ]
+    },
+    {
+      "website": [
+        "www.aberdeenfoyer.com"
+      ],
+      "email": [
+        "enquiries@aberddeenfoyer.com"
+      ],
+      "address": [
+        "Marywell Centre Marywell Street Aberdeen AB11 6JF"
+      ],
+      "description": [
+        "Young people aged 16-25 who are homeless or at risk where they live who are committed to developing their training, education and employment opportunities. Couples accepted."
+      ],
+      "name": [
+        "Aberdeen Foyer"
+      ],
+      "telephone": [
+        "01224 212924 or 373880"
+      ]
+    },
+    {
+      "email": [
+        "www.aberdeenfoyer.com"
+      ],
+      "address": [
+        "Marywell Centre Marywell Street Aberdeen AB11 6JF"
+      ],
+      "description": [
+        "Range of services for young people aged 16-25. Supported accommodation for 16-25. Community health services, education, training and employment programmes. Work experience and volunteering opportunities. Leisure and social facilities. Courses for all age groups."
+      ],
+      "name": [
+        "Aberdeen Foyer"
+      ],
+      "telephone": [
+        "01224 212924"
+      ]
+    },
+    {
+      "email": [
+        "www.getconnectednow.co.uk"
+      ],
+      "address": [
+        "Langton Road Norton Malton YO17 9AE"
+      ],
+      "description": [
+        "Information and guidance on benefits, careers, employment and training opportunities for young people aged 11-19 (up to 25 for care leavers or those with special needs)."
+      ],
+      "name": [
+        "Youth Support Services - Malton"
+      ],
+      "telephone": [
+        "0845 034 9491"
+      ]
+    },
+    {
+      "website": [
+        "www.accordfamilymediation.co.uk"
+      ],
+      "email": [
+        "info@accord-mediation.co.uk"
+      ],
+      "address": [
+        "Lammas House School Lane Mickleham Dorking RH5 6EW"
+      ],
+      "description": [
+        "Family mediation for couples who are divorcing or separating. Deal with issues relating to children, property and finance. Service for other family members such as grandparents. Evening and Saturday appointments available. Outreach services in Barnes, Horsham, Purley, Putney and Wallington."
+      ],
+      "name": [
+        "Accord Family Mediation"
+      ],
+      "telephone": [
+        "01372 360321"
+      ]
+    },
+    {
+      "email": [
+        "www.raw4youth.com"
+      ],
+      "address": [
+        "Jules One-Stop Melton Road Oakham Rutland LE15 6AY"
+      ],
+      "description": [
+        "Information and guidance on careers, employment and training opportunities for young people aged 13-19. Young person's helpline on 0800 052 9977. Services for adults. Lincolnshire Learning Line (0800 163026) for adults. Vacancy and placing service for local employers."
+      ],
+      "name": [
+        "Youth Options Service - Oakham"
+      ],
+      "telephone": [
+        "01572 756655"
+      ]
+    },
+    {
+      "email": [
+        "www.getconnectednow.co.uk"
+      ],
+      "address": [
+        "Integrated Youth Support Otley Street Skipton BD23 1ET"
+      ],
+      "description": [
+        "Advice, information and guidance on careers, employment and training opportunities for young people aged 13-19. Vacancy and placing service for local employers."
+      ],
+      "name": [
+        "Youth Support Service Centre - Skipton"
+      ],
+      "telephone": [
+        "01609 532412"
+      ]
+    },
+    {
+      "address": [
+        "Hyndelle Lodge King Street Wigan WN2 3AW"
+      ],
+      "description": [
+        "Service for young people (up to the age of 18) who are experiencing problems or have general concerns about drugs and alcohol. One-to-one support, wide range of treatment options."
+      ],
+      "name": [
+        "Young People's Drug and Alcohol Team - Wigan"
+      ],
+      "telephone": [
+        "01942 777720"
+      ]
+    },
+    {
+      "website": [
+        "www.aberdeenshire.gov.uk"
+      ],
+      "email": [
+        "housing@aberdeenshire.gov.uk"
+      ],
+      "address": [
+        "Housing and Social Work Baltic House 51 Broad Street Peterhead AB42 1JL"
+      ],
+      "description": [
+        "General housing advice and information for private and council tenants and homeless people."
+      ],
+      "name": [
+        "Aberdeenshire Council - Housing Services (Peterhead)"
+      ],
+      "telephone": [
+        "01779 477363"
+      ]
+    },
+    {
+      "website": [
+        "www.aberdeenshire.gov.uk"
+      ],
+      "email": [
+        "housing@aberdeenshire.gov.uk"
+      ],
+      "address": [
+        "Housing and Social Work 55 Mid Street Fraserburgh AB43 9EP"
+      ],
+      "description": [
+        "General housing advice and information for private and council tenants and homeless people."
+      ],
+      "name": [
+        "Aberdeenshire Council - Housing Services (Fraserburgh)"
+      ],
+      "telephone": [
+        "01346 514866"
+      ]
+    },
+    {
+      "website": [
+        "www.aberdeenshire.gov.uk"
+      ],
+      "email": [
+        "housing@aberdeenshire.gov.uk"
+      ],
+      "address": [
+        "Housing and Social Work 32 Low Street Banff AB45 1AY"
+      ],
+      "description": [
+        "General housing advice and information for private and council tenants and homeless people."
+      ],
+      "name": [
+        "Aberdeenshire Council - Housing Services (Banff)"
+      ],
+      "telephone": [
+        "01261 813200"
+      ]
+    },
+    {
+      "website": [
+        "www.aberdeenshire.gov.uk"
+      ],
+      "email": [
+        "housing@aberdeenshire.gov.uk"
+      ],
+      "address": [
+        "Housing and Social Work 16-22 Allardice Street Stonehaven AB39 2BR"
+      ],
+      "description": [
+        "General housing advice and information for private and council tenants and homeless people."
+      ],
+      "name": [
+        "Aberdeenshire Council - Housing Services (Stonehaven)"
+      ],
+      "telephone": [
+        "01569 762001"
+      ]
+    },
+    {
+      "website": [
+        "www.action-for-change.org"
+      ],
+      "email": [
+        "reception.hh@action-for-change.org"
+      ],
+      "address": [
+        "Hanover House Marine Court St Leonards on Sea TN38 0DX"
+      ],
+      "description": [
+        "Services for adults aged 18 and over with alcohol problems. Advice and information on all aspects of alcohol related harm. Access into the service is via information and advice clinics, available throughout East Sussex - check website for latest times. Assessment. Community detox and treatment. GP advice. Access to rehab services. Individual counselling. Structured group work."
+      ],
+      "name": [
+        "Action for Change - Hastings"
+      ],
+      "telephone": [
+        "0300 111 2470"
+      ]
+    },
+    {
+      "website": [
+        "www.action-for-change.org"
+      ],
+      "email": [
+        "reception.sr@action-for-change.org"
+      ],
+      "address": [
+        "Greencoat House 32 St Leonards Road Eastbourne East Sussex BN21 3UT"
+      ],
+      "description": [
+        "Services for people experiencing problems with alcohol. Advice and information, medical assessment, referrals to detox. GP/nurse advice. Drop-in facilities. Individual counselling. Aftercare and follow-up. Service for young people. Support for partners and friends and for anyone affected by another person's alcohol use."
+      ],
+      "name": [
+        "Action for Change - Eastbourne"
+      ],
+      "telephone": [
+        "01323 721000"
+      ]
+    },
+    {
+      "address": [
+        "Gospel Hall 14 Church Walk Worksop S80 2EJ"
+      ],
+      "description": [
+        "Drop-in day centre for people in Worksop who are homeless or marginalised through debt or addiction problems. Breakfast and lunch provided. Help for rough sleepers to contact emergency accommodation providers. Shower and laundry facilities and free clothes store. Signposting to specialist services such as GPs and drug and alcohol workers. Social groups to help clients build life skills."
+      ],
+      "name": [
+        "7 Project"
+      ],
+      "telephone": [
+        "07923 109652"
+      ]
+    },
+    {
+      "website": [
+        "www.aberdeenshire.gov.uk"
+      ],
+      "email": [
+        "housing@aberdeenshire.gov.uk"
+      ],
+      "address": [
+        "Gordon House Blackhall Road Inverurie AB51 3WA"
+      ],
+      "description": [
+        "General housing advice and information for private and council tenants and homeless people."
+      ],
+      "name": [
+        "Aberdeenshire Council - Housing Services (Inverurie)"
+      ],
+      "telephone": [
+        "01467 620981"
+      ]
+    },
+    {
+      "email": [
+        "ad.team@bradford.gov.uk"
+      ],
+      "address": [
+        "Future House Bolling Road Bradford BD4 7EB"
+      ],
+      "description": [
+        "Outreach service providing advice, information and support about alcohol and drugs for young people aged under 18 and their families. Group work, one-to-one and family interventions. Alternative therapies. Referral to detox services. Self referral."
+      ],
+      "name": [
+        "Young Peoples Drug and Alcohol Service"
+      ],
+      "telephone": [
+        "01274 385506"
+      ]
+    },
+    {
+      "email": [
+        "www.acorntreatment.org"
+      ],
+      "address": [
+        "Fulstone House 130 Mile End Lane Stockport SK2 6BY"
+      ],
+      "description": [
+        "Services for adults aged 18+ experiencing problems with alcohol or drugs. Advice and information, assessment, structured day programme. Individual counselling and group work. Referrals to detox. Alternative therapies. People must be alcohol/drug free when attending groups. Support for partners and friends. Supported residential facilities."
+      ],
+      "name": [
+        "Acorn Treatment and Housing"
+      ],
+      "telephone": [
+        "0161 484 0000"
+      ]
+    },
+    {
+      "website": [
+        "www.talktofrank.com"
+      ],
+      "email": [
+        "frank@talktofrank.com"
+      ],
+      "address": [
+        "Freepost PO Box 4000 Glasgow G3 8XX"
+      ],
+      "description": [
+        "Helpline for anyone concerned about drug or solvent misuse. Advice and information for drug misusers, their families, friends, carers, and professionals. Callers from Scotland re-routed to Know the Score, phone 0800 587 5879 (website www.knowthescore.info)."
+      ],
+      "name": [
+        "FRANK"
+      ],
+      "telephone": [
+        "0800 77 66 00 freephone"
+      ]
+    },
+    {
+      "address": [
+        "Freepost PO Box 4000 Glasgow G3 8XX"
+      ],
+      "description": [
+        "Advice and information for people with alcohol problems or anyone concerned about alcohol misuse. Provide advice on sensible drinking and information on services to help people cut down on their drinking. Leaflets and literature available. Signposting to other services. Drinkline Scotland available on 0800 7314 314."
+      ],
+      "name": [
+        "Drinkline"
+      ],
+      "telephone": [
+        "0800 917 8282 freephone"
+      ]
+    },
+    {
+      "website": [
+        "www.ssafa.org.uk"
+      ],
+      "email": [
+        "info@ssafa.org.uk"
+      ],
+      "address": [
+        "Freepost PO Box 1312 Pewsey Wiltshire SN9 6NW"
+      ],
+      "description": [
+        "Telephone helpline and email support service operating 365 days a year. Listening service, support and signposting for serving or ex-serving military personnel and families. Email support via website. Support line calls from Germany on 0800 182 7395, from Cyprus on 800 91065. Call back service from anywhere in the world. Service is quite separate from Forces chain of command."
+      ],
+      "name": [
+        "SSAFA - Forces Help Confidential Support Line"
+      ],
+      "telephone": [
+        "0800 731 4880 freephone"
+      ]
+    },
+    {
+      "website": [
+        "www.youthconnexions-hertfordshire.org"
+      ],
+      "email": [
+        "feedbackyouthconnexions@hertscc.gov.uk"
+      ],
+      "address": [
+        "First Floor, Farnham House Six Hills Way Stevenage SG1 2FQ"
+      ],
+      "description": [
+        "Advice, information and guidance on careers, employment and training opportunities for young people aged 13-19. Personal development and social activities. Vacancy and placing service for young people and local employers."
+      ],
+      "name": [
+        "Youth Connexions Hertfordshire"
+      ],
+      "telephone": [
+        "01438 843690"
+      ]
+    },
+    {
+      "website": [
+        "www.youthoria.org"
+      ],
+      "email": [
+        "connexions.ely@cambridgeshire.gov.uk"
+      ],
+      "address": [
+        "Ely Library 6 The Cloisters Ely CB7 4ZH"
+      ],
+      "description": [
+        "Support service for all 13-19 year olds. Information, advice and guidance on education and training opportunities, career planning, jobs and other issues including housing, benefits and grants, health, relationships and personal development activities."
+      ],
+      "name": [
+        "Youth Support Service - Ely"
+      ],
+      "telephone": [
+        "01353 616990"
+      ]
+    },
+    {
+      "website": [
+        "www.700club.org.uk"
+      ],
+      "email": [
+        "st-georges.hall@700club.org.uk"
+      ],
+      "address": [
+        "Elmfield Street Darlington DL3 6DA"
+      ],
+      "description": [
+        "Homeless people with medium to high support needs. Priority given to applicants with a local connection to Darlington."
+      ],
+      "name": [
+        "700 Club - St George's Hall"
+      ],
+      "telephone": [
+        "01325 464385"
+      ]
+    },
+    {
+      "website": [
+        "www.a4u.org.uk"
+      ],
+      "email": [
+        "advice@a4u.org.uk"
+      ],
+      "address": [
+        "Disability Advice Centre The Guildhall Frankwell Quay Shrewsbury SY3 8HB"
+      ],
+      "description": [
+        "Information and advice for people with disabilities, their carers and professionals. Specialist help in community care, debt, housing and welfare benefits. Information on holidays and travel, housing adaptations, equipment, wheelchairs, respite care, support groups and community care issues. Access point in Telford."
+      ],
+      "name": [
+        "A4U - Action, Advice, Advocacy"
+      ],
+      "telephone": [
+        "01743 256218"
+      ]
+    },
+    {
+      "website": [
+        "www.aberdeencity.gov.uk"
+      ],
+      "email": [
+        "homeless@aberdeencity.gov.uk"
+      ],
+      "address": [
+        "Customer Service Centre Marischal College Broad Street Aberdeen AB10 1AB"
+      ],
+      "description": [
+        "Assessment of entitlement to housing for people who are homeless or threatened with homelessness. Provision of housing for people considered in priority need of housing. Temporary accommodation may be available while enquiries are made about eligibility. Out of hours emergencies phone 01224 693350."
+      ],
+      "name": [
+        "Aberdeen City Council - Homelessness Section"
+      ],
+      "telephone": [
+        "01224 522210"
+      ]
+    },
+    {
+      "website": [
+        "www.4realcountydurham.co.uk"
+      ],
+      "email": [
+        "4real@durham.gov.uk"
+      ],
+      "address": [
+        "Council Offices Green Lane Spennymoor Co Durham DL16 6JQ"
+      ],
+      "description": [
+        "Advice, support and treatment for young people under the age of 18 who have problems with drugs and/or alcohol. Specialist assessment and care planning. Pharmacological interventions. Harm minimisation. Detox. One-to-one and group support. Family support. Diversionary activities. Alcohol brief interventions."
+      ],
+      "name": [
+        "4REAL"
+      ],
+      "telephone": [
+        "03000 267567"
+      ]
+    },
+    {
+      "website": [
+        "www.harrow.gov.uk"
+      ],
+      "email": [
+        "socialservices@harrow.gov.uk"
+      ],
+      "address": [
+        "Civic 1 Civic Centre Harrow HA1 2FR"
+      ],
+      "description": [
+        "Social services assistance for adults who live in Harrow. Out of hours emergencies phone 020 8424 0999."
+      ],
+      "name": [
+        "Access Harrow - Adult Services"
+      ],
+      "telephone": [
+        "020 8901 2060"
+      ]
+    },
+    {
+      "website": [
+        "www.yourhealthsunderland.com/ydap"
+      ],
+      "email": [
+        "ydap.project@sunderland.gov.uk"
+      ],
+      "address": [
+        "Children's Centre East Old Hendon Health Centre Meaburn Terrace Sunderland SR1 2LR"
+      ],
+      "description": [
+        "Advice and information, counselling and alternative therapies for young people aged 10-18 with substance misuse issues."
+      ],
+      "name": [
+        "Youth Drug and Alcohol Project (YDAP)"
+      ],
+      "telephone": [
+        "0191 561 2852"
+      ]
+    },
+    {
+      "website": [
+        "www.anationalvoice.org"
+      ],
+      "email": [
+        "info@anationalvoice.org"
+      ],
+      "address": [
+        "Central Hall Oldham Street Manchester M1 1JQ"
+      ],
+      "description": [
+        "Service run by and for young people who are in or who are leaving care. Helps young people set up and join in local in-care and aftercare groups. Helps young people to share their experiences of the care system and suggest positive changes to the system."
+      ],
+      "name": [
+        "A National Voice (Head Office)"
+      ],
+      "telephone": [
+        "0161 237 5577"
+      ]
+    },
+    {
+      "website": [
+        "www.a1housing.co.uk"
+      ],
+      "email": [
+        "customer.services@a1housing.co.uk"
+      ],
+      "address": [
+        "Carlton Forest House 100 Acre Lane Worksop Nottinghamshire S81 0TS"
+      ],
+      "description": [
+        "General housing and benefits advice and information for private and council tenants and the general public. Council tax advice. Out of hours emergencies phone 0800 590542."
+      ],
+      "name": [
+        "A1 Housing Bassetlaw"
+      ],
+      "telephone": [
+        "0800 590542"
+      ]
+    },
+    {
+      "website": [
+        "www.childline.org.uk"
+      ],
+      "email": [
+        "reception@childline.org.uk"
+      ],
+      "address": [
+        "c/o NSPCC Weston House 42 Curtain Road London EC2A 3NH"
+      ],
+      "description": [
+        "Helpline for children and young people in danger or distress. Telephone counselling for any child with any problem. Provides support and advice and refers children in danger to appropriate helping agencies. Freepost address for children at ChildLine, Freepost NATN1111, London E1 6BR. Also runs The Line for children living away from home 0800 884444 (Mon-Fri 3.30pm-9.30pm, Sat and Sun 2pm-8pm)."
+      ],
+      "name": [
+        "ChildLine"
+      ],
+      "telephone": [
+        "0800 1111 freephone"
+      ]
+    },
+    {
+      "website": [
+        "www.1625ip.co.uk"
+      ],
+      "email": [
+        "enquiries@1625ip.co.uk"
+      ],
+      "address": [
+        "c/o Kingsley Hall 59 Old Market Street Bristol BS2 0ER"
+      ],
+      "description": [
+        "Young single people aged 16-25 with low support needs who are homeless or in housing need and have a local connection to the Bristol area. Applicants must be willing to engage with the support on offer."
+      ],
+      "name": [
+        "1625 Independent People"
+      ],
+      "telephone": [
+        "0117 317 8800"
+      ]
+    },
+    {
+      "website": [
+        "www.justhomes.org.uk"
+      ],
+      "email": [
+        "referrals@justhomes.org.uk"
+      ],
+      "address": [
+        "c/o Just Homes 5 Cooper Street Canning Town London E16 1QU"
+      ],
+      "description": [
+        "Single homeless men who are moving on from first stage hostel accommodation, mainly from the East London area. Must be willing to pursue employment and/or training opportunities. Priority given to those with a local connection."
+      ],
+      "name": [
+        "1 Cumberland Road"
+      ],
+      "telephone": [
+        "020 7473 5286"
+      ]
+    },
+    {
+      "website": [
+        "www.zimbabwecommunityassociation.org"
+      ],
+      "email": [
+        "zimcoass@yahoo.co.uk"
+      ],
+      "address": [
+        "c/o Camden BME Alliance 44 Hampstead Road London NW1 2PY"
+      ],
+      "description": [
+        "Advice and support for the Zimbabwean community, including refugees and asylum seekers and students. Interpretation and translating. Signposting to specialist advice. Range of cultural and recreational activities for children and young people. Policy lobbying and consultations."
+      ],
+      "name": [
+        "Zimbabwe Community Association"
+      ],
+      "telephone": [
+        "07809 157111"
+      ]
+    },
+    {
+      "email": [
+        "www.ability-housing.co.uk"
+      ],
+      "address": [
+        "c/o Ability Housing Asssociation 10 Southern Court South Street Reading RG1 2QS"
+      ],
+      "description": [
+        "People who are homeless or in housing need. Must have support needs and evidence of previously managing a tenancy. Prioritise applicants with a local connection to Reading."
+      ],
+      "name": [
+        "Ability HA - Shepton House"
+      ],
+      "telephone": [
+        "0118 956 7210"
+      ]
+    },
+    {
+      "email": [
+        "www.ability-housing.co.uk"
+      ],
+      "address": [
+        "c/o Ability Housing Association 10 Southern Court South St Reading RG1 4QS"
+      ],
+      "description": [
+        "People who are homeless or in housing need. Must have support needs and evidence of previously managing a tenancy. Prioritise applicants with a local connection to Reading."
+      ],
+      "name": [
+        "Ability HA - Southampton Street"
+      ],
+      "telephone": [
+        "0118 956 7210"
+      ]
+    },
+    {
+      "website": [
+        "www.a2dominion.co.uk"
+      ],
+      "email": [
+        "cityroad@a2dominion.co.uk"
+      ],
+      "address": [
+        "c/o 33 Staple Gardens Winchester SO23 8SR"
+      ],
+      "description": [
+        "Vulnerable young single homeless people aged 16-22 (will accept up to 24 year olds with a disability) with a local connection to the Winchester area."
+      ],
+      "name": [
+        "A2Dominion - City Road"
+      ],
+      "telephone": [
+        "07730 066508, 07786 516285"
+      ]
+    },
+    {
+      "address": [
+        "c/o 33 Staple Gardens Winchester SO23 8SR"
+      ],
+      "description": [
+        "Vulnerable young single homeless people with a local connection to the Winchester area."
+      ],
+      "name": [
+        "A2Dominion - Westgate Place"
+      ],
+      "telephone": [
+        "01962 840273"
+      ]
+    },
+    {
+      "email": [
+        "www.aberdeencity.gov.uk"
+      ],
+      "address": [
+        "Business Hub 3 Ground Floor South Marischal College, Broad Street Aberdeen AB10 1AB"
+      ],
+      "description": [
+        "Social work head office for Aberdeen area. Provides a range of social services for children/families, older people, people with disabilities, learning difficulties and mental health problems through several area offices. Several specialist teams. Also provides hospital based services. Out of hours emergencies phone 01224 693936."
+      ],
+      "name": [
+        "Aberdeen City Council Social Care and Wellbeing"
+      ],
+      "telephone": [
+        "01224 522000 switchboard 522055 direct"
+      ]
+    },
+    {
+      "website": [
+        "www.mod.uk/jshao"
+      ],
+      "email": [
+        "aws-jshao-mailbox@mod.uk"
+      ],
+      "address": [
+        "Building 183 Trenchard Lines Upavon Wiltshire SN9 6BE"
+      ],
+      "description": [
+        "Housing information and advice for members of the Armed Forces and their families. JSHAO gives civilian housing options advice to members of the armed forces while they are serving and when they are about to return to civilian life. JSHAO also provides help and information to ex-Service personnel who are still in Service Families’ Accommodation."
+      ],
+      "name": [
+        "Joint Service Housing Advice Office"
+      ],
+      "telephone": [
+        "01980 618925"
+      ]
+    },
+    {
+      "email": [
+        "www.cambridgeshire.net"
+      ],
+      "address": [
+        "Broad Leas Centre Broad Leas St Ives Cambridgeshire PE27 5QB"
+      ],
+      "description": [
+        "Advice, guidance and information for young people aged 13-19. Subjects covered include benefits, education and training, employment, finding accommodation, homelessness, housing rights and substance use. Sexual health information including pregnancy testing and contraception."
+      ],
+      "name": [
+        "Youth Support Service - Cambridge County Council"
+      ],
+      "telephone": [
+        "01480 398257 St Ives Locality Team"
+      ]
+    },
+    {
+      "website": [
+        "www.channelmogo.org"
+      ],
+      "email": [
+        "stevenage.onestopshop@hertscc.gov.uk"
+      ],
+      "address": [
+        "Bowes Lyon Centre St George's Way Stevenage SG1 1XY"
+      ],
+      "description": [
+        "Advice, information & guidance on careers, employment and training opportunities for young people aged 16-19 (up to 25 if you have a disability). Vacancy & placing service for local employers. Access to sexual health support & counselling services for young people. Information on alcohol & drugs, housing & other issues of concern to young people. Pregnancy testing & condom distribution service."
+      ],
+      "name": [
+        "Youth Connexions Herts - Stevenage One Stop Shop"
+      ],
+      "telephone": [
+        "01438 749147"
+      ]
+    },
+    {
+      "website": [
+        "www.aanchal.org.uk"
+      ],
+      "email": [
+        "info@aanchal.org.uk"
+      ],
+      "address": [
+        "Asian Women's Domestic Violence Project Bryant Street Community Centre Bryant Street London E15 4RU"
+      ],
+      "description": [
+        "Services for Asian women and children who have experienced domestic violence. Telephone helpline. Emotional support. Advice, practical help and casework on housing and matrimonial matters, welfare rights, benefits, referrals to solicitors. Women's health group, youth groups and empowerment programes. Online support for children (up to 18)."
+      ],
+      "name": [
+        "Aanchal Women's Aid"
+      ],
+      "telephone": [
+        "0845 451 2547 24 hour helpline"
+      ]
+    },
+    {
+      "email": [
+        "www.whatnowglos.co.uk"
+      ],
+      "address": [
+        "92-96 Westgate Street Gloucester GL1 2PE"
+      ],
+      "description": [
+        "Information and guidance on careers, employment and training opportunities for young people aged 13-19. Vacancy and placing service for local employers."
+      ],
+      "name": [
+        "Youth Support Service - Gloucester"
+      ],
+      "telephone": [
+        "01452 426900"
+      ]
+    },
+    {
+      "email": [
+        "info@abubakr.org.uk"
+      ],
+      "address": [
+        "9 Park Road North Middlesbrough TS1 3LF"
+      ],
+      "description": [
+        "Centre for the local community. Advice on education, training, employment, finding accommodation and childcare. Business centre providing advice on finding employment and starting a small business. Adult education. Social and cultural gatherings, sports, excursions for families. Library. Fax and photocopying facilities."
+      ],
+      "name": [
+        "Abu-Bakr Mosque and Community Centre"
+      ],
+      "telephone": [
+        "01642 873305"
+      ]
+    },
+    {
+      "website": [
+        "www.phoenixalcoholproject.org.uk"
+      ],
+      "email": [
+        "phoenix9oxfordroad@ntlworld.com"
+      ],
+      "address": [
+        "9 Oxford Road Colchester CO3 3HN"
+      ],
+      "description": [
+        "Support for people (18+) wanting to make changes to their alcohol use. Day care programme with groups, sessions and activities. Groups for men and women. Drop-in facilities. Structured groups, including anger management, anxiety management, assertiveness training and relapse awareness. People must be alcohol free when attending the project."
+      ],
+      "name": [
+        "9 Oxford Road Alcohol Project"
+      ],
+      "telephone": [
+        "01206 546854/503490"
+      ]
+    },
+    {
+      "website": [
+        "www.phoenixalcoholproject.org.uk"
+      ],
+      "email": [
+        "phoenix9oxfordroad@ntlworld.com"
+      ],
+      "address": [
+        "9 Oxford Road Colchester CO3 3HN"
+      ],
+      "description": [
+        "People with alcohol misuse problems who need a period of respite. Must be 'dry' and attending the project's full day care programme. Residents must have an alternative place to stay once they leave the project."
+      ],
+      "name": [
+        "9 Oxford Road Alcohol Project"
+      ],
+      "telephone": [
+        "01206 546854"
+      ]
+    },
+    {
+      "website": [
+        "www.aclc.org.uk"
+      ],
+      "email": [
+        "aclc@btconnect.com"
+      ],
+      "address": [
+        "9 Clarendon Road Hornsey London N8 0DJ"
+      ],
+      "description": [
+        "Counselling, psychotherapy & family mediation service for the African & Caribbean communities. Counselling on relationship difficulties, bereavement & other emotional problems. Support & counselling for people with problems around alcohol, drugs, mental health, sexual & physical abuse, racial harassment. Family mediation & dispute resolution. Senior citizens club, elderly daycare."
+      ],
+      "name": [
+        "ACLC Counselling Service"
+      ],
+      "telephone": [
+        "020 8881 5881"
+      ]
+    },
+    {
+      "email": [
+        "www.accordha.org.uk"
+      ],
+      "address": [
+        "87-89 Walhouse Road Walsall WS1 2BH"
+      ],
+      "description": [
+        "Single people with mental health problems who are in housing crisis and need some support to sustain a tenancy."
+      ],
+      "name": [
+        "Accord HA - Walhouse Road"
+      ],
+      "telephone": [
+        "01922 725418"
+      ]
+    },
+    {
+      "email": [
+        "www.conwy.gov.uk"
+      ],
+      "address": [
+        "74 Conway Road Colwyn Bay LL29 7LD"
+      ],
+      "description": [
+        "Integrated health and social work team providing advice, information and support for young people with drug or alcohol problems and their families."
+      ],
+      "name": [
+        "Young People's Substance Misuse Service (Colwyn Bay)"
+      ],
+      "telephone": [
+        "01492 523500"
+      ]
+    },
+    {
+      "address": [
+        "722 Leytonstone High Road London E11 3AJ"
+      ],
+      "description": [
+        "Services for young people up to the age of 19 who are using/misusing drugs and alcohol, or affected by others' drug and alcohol use/misuse. Advice and information, reduction planning, quit plans, harm reduction advice, psychosocial interventions, substitute prescribing, needle exchange. Family support."
+      ],
+      "name": [
+        "722 Young People's Substance Use Service"
+      ],
+      "telephone": [
+        "020 8496 5020"
+      ]
+    },
+    {
+      "website": [
+        "www.a2dominion.co.uk"
+      ],
+      "email": [
+        "carrick.house@a2dominion.co.uk"
+      ],
+      "address": [
+        "7 Stakes Hill Road Waterlooville PO7 7JA"
+      ],
+      "description": [
+        "Young single homeless people aged 16-24. Prioritise applicants with a local connection to Havant."
+      ],
+      "name": [
+        "A2Dominion - Carrick House"
+      ],
+      "telephone": [
+        "023 9226 6328"
+      ]
+    },
+    {
+      "website": [
+        "www.accordmediation.co.uk"
+      ],
+      "email": [
+        "info@accordmediation.co.uk"
+      ],
+      "address": [
+        "7 Princes Street Truro Cornwall TR1 2ES"
+      ],
+      "description": [
+        "Mediation to enable couples in dispute to settle their arrangements regarding children, property and finance, at the time of separation or divorce."
+      ],
+      "name": [
+        "Accord Mediation"
+      ],
+      "telephone": [
+        "01872 225022"
+      ]
+    },
+    {
+      "email": [
+        "www.youngscot.org"
+      ],
+      "address": [
+        "68-86 Scott Street Perth PH2 8JW"
+      ],
+      "description": [
+        "Information and counselling for young people. Subjects covered include health, alcohol, drugs, housing, education, benefits and employment. Use of facilities including computers, photocopier and telephone. Careers guidance session Friday 9.30am-5pm. Resource base for youth workers and issue-based youth groups. Young people's health team drop-in Monday 2.30pm-4.30pm, Saturday 1pm-4pm."
+      ],
+      "name": [
+        "Youth Services City Base (Perth)"
+      ],
+      "telephone": [
+        "01738 474580"
+      ]
+    },
+    {
+      "website": [
+        "www.sussexcentralymca.org.uk"
+      ],
+      "email": [
+        "yacservices@sussexcentralymca.org.uk"
+      ],
+      "address": [
+        "65 Blatchington Road Hove East Sussex BN3 3YJ"
+      ],
+      "description": [
+        "Drop-in advice Monday-Thursday 3pm-6pm. Housing advice and resettlement service Thursdays 3pm-6pm. Sexual health nurse available Tuesday 3pm-5.30pm. Wellbeing worker Monday 3pm-6pm."
+      ],
+      "name": [
+        "Youth Advice Centre (YAC)"
+      ],
+      "telephone": [
+        "01273 889292"
+      ]
+    },
+    {
+      "website": [
+        "www.afbp.org"
+      ],
+      "email": [
+        "central@afbp.org"
+      ],
+      "address": [
+        "53 Sandgate Street London SE15 1LE"
+      ],
+      "description": [
+        "Advice and information on visual impairment, service provision and welfare rights. Mobile information and advice service demonstrates equipment, offers advice and information. Employment services. Self contained independent flats and hotels. Visual awareness training for employers."
+      ],
+      "name": [
+        "Action for Blind People"
+      ],
+      "telephone": [
+        "0303 123 9999, 020 7635 4800"
+      ]
+    },
+    {
+      "email": [
+        "www.700club.org.uk"
+      ],
+      "address": [
+        "52-54 Grange Road Darlington DL1 5NP"
+      ],
+      "description": [
+        "Single homeless people with a local connection to Darlington."
+      ],
+      "name": [
+        "700 Club - Hope House"
+      ],
+      "telephone": [
+        "01325 350051"
+      ]
+    },
+    {
+      "website": [
+        "www.ypsf.co.uk"
+      ],
+      "email": [
+        "info@ypsf.co.uk"
+      ],
+      "address": [
+        "52 Oldham Street Manchester M4 1LE"
+      ],
+      "description": [
+        "Resource centre for young people aged 16-25. Homelessness prevention and support, including advice, information, cafe/drop-in, showers, laundry. Groupwork activities, workshops, training and volunteering opportunities. Outreach services and home visits for people unable to call in. Supported housing and resettlement services."
+      ],
+      "name": [
+        "Young People's Support Foundation - Manchester City Centre Project"
+      ],
+      "telephone": [
+        "0161 228 7654"
+      ]
+    },
+    {
+      "website": [
+        "www.youthenquiryservice.org.uk"
+      ],
+      "email": [
+        "enquiries@yeswycombe.org.uk"
+      ],
+      "address": [
+        "52 Frogmoor High Wycombe HP13 5DG"
+      ],
+      "description": [
+        "Information, advice, counselling and support for young people aged 13-25. Cover a range of subjects, including advice about rights, accommodation, money problems, relationships, pregnancy. Sexual health service offered advice and support, condoms, pregnancy and chlamydia testing."
+      ],
+      "name": [
+        "Youth Enquiry Service - High Wycombe"
+      ],
+      "telephone": [
+        "01494 437373"
+      ]
+    },
+    {
+      "website": [
+        "www.mediationnorth.org.uk"
+      ],
+      "email": [
+        "mediationnorth@actionforchildren.org.uk"
+      ],
+      "address": [
+        "4th Floor, MEA House Ellison Place Newcastle upon Tyne NE1 8XS"
+      ],
+      "description": [
+        "Helps separating or divorcing parents to reach agreement over arrangements for their children, property and finance. Also works with grandparents."
+      ],
+      "name": [
+        "Action for Children - Mediation North"
+      ],
+      "telephone": [
+        "0191 261 9212"
+      ]
+    },
+    {
+      "website": [
+        "www.accordmediation.co.uk"
+      ],
+      "email": [
+        "enquiries@accordmediation.co.uk"
+      ],
+      "address": [
+        "4th Floor, Cobourg House 32 Mayflower Street Plymouth PL1 1QX"
+      ],
+      "description": [
+        "Mediation to enable couples in dispute to settle their arrangements regarding children, property, possessions and finances, at the time of separation or divorce."
+      ],
+      "name": [
+        "Accord Mediation (Plymouth)"
+      ],
+      "telephone": [
+        "01752 226800"
+      ]
+    },
+    {
+      "email": [
+        "ypsms@gloucestershire.gov.uk"
+      ],
+      "address": [
+        "48 London Road Gloucester GL1 3NZ"
+      ],
+      "description": [
+        "Range of services for children and young people up to the age of 18 who have a problem with substances such as alcohol, solvents, cannabis and heroin. Advice and information, assessment, individual counselling, prescribing, referrals to detox services."
+      ],
+      "name": [
+        "Youth Support Team, Specialist Substance Misuse Team"
+      ],
+      "telephone": [
+        "01452 547540"
+      ]
+    },
+    {
+      "website": [
+        "www.stjohnshousing.org.uk"
+      ],
+      "email": [
+        "phoenixhouse@stjohnshousing.org"
+      ],
+      "address": [
+        "45-46 Kirkley Cliff Lowestoft NR33 0DF"
+      ],
+      "description": [
+        "Young single homeless people aged 16-25. Plus 1 emergency room for a single person aged 16-17."
+      ],
+      "name": [
+        "Access Community Trust - Phoenix House"
+      ],
+      "telephone": [
+        "01502 587061"
+      ]
+    },
+    {
+      "email": [
+        "www.a2dominion.co.uk"
+      ],
+      "address": [
+        "45 Vineyard Abingdon OX14 3NQ"
+      ],
+      "description": [
+        "Single homeless or potentially homeless people with low to medium support needs. Primary group is over 25, but will also take 18-25 year olds at risk."
+      ],
+      "name": [
+        "A2Dominion - 45 Vineyard"
+      ],
+      "telephone": [
+        "01235 526716"
+      ]
+    },
+    {
+      "website": [
+        "www.zonehousing.org.uk"
+      ],
+      "email": [
+        "info@zonehousing.org"
+      ],
+      "address": [
+        "44a Loveday Street Birmingham B4 6NP"
+      ],
+      "description": [
+        "Tenancy support for up to 2 years for adults (18+), including ex-offenders and people with substance misuse problems. Project staff visit service users weekly and provide support around living skills, benefits, dealing with disputes, securing accommodation, tenancy sustainment, rent arrears, housing rights and accessing training and employment."
+      ],
+      "name": [
+        "Zone Resettlement Services"
+      ],
+      "telephone": [
+        "0121 333 7422"
+      ]
+    },
+    {
+      "website": [
+        "www.999club.org"
+      ],
+      "email": [
+        "office@999club.org"
+      ],
+      "address": [
+        "424 Downham Way Downham Bromley BR1 5HR"
+      ],
+      "description": [
+        "Drop-in centre offering social and practical support for the homeless and those with alcohol, drug, and mental and physical health problems. Tea and toast served all day. Advice and advocacy in relation to wide range of benefit issues and support in finding housing, Tuesday and Thursday. On site consultations by other specialist agencies."
+      ],
+      "name": [
+        "999 Club - Downham Drop-in"
+      ],
+      "telephone": [
+        "020 8698 9403"
+      ]
+    },
+    {
+      "email": [
+        "bureau@aberdeencab.casonline.org.uk"
+      ],
+      "address": [
+        "41 Union Street Aberdeen AB11 5BN"
+      ],
+      "description": [
+        "Advice and information on a range of issues, including housing and welfare rights, benefits, money and debt, immigration, consumer and employment rights. Service at Aberdeen Royal Infirmary Monday and Thursday 9.30am-12.30pm. In-court advice project at Aberdeen Sheriff Court by appointment."
+      ],
+      "name": [
+        "Aberdeen CAB"
+      ],
+      "telephone": [
+        "01224 586255"
+      ]
+    },
+    {
+      "website": [
+        "www.veterans-aid.net"
+      ],
+      "email": [
+        "info@veterans-aid.net"
+      ],
+      "address": [
+        "40 Buckingham Palace Road London SW1W 0RE"
+      ],
+      "description": [
+        "Advice for homeless ex-service personnel, merchant seamen and their families. Issues dealt with include accommodation, benefits, employment, substance misuse. Provides practical help including financial grants, food vouchers, clothing, travel warrants. Also runs a hostel."
+      ],
+      "name": [
+        "Veterans Aid"
+      ],
+      "telephone": [
+        "020 7828 2468"
+      ]
+    },
+    {
+      "address": [
+        "37 Park Road Loughborough LE11 2ED"
+      ],
+      "description": [
+        "Young single homeless people aged 16-25. Priority given to those with a local connection to Charnwood."
+      ],
+      "name": [
+        "Youth Shelter"
+      ],
+      "telephone": [
+        "01509 232656"
+      ]
+    },
+    {
+      "website": [
+        "www.ypas.org.uk"
+      ],
+      "email": [
+        "support@ypas.org.uk"
+      ],
+      "address": [
+        "36 Bolton Street Liverpool L3 5LX"
+      ],
+      "description": [
+        "Advice, information and support for young people aged 10-25 in Merseyside. Cover a range of issues, including welfare benefits, housing, alcohol, drugs, sexual health. Counselling on bullying, self harm and self injury, eating disorders, anxiety. Support group for young people who self injure. Anger awareness group. Drop-in with informal group work. Personal development worker. Connexions worker."
+      ],
+      "name": [
+        "Young Person's Advisory Service"
+      ],
+      "telephone": [
+        "0151 707 1025"
+      ]
+    },
+    {
+      "email": [
+        "www.derbyshirefamilysolutions.org.uk"
+      ],
+      "address": [
+        "32a Newbold Road Chesterfield S41 7PH"
+      ],
+      "description": [
+        "Mediators assist those involved in family breakdown to communicate better and to reach decisions about the issues arising from separation or divorce. Issues include arrangements for children, such as contact and residence, distribution of money or property."
+      ],
+      "name": [
+        "Action for Children - Family Solutions (Derbyshire)"
+      ],
+      "telephone": [
+        "01246 277422"
+      ]
+    },
+    {
+      "website": [
+        "www.aberconwymind.org.uk"
+      ],
+      "email": [
+        "mind@mindaberconwy.co.uk"
+      ],
+      "address": [
+        "3 Trinity Square Llandudno Conwy LL30 2PY"
+      ],
+      "description": [
+        "Day centre for people experiencing emotional distress or mental ill health. Provides a meeting place and offers information on mental health issues, welfare benefits and local services. Range of activities and self-help groups."
+      ],
+      "name": [
+        "Aberconwy Mind"
+      ],
+      "telephone": [
+        "01492 879907"
+      ]
+    },
+    {
+      "email": [
+        "www.actionforchildren.org.uk"
+      ],
+      "address": [
+        "3 The Boulevard Ascot Road Watford WD18 8AG"
+      ],
+      "description": [
+        "Central office of Action for Children (formerly NCH). Supports vulnerable children, young people and families. Services include family and community centres, short breaks for disabled children, leaving care services and youth homelessness projects."
+      ],
+      "name": [
+        "Action for Children"
+      ],
+      "telephone": [
+        "0300 123 2112 information service"
+      ]
+    },
+    {
+      "website": [
+        "www.actionforchildren.org.uk"
+      ],
+      "email": [
+        "sharedhousing.westsuffolk@actionforchildren.org.uk"
+      ],
+      "address": [
+        "3 Abbeyfields Bury St Edmunds IP33 1AQ"
+      ],
+      "description": [
+        "Young single homeless people aged 16-21 with support needs. Priority given to people with a local connection. Must be willing to engage with the support on offer."
+      ],
+      "name": [
+        "Action for Children - West Suffolk Shared Housing"
+      ],
+      "telephone": [
+        "01284 749063"
+      ]
+    },
+    {
+      "website": [
+        "www.actionforchildren.org.uk"
+      ],
+      "email": [
+        "sperrinfloatingsupport@actionforchildren.org.uk"
+      ],
+      "address": [
+        "2a Holmview Terrace Campsie Omagh BT79 0AH"
+      ],
+      "description": [
+        "Young homeless people and care leavers. Can provide support to people with children."
+      ],
+      "name": [
+        "Action for Children - Floating Support Service"
+      ],
+      "telephone": [
+        "028 8225 9495"
+      ]
+    },
+    {
+      "website": [
+        "www.abplus.org.uk"
+      ],
+      "email": [
+        "enquiry@abplus.org.uk"
+      ],
+      "address": [
+        "29-30 Lower Essex Street Birmingham B5 6SN"
+      ],
+      "description": [
+        "Drop-in centre for people living with or affected by HIV. Peer support, individual support, Information on treatment options. Counselling. Women's group, gay men's group and mens group meet monthly. Access to other local agencies and statutory bodies on site."
+      ],
+      "name": [
+        "ABplus"
+      ],
+      "telephone": [
+        "0121 622 6471"
+      ]
+    },
+    {
+      "website": [
+        "www.youthtalk.org.uk"
+      ],
+      "email": [
+        "info@youthtalk.org.uk"
+      ],
+      "address": [
+        "28 Spencer Street St Albans Hertfordshire AL3 5EG"
+      ],
+      "description": [
+        "Counselling service for young people aged 14-25. Issues covered include family problems, depression, loneliness and isolation, sex, drugs, alcohol, bereavement, racism, bullying, eating disorders."
+      ],
+      "name": [
+        "Youth Talk"
+      ],
+      "telephone": [
+        "01727 868684"
+      ]
+    },
+    {
+      "website": [
+        "www.theabingdonbridge.org.uk"
+      ],
+      "email": [
+        "tabcentre@yahoo.co.uk"
+      ],
+      "address": [
+        "27 Bridge Street Abingdon Oxfordshire OX14 3HN"
+      ],
+      "description": [
+        "Drop-in centre offering information, support and counselling for young people aged 13-25. Subjects covered include housing, benefits, drugs and alcohol, education, sexual health, self harm. Free condoms, pregnancy testing for girls aged 16+. Computer club and internet access. CLAIT courses. Young parents service. Support around bullying and domestic violence."
+      ],
+      "name": [
+        "Abingdon Bridge"
+      ],
+      "telephone": [
+        "01235 522375"
+      ]
+    },
+    {
+      "website": [
+        "www.accommodationconcern.co.uk"
+      ],
+      "email": [
+        "accomm-concern@btconnect.com"
+      ],
+      "address": [
+        "25-26 Dalkeith Place Kettering NN16 0BS"
+      ],
+      "description": [
+        "Advice and casework for anyone with housing problems, including homelessness. Advice and assistance with finding and keeping accommodation for single homeless people and those without access to social housing. Tenancy support services in Kettering and Corby boroughs. Street outreach services."
+      ],
+      "name": [
+        "Accommodation Concern"
+      ],
+      "telephone": [
+        "01536 416560"
+      ]
+    },
+    {
+      "website": [
+        "www.9livesfurniture.org.uk"
+      ],
+      "email": [
+        "marie@9livesfurniture.org.uk"
+      ],
+      "address": [
+        "25 Wharf Lane Rickmansworth WD3 1HA"
+      ],
+      "description": [
+        "Collection and redistribution of furniture and other household items to people in need. Two tier pricing system ensures people on low incomes are supplied with goods at low cost. Furniture showroom also open to the general public."
+      ],
+      "name": [
+        "9 Lives Furniture Recycling Scheme"
+      ],
+      "telephone": [
+        "01923 718666"
+      ]
+    },
+    {
+      "website": [
+        "www.240project.org.uk"
+      ],
+      "email": [
+        "lancasterroadproject@yahoo.co.uk"
+      ],
+      "address": [
+        "240 Lancaster Road London W11 4AH"
+      ],
+      "description": [
+        "Activity centre for ex-homeless people who have been resettled in the area (especially those at risk of losing their tenancies), and for people who are vulnerable or excluded. Social activities, weekly workshops in drama, art, music, poetry, cooking. Free lunch Monday-Wednesday. Motivational group. Peer to peer education. Adult literacy."
+      ],
+      "name": [
+        "240 Project"
+      ],
+      "telephone": [
+        "020 7221 7530"
+      ]
+    },
+    {
+      "website": [
+        "www.yir.org.uk"
+      ],
+      "email": [
+        "info@yir.org.uk"
+      ],
+      "address": [
+        "23 Bell Street Romsey SO51 8GY"
+      ],
+      "description": [
+        "Drop-in centre for 11-25 year olds. Advice and information on range of issues. Drinks, snacks and free internet access. Job club and Connexions advice. Sexual health clinic Thursday 3.30-5.30pm. Support for young carers."
+      ],
+      "name": [
+        "Youth In Romsey"
+      ],
+      "telephone": [
+        "01794 500581"
+      ]
+    },
+    {
+      "website": [
+        "www.999club.org"
+      ],
+      "email": [
+        "office@999club.org"
+      ],
+      "address": [
+        "21 Deptford Broadway Deptford London SE8 4PA"
+      ],
+      "description": [
+        "Drop-in centre offering social and practical support for the homeless and those with alcohol, drug, and mental and physical health problems. Tea and toast served all day, light lunch. Laundry facilities. Advice and advocacy in relation to wide range of benefit issues and support in finding housing. Free nursery for children of disadvantaged families. On site consultations by NHS nurses."
+      ],
+      "name": [
+        "999 Club - Deptford Drop-in"
+      ],
+      "telephone": [
+        "020 8691 7734"
+      ]
+    },
+    {
+      "email": [
+        "www.youthoria.org"
+      ],
+      "address": [
+        "20 St Benedicts Court Huntingdon PE29 3PN"
+      ],
+      "description": [
+        "Support service for all 13-19 year olds. Information, advice and guidance on education and training opportunities, career planning, jobs and other issues including housing, benefits and grants, health, relationships and personal development activities."
+      ],
+      "name": [
+        "Youth Support Service - Huntingdon"
+      ],
+      "telephone": [
+        "01480 376800"
+      ]
+    },
+    {
+      "website": [
+        "www.hullcc.gov.uk"
+      ],
+      "email": [
+        "ypss.stonefield@hullcc.gov.uk"
+      ],
+      "address": [
+        "1st Floor, Stonefield House 16-20 King Edward Street Hull HU1 3SS"
+      ],
+      "description": [
+        "Support, advice and casework for young people in need, including those who are care leavers, homeless, asylum seekers, substance misusers, at risk of offending or who have physical or learning disabilities. Issues covered include accommodation, welfare rights, education and training and employment."
+      ],
+      "name": [
+        "Young People's Support Service"
+      ],
+      "telephone": [
+        "01482 331000"
+      ]
+    },
+    {
+      "website": [
+        "www.sane.org.uk"
+      ],
+      "email": [
+        "info@sane.org.uk"
+      ],
+      "address": [
+        "1st Floor, Cityside House 40 Adler Street London E1 1EE"
+      ],
+      "description": [
+        "Helpline and email service providing information and support for anyone affected by mental health problems, including families and carers."
+      ],
+      "name": [
+        "SANE Services"
+      ],
+      "telephone": [
+        "0845 767 8000 local rate"
+      ]
+    },
+    {
+      "address": [
+        "1st Floor, Bellenden Old School Bellenden Road London SE15 4DG"
+      ],
+      "description": [
+        "Support, information and signposting for South Asian, Muslim and refugee women and their children. Includes welfare rights, housing, immigration, domestic violence, health, educational opportunities and training. Interpreting service. CV preparation and help with gaining employment. Parenting support. Health and fitness class, with creche. Sewing class Friday 10am-12 noon. Summer playschemes."
+      ],
+      "name": [
+        "Aaina Women's Group"
+      ],
+      "telephone": [
+        "020 7358 0697"
+      ]
+    },
+    {
+      "website": [
+        "www.ch1.org.uk"
+      ],
+      "email": [
+        "2ndchance@ch1.org.uk"
+      ],
+      "address": [
+        "1a Weddington Terrace Nuneaton CV10 0AG"
+      ],
+      "description": [
+        "Collect donated furniture and household goods and sell them on favourable terms to people on low incomes, benefits or in financial hardship."
+      ],
+      "name": [
+        "2nd Chance Furniture Re-Use"
+      ],
+      "telephone": [
+        "024 7632 6189"
+      ]
+    },
+    {
+      "email": [
+        "abergavennycab@yahoo.co.uk"
+      ],
+      "address": [
+        "19a-19b Cross Street Abergavenny NP7 5EW"
+      ],
+      "description": [
+        "Advice and information on a range of issues, including benefits and welfare rights, consumer, employment and housing rights, money and debt. Also run the Better Advice Better Health Project (by appointment)."
+      ],
+      "name": [
+        "Abergavenny, Crickhowell and District CAB"
+      ],
+      "telephone": [
+        "0844 477 2020"
+      ]
+    },
+    {
+      "address": [
+        "199-201 Grove Street Deptford London SE8 3PG"
+      ],
+      "description": [
+        "Community centre for local residents. Information leaflets and signposting on a range of subjects, including social welfare, benefits, money and debt, housing, education, employment and health issues. Childcare services, after school clubs, health and fitness clubs. Meeting venue for older people's groups, residents' associations and youth forums. Internet access for older people."
+      ],
+      "name": [
+        "2000 Community Action Centre"
+      ],
+      "telephone": [
+        "020 8692 2760"
+      ]
+    },
+    {
+      "website": [
+        "www.170communityproject.org.uk"
+      ],
+      "email": [
+        "info@170cp.org.uk"
+      ],
+      "address": [
+        "170 New Cross Road New Cross London SE14 5AA"
+      ],
+      "description": [
+        "Community centre with a range of services and activities. Advice on benefits, housing rights, finding accommodation and employment Monday, Wednesday and Friday mornings. Domestic violence project Tuesday-Friday 9am-5pm. Health project."
+      ],
+      "name": [
+        "170 Community Project"
+      ],
+      "telephone": [
+        "020 7732 9716"
+      ]
+    },
+    {
+      "website": [
+        "www.actionforchildren.org.uk"
+      ],
+      "email": [
+        "hype@actionforchildren.org.uk"
+      ],
+      "address": [
+        "17-18 London Road Edinburgh EH7 5AT"
+      ],
+      "description": [
+        "Work with young substance users (under 18), including specialist workers for looked after and accommodated young people. Assessment for substitute prescribing, detox and support around mental health difficulties."
+      ],
+      "name": [
+        "Action for Children - HYPE (Help for Young People in Edinburgh)"
+      ],
+      "telephone": [
+        "0131 466 4600"
+      ]
+    },
+    {
+      "website": [
+        "www.youthaid.org.uk"
+      ],
+      "email": [
+        "youthaid@aol.com"
+      ],
+      "address": [
+        "17 Brownhill Road London SE6 2HG"
+      ],
+      "description": [
+        "Advice, information and support for young people (13-25) on a range of issues, including housing, finding accommodation, benefits, careers, employment. Homelessness advice Monday, Wednesday, Friday 11am-6pm. Legal advice by appointment. Advice on personal and relationship problems. Groupwork programmes. Young leadership programme. Counselling by appointment (places limited). Free condoms."
+      ],
+      "name": [
+        "Youth AID (Advice, Information, Development) Lewisham"
+      ],
+      "telephone": [
+        "020 8697 7435, 020 8697 2152"
+      ]
+    },
+    {
+      "website": [
+        "www.zerocentre.org.uk"
+      ],
+      "email": [
+        "zerocentre@aol.com"
+      ],
+      "address": [
+        "169-171 Laird Street Birkenhead CH41 0AA"
+      ],
+      "description": [
+        "Support for women, children and young people who have experienced domestic violence. Information, referrals, counselling and empowerment programmes. Access to solicitors. Youth programme for children aged 11-16. Healing programmes for children aged 5-11."
+      ],
+      "name": [
+        "Zero Centre"
+      ],
+      "telephone": [
+        "0151 670 1528"
+      ]
+    },
+    {
+      "address": [
+        "161-167 Clapham Manor Street London SW4 6DB"
+      ],
+      "description": [
+        "Advice and support for ex-service men and women from the West Indies and their dependents. Provides information and advice on subjects including benefits, pensions, welfare rights, housing. Lunch club on Thursdays providing an opportunity to socialise and play bingo, dominoes etc."
+      ],
+      "name": [
+        "West Indian Ex-Servicemen's and Women's Association"
+      ],
+      "telephone": [
+        "020 7627 0702"
+      ]
+    },
+    {
+      "website": [
+        "www.zestni.org"
+      ],
+      "email": [
+        "zestni@yahoo.co.uk"
+      ],
+      "address": [
+        "15a Queen Street Derry BT48 7EQ"
+      ],
+      "description": [
+        "Counselling and support service for people who self harm or attempt suicide. Individual and group counselling. Listening ear and telephone support. Also offer support to families and friends. Training for health professionals working in the areas of self harm and suicide."
+      ],
+      "name": [
+        "Zest"
+      ],
+      "telephone": [
+        "028 7126 6999"
+      ]
+    },
+    {
+      "website": [
+        "www.accesstoindustry.co.uk"
+      ],
+      "email": [
+        "admin@accesstoindustry.co.uk"
+      ],
+      "address": [
+        "156 Cowgate Edinburgh EH1 1RP"
+      ],
+      "description": [
+        "One-to-one support for care leavers, young offenders, adult prison leavers and recovering substance users to facilitate personal development and move on to employment, training or education. Recovering substance users can access the transition mini-college to gain accredited qualifications. Advice on matters relating to health, accommodation offending and finances."
+      ],
+      "name": [
+        "Access to Industry - Transition and Passport"
+      ],
+      "telephone": [
+        "0131 260 9721"
+      ]
+    },
+    {
+      "website": [
+        "www.actionforchildren.org.uk"
+      ],
+      "email": [
+        "bayswaterfc@actionforchildren.org.uk"
+      ],
+      "address": [
+        "14-18 Newton Road London W2 5LT"
+      ],
+      "description": [
+        "Drop-in centre for families who are homeless, on a low income, asylum seekers or refugees. Creche and drop-in play facilities for under 5s. Social work, casework. Drop-in advice on benefits, housing, childcare. Emergency welfare assistance with food and clothing. Domestic violence counselling. ESOL and computer classes. Laundry facilities, use of kitchen."
+      ],
+      "name": [
+        "Action for Children - Bayswater Families Centre"
+      ],
+      "telephone": [
+        "020 7221 3290"
+      ]
+    },
+    {
+      "address": [
+        "12 Cambrian Place Aberystwyth SY23 1NT"
+      ],
+      "description": [
+        "Advice and information on a range of issues, including benefits and welfare rights, consumer issues, employment and housing rights, legal issues, money and debt. Specialist help in debt."
+      ],
+      "name": [
+        "Aberystwyth and District CAB"
+      ],
+      "telephone": [
+        "01970 612817"
+      ]
+    },
+    {
+      "email": [
+        "ackeehousing@btconnect.com"
+      ],
+      "address": [
+        "103 Stoke Newington Road London N16 8BX"
+      ],
+      "description": [
+        "Young single homeless black women aged 17-21 with low support needs. Must have a local connection to LB Haringey. Priority to those who have been in local authority care."
+      ],
+      "name": [
+        "Ackee Housing Project"
+      ],
+      "telephone": [
+        "020 7254 5159"
+      ]
+    },
+    {
+      "website": [
+        "www.1625ip.co.uk"
+      ],
+      "email": [
+        "stgeorgeshouse@1625ip.co.uk"
+      ],
+      "address": [
+        "101 St George's Road Bristol BS1 5UP"
+      ],
+      "description": [
+        "Young single people aged 16-21 who are homeless or at risk of homelessness and have high support needs. Local connection to Bristol required."
+      ],
+      "name": [
+        "1625 Independent People - St George House"
+      ],
+      "telephone": [
+        "0117 927 6600"
+      ]
+    },
+    {
+      "website": [
+        "www.ability-housing.co.uk"
+      ],
+      "email": [
+        "info@ability-housing.co.uk"
+      ],
+      "address": [
+        "10 Southern Court South Street Reading RG1 4QS"
+      ],
+      "description": [
+        "Floating support service for single people without dependents who need support to obtain and/or keep appropriate housing. Also offer advice and information on housing options and sources of specialist advice."
+      ],
+      "name": [
+        "Ability Housing Association - Reading"
+      ],
+      "telephone": [
+        "0118 956 7210"
+      ]
+    },
+    {
+      "email": [
+        "simon.house@a2dominion.co.uk"
+      ],
+      "address": [
+        "1-5 Paradise Street Oxford OX1 1LD"
+      ],
+      "description": [
+        "Single homeless people who are vulnerable due to drug/alcohol dependency, mental health issues, learning difficulties, physical disabilities, old age. Can accept 2 couples. 6 beds for under 25s. Must have local connection."
+      ],
+      "name": [
+        "A2Dominion - Simon House"
+      ],
+      "telephone": [
+        "020 8825 1066"
+      ]
+    },
+    {
+      "website": [
+        "www.actionhomeless.org.uk"
+      ],
+      "email": [
+        "info@actionhomeless.org.uk"
+      ],
+      "address": [
+        "1 Nottingham Road Leicester LE5 3TT"
+      ],
+      "description": [
+        "Single homeless men with low to medium support needs, including drug and/or alcohol problems, mental health problems, learning difficulties and ex-offenders. Local connection to Leicester preferred."
+      ],
+      "name": [
+        "Action Homeless - Jarvis House"
+      ],
+      "telephone": [
+        "0116 221 1860"
+      ]
+    },
+    {
+      "address": [
+        "08457 725 725 local rate"
+      ],
+      "description": [
+        "Advice and information for serving and ex-service personnel, their families and the general public on all issues related to ex-service personnel. Subjects covered include war pensions, benevolent help, benefits, housing/care homes, training and employment, remembrance travel and guidance on tracing and research enquiries."
+      ],
+      "name": [
+        "Legionline"
+      ],
+      "telephone": [
+        "info@britishlegion.org.uk"
+      ]
+    },
+    {
+      "address": [
+        "0808 800 4444 freephone"
+      ],
+      "description": [
+        "Telephone advice and information for people with a housing problem or who are homeless. Issues dealt with include housing rights, harassment, illegal eviction, rent and mortgage arrears, disrepair, housing benefit, domestic violence, hostel placements and finding accommodation. Helpline open 8am-8pm Monday-Friday and 8am-5pm at weekends."
+      ],
+      "name": [
+        "Shelter's Free Housing Advice Helpline"
+      ],
+      "telephone": [
+        "www.shelter.org.uk"
+      ]
+    },
+    {
+      "address": [
+        "0808 2000 247 freephone helpline"
+      ],
+      "description": [
+        "Helpline for women experiencing physical, emotional or sexual violence in the home. Advice, information and support. Can refer callers to local refuges and emergency and temporary accommodation across England. Helpline website: www.nationaldomesticviolencehelpline. org.uk. Service run in partnership between Women's Aid England and Refuge."
+      ],
+      "name": [
+        "National Domestic Violence Helpline"
+      ],
+      "telephone": [
+        "helpline@womensaid.org.uk"
+      ]
+    },
+    {
+      "address": [
+        "0800 917 1414 freephone"
+      ],
+      "description": [
+        "24 hour helpline offering information, crisis intervention and support for anyone affected by domestic violence. The helpline acts as a referral to refuge accommodation and provides information for family members and statutory and voluntary agencies. Managed by Women's Aid Federation Northern Ireland."
+      ],
+      "name": [
+        "Women's Aid Federation NI - 24 Hour Domestic Violence Helpline"
+      ],
+      "telephone": [
+        "info@womensaidni.org"
+      ]
+    },
+    {
+      "address": [
+        "0800 027 1234 freephone"
+      ],
+      "description": [
+        "Information and support for those affected by domestic abuse. Calls are answered by women who have been trained in all issues relating to domestic abuse. Crisis support and a listening ear."
+      ],
+      "name": [
+        "Scottish Domestic Abuse Helpline"
+      ],
+      "telephone": [
+        "contactsdahelpline@yahoo.co.uk"
+      ]
+    },
+    {
+      "address": [
+        "020 8896 3675 helpline"
+      ],
+      "description": [
+        "Telephone, email and online helpline offering emotional support, run by young people for young people aged 11-19. A project of the charity Kidscape."
+      ],
+      "name": [
+        "Youth2Youth"
+      ],
+      "telephone": [
+        "talk@youth2youth.co.uk"
+      ]
+    }
+  ]
+}
