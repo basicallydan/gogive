@@ -5,6 +5,7 @@ var mongoose = require('./models');
 mongoose.connect('mongodb://localhost/gogive');
 var Place = mongoose.model('Place');
 
+
 server.listen(8080);
 
 function sfy(d) {
@@ -17,12 +18,22 @@ app.configure(function(){
 	app.use(express.cookieParser());
 });
 
-app.get('/places', logRequest, function (req, res) {
+app.get('/api/places', logRequest, function (req, res) {
 	var search = {};
 
-	if (req.query.offer) {
-		search.needs = req.query.offer.toLowerCase();
+	if (req.query.needs) {
+		search.needs = req.query.needs.toLowerCase().split(',');
 	}
+
+	if (req.query.location) {
+		var locationParts = req.query.location.split(',');
+		var circle = [ [locationParts[0], locationParts[1]], locationParts[2] ];
+		search.latLng = { $within :
+			{ $center :  circle}
+		};
+	}
+
+	console.log('Searching for: ' + JSON.stringify(search));
 
 	var query = Place.find(search);
 	var promise = query.exec();
@@ -35,7 +46,7 @@ app.get('/places', logRequest, function (req, res) {
 	});
 });
 
-app.post('/places', logRequest, function (req, res) {
+app.post('/api/places', logRequest, function (req, res) {
 	var org = new Place({
 		name: req.body.title,
 		address: req.body.address,
@@ -57,4 +68,5 @@ app.post('/places', logRequest, function (req, res) {
 
 function logRequest(req, res, next) {
 	console.log(req.method + ' request to ' + req.url);
+	next();
 }
