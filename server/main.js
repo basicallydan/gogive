@@ -1,8 +1,9 @@
 var express = require('express');
 var app = express();
 var server = require('http').createServer(app);
-var db = require('./models.js');
-var Organisation = db.Organisation;
+var mongoose = require('./models');
+mongoose.connect('mongodb://localhost/gogive');
+var Place = mongoose.model('Place');
 
 server.listen(8080);
 
@@ -38,7 +39,19 @@ app.post('/places', logRequest, function (req, res) {
 	var org = new Place({
 		name: req.body.title,
 		address: req.body.address,
-		latLng: req.body.latLng
+		latLng: req.body.latLng,
+		needs: req.body.needs,
+		telephone: req.body.telephone,
+		email: req.body.email,
+		paypalEmail: req.body.paypalEmail
+	});
+
+	org.save(function (err) {
+		if (err) {
+			return res.send(500);
+		}
+
+		return res.send(201);
 	});
 });
 

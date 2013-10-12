@@ -1,6 +1,4 @@
 var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
-mongoose.connect('mongodb://localhost/test');
 
 var Place = mongoose.model('Place', {
 	name: String,
@@ -12,6 +10,4 @@ var Place = mongoose.model('Place', {
 	paypalEmail: String
 });
 
-module.export = {
-	Place: Place
-};
+module.exports = mongoose;
