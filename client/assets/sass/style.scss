@@ -1,0 +1,11 @@
+// Compass
+@import "compass/css3";
+@import "compass/reset";
+
+// Global
+@import "_global.scss";
+@import "_headings.scss";
+
+// Components
+@import "_header.scss";
+@import "_footer.scss";
