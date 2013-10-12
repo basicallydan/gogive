@@ -1,25 +1,31 @@
 h1, h2, h3,
 h4, h5, h6 {
-	margin: 0 0 20px;
+	margin: 0 0 ($pad-lrg / 2);
 }
 
 h1 {
-	font-size: 40px;
+	font-size: 48px;
+	strong {
+		color: $color-main;
+		.admin & {
+			color: $color-admin-main;
+		}
+	}
 }
 
 h2 {
-	font-size: 36px;
+	font-size: 40px;
 }
 
 h3 {
-	font-size: 30px;
+	font-size: 36px;
 }
 
 h4 {
-	font-size: 26px;
+	font-size: 30px;
 }
 
 h5 {
-	font-size: 22px;
+	font-size: 26px;
 }
 

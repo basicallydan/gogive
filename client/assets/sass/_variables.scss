@@ -1,0 +1,24 @@
+// Default
+$color-main: #26d2ac;
+$color-body: #6e7372;
+$color-light: #ccc;
+
+// Admin
+$color-admin-main: #804cab;
+
+$pad-lrg: 20px;
+$mq-lrg: 600px;
+
+
+// micro clearfix
+@mixin cf {
+	&:before,
+	&:after {
+	    content: " ";
+	    display: table;
+	}
+
+	&:after {
+	    clear: both;
+	}
+}

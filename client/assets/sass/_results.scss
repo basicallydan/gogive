@@ -1,0 +1,39 @@
+.results {
+	@include cf;
+	
+	border-top: 1px solid $color-light;
+	margin: $pad-lrg 0 0;
+}
+
+.filter {
+	background: #f6f6f6;
+	padding: ($pad-lrg - ($pad-lrg/2)) $pad-lrg;
+}
+
+.result {
+	border-top: 1px dotted $color-light;
+	padding: $pad-lrg;
+
+	&:first-child {
+		border-top: 0;
+	}
+
+	.tags {
+		@include cf;
+		
+		li {
+			float: left;
+		}
+		
+		a {
+			display: block;
+			margin: 0 5px 5px 0;
+			padding: 4px 5px;
+			@include border-radius(3px);
+			font-size: 11px;
+			background: #eee;
+			color: #666;
+			text-decoration: none;
+		}
+	}
+}

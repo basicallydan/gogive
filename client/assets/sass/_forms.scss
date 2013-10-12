@@ -1,0 +1,99 @@
+// Form Global
+input,
+button {
+    line-height: 1;
+}
+
+
+// Text Input
+input,
+button,
+textarea,
+.btn {
+	color: #111;
+    margin: 0;
+    padding: 9px 9px 7px;
+    font-size: 16px;
+    border: 1px solid $color-light;
+    @include border-radius(0);
+    font-family: sans-serif;
+}
+
+// Checkbox & Radio
+input[type="checkbox"],
+input[type="radio"] {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+// Labels
+label {
+	margin-right: 10px;
+}
+
+// Buttons
+.btn {
+    border: 0;
+    line-height: 1;
+    margin: 0;
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    overflow: visible; /* IE7 width fix */
+    -webkit-appearance: none;
+ 	text-decoration: none;
+    text-align: center;
+    float: left;
+    @include border-radius(0);
+
+    &:hover,
+    &:focus {
+        background-color: #555
+    }
+    &:hover {
+        cursor: pointer;
+    }
+    &:focus {
+        text-decoration: underline;
+    }
+}
+
+button.btn-alt,
+input.btn-alt,
+.btn-alt {
+    background-color: $color-main;
+
+    &:hover,
+    &:focus {
+        background-color: lighten($color-main, 5%);
+    }
+
+    .admin & {
+    	background-color: $color-admin-main;
+
+	    &:hover,
+	    &:focus {
+	        background-color: lighten($color-admin-main, 5%);
+	    }
+
+    }
+}
+
+input.btn-sml,
+.btn-sml {
+    padding: 5px 8px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+// Placeholder
+// NOTE: Vendor specific selectors must remain separate
+$ph-color: #888;
+::-webkit-input-placeholder {   color: $ph-color; } /* WebKit browsers */
+:-moz-placeholder {             color: $ph-color; } /* Mozilla Firefox 4 to 18 */
+::-moz-placeholder {            color: $ph-color; } /* Mozilla Firefox 19+ */
+:-ms-input-placeholder {        color: $ph-color; } /* Internet Explorer 10+ */
