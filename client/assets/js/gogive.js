@@ -44,7 +44,7 @@ angular.module("components/hero.html", []).run(["$templateCache", function($temp
   $templateCache.put("components/hero.html",
     "<div class=\"hero\">\n" +
     "    I have\n" +
-    "        <select name=\"category\">\n" +
+    "        <select name=\"category\" ng-model=\"selectedItem\" ng-change=\"needChange(value)\">\n" +
     "            <option></option>\n" +
     "            <option>Food</option>\n" +
     "            <option>Money</option>\n" +
@@ -73,12 +73,12 @@ angular.module("components/needs.html", []).run(["$templateCache", function($tem
     "<ul class=\"needs\">\n" +
     "	<li ng-repeat=\"need in result.needs\" ng-switch on=\"isExists(need.style)\">\n" +
     "	    <div ng-switch-when=\"true\" class=\"{{need.style}}\">\n" +
-    "	        {{need}}\n" +
+    "	        {{need.description}}\n" +
     "	    </div>\n" +
-    "	    <a ng-switch-default href=\"{{need.url}}\">\n" +
-    "	        {{need}}\n" +
+    "	    <a ng-switch-default href=\"/?{{need.description}}\">\n" +
+    "	        {{need.description}}\n" +
     "	    </a>\n" +
-    "	</li>  \n" +
+    "	</li>\n" +
     "</ul>");
 }]);
 
@@ -171,7 +171,8 @@ angular.module("components/search.html", []).run(["$templateCache", function($te
     $locationProvider.html5Mode(true);
 });;goGive.controller('content', ['$scope', '$location', '$http', function($scope, $location, $http) {
 	var path = $location.$$path,
-		query = 'api/places';
+		query = 'api/places',
+		needs = [];
 
 	if(path !== '/') {
 
@@ -192,6 +193,7 @@ angular.module("components/search.html", []).run(["$templateCache", function($te
        		};
 
 	    });
+	    needs = $scope.result.needs || [];
 
 	} else {
 
@@ -212,7 +214,37 @@ angular.module("components/search.html", []).run(["$templateCache", function($te
 		    );
 		}
 
+		needs = $scope.results.needs || [];
 
+		$scope.needChange = function(value) {
+		   console.log($scope.selectedItem);
+		   console.log(value);
+		}
+
+	}
+
+	// "needs": [
+	//    {
+	//		"urgency": "emergency",
+	//		"urgency": "seeking",
+	//      "description": "food"
+	//    },
+	//    {
+	//      "urgency": "normal",
+	//      "description": "clothes"
+	//    }
+	//  ],
+
+	// Needs
+	$scope.needs = [];
+
+	for(var i = 0; i < needs.length; i++) {
+		var need = {};
+		need.description = needs[i].description;
+		if(needs[i].urgency !== 'normal') {
+			need.style = 'urgency-' + needs[i].urgency;
+		}
+		$scope.push(need);
 	}
 
 	// Helper function for use in ng-switch

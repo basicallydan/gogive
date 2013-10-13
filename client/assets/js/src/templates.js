@@ -44,7 +44,7 @@ angular.module("components/hero.html", []).run(["$templateCache", function($temp
   $templateCache.put("components/hero.html",
     "<div class=\"hero\">\n" +
     "    I have\n" +
-    "        <select name=\"category\">\n" +
+    "        <select name=\"category\" ng-model=\"selectedItem\" ng-change=\"needChange(value)\">\n" +
     "            <option></option>\n" +
     "            <option>Food</option>\n" +
     "            <option>Money</option>\n" +
@@ -73,12 +73,12 @@ angular.module("components/needs.html", []).run(["$templateCache", function($tem
     "<ul class=\"needs\">\n" +
     "	<li ng-repeat=\"need in result.needs\" ng-switch on=\"isExists(need.style)\">\n" +
     "	    <div ng-switch-when=\"true\" class=\"{{need.style}}\">\n" +
-    "	        {{need}}\n" +
+    "	        {{need.description}}\n" +
     "	    </div>\n" +
-    "	    <a ng-switch-default href=\"{{need.url}}\">\n" +
-    "	        {{need}}\n" +
+    "	    <a ng-switch-default href=\"/?{{need.description}}\">\n" +
+    "	        {{need.description}}\n" +
     "	    </a>\n" +
-    "	</li>  \n" +
+    "	</li>\n" +
     "</ul>");
 }]);
 

@@ -1,6 +1,7 @@
 goGive.controller('content', ['$scope', '$location', '$http', function($scope, $location, $http) {
 	var path = $location.$$path,
-		query = 'api/places';
+		query = 'api/places',
+		needs = [];
 
 	if(path !== '/') {
 
@@ -21,6 +22,7 @@ goGive.controller('content', ['$scope', '$location', '$http', function($scope, $
        		};
 
 	    });
+	    needs = $scope.result.needs || [];
 
 	} else {
 
@@ -41,7 +43,37 @@ goGive.controller('content', ['$scope', '$location', '$http', function($scope, $
 		    );
 		}
 
+		needs = $scope.results.needs || [];
 
+		$scope.needChange = function(value) {
+		   console.log($scope.selectedItem);
+		   console.log(value);
+		}
+
+	}
+
+	// "needs": [
+	//    {
+	//		"urgency": "emergency",
+	//		"urgency": "seeking",
+	//      "description": "food"
+	//    },
+	//    {
+	//      "urgency": "normal",
+	//      "description": "clothes"
+	//    }
+	//  ],
+
+	// Needs
+	$scope.needs = [];
+
+	for(var i = 0; i < needs.length; i++) {
+		var need = {};
+		need.description = needs[i].description;
+		if(needs[i].urgency !== 'normal') {
+			need.style = 'urgency-' + needs[i].urgency;
+		}
+		$scope.push(need);
 	}
 
 	// Helper function for use in ng-switch

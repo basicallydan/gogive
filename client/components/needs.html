@@ -1,10 +1,10 @@
 <ul class="needs">
 	<li ng-repeat="need in result.needs" ng-switch on="isExists(need.style)">
 	    <div ng-switch-when="true" class="{{need.style}}">
-	        {{need}}
+	        {{need.description}}
 	    </div>
-	    <a ng-switch-default href="{{need.url}}">
-	        {{need}}
+	    <a ng-switch-default href="/?{{need.description}}">
+	        {{need.description}}
 	    </a>
-	</li>  
+	</li>
 </ul>

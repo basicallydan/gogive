@@ -259,10 +259,13 @@ footer { padding: 10px 20px; border-top: 1px solid #cccccc; }
 /* line 1, ../sass/_locations.scss */
 .location { text-align: right; color: #aaa; }
 
+/* line 6, ../sass/_locations.scss */
+.website { word-wrap: break-word; }
+
 /* line 2, ../sass/_donations.scss */
-.donations-wanted, .donations-urgent { color: #fff; padding: 5px 10px; background-color: #5d86ee; }
+.urgency-seeking, .urgency-emergency { color: #fff; padding: 5px 10px; background-color: #5d86ee; }
 /* line 7, ../sass/_donations.scss */
-.needs .donations-wanted, .needs .donations-urgent { margin-top: -5px; }
+.needs .urgency-seeking, .needs .urgency-emergency { margin-top: -5px; }
 
 /* line 12, ../sass/_donations.scss */
-.donations-urgent { background-color: #d81c1c; }
+.urgency-emergency { background-color: #d81c1c; }

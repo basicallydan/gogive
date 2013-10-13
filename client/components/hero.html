@@ -1,6 +1,6 @@
 <div class="hero">
     I have
-        <select name="category">
+        <select name="category" ng-model="selectedItem" ng-change="needChange(value)">
             <option></option>
             <option>Food</option>
             <option>Money</option>
