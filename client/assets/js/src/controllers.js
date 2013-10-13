@@ -8,7 +8,7 @@ goGive.controller('content', ['$scope', '$location', '$http', function($scope, $
 		// Details
 	    $scope.result = {};
 
-	    query += path;
+	    query = 'api/places' + path;
 	    $http.get(query).then(function(res){
 
 	       	// Update page
@@ -45,24 +45,16 @@ goGive.controller('content', ['$scope', '$location', '$http', function($scope, $
 
 		needs = $scope.results.needs || [];
 
-		$scope.needChange = function(value) {
-		   console.log($scope.selectedItem);
-		   console.log(value);
+		$scope.needChange = function() {
+
+		   	$scope.results = {};
+		   	query = 'api/places?needs=' + this.selectedItem;
+		   	$http.get(query).then(function(res){
+				$scope.results = res.data.places;
+		    });
 		}
 
 	}
-
-	// "needs": [
-	//    {
-	//		"urgency": "emergency",
-	//		"urgency": "seeking",
-	//      "description": "food"
-	//    },
-	//    {
-	//      "urgency": "normal",
-	//      "description": "clothes"
-	//    }
-	//  ],
 
 	// Needs
 	$scope.needs = [];
