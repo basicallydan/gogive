@@ -9,9 +9,18 @@ goGive.controller('content', ['$scope', '$location', '$http', function($scope, $
 
 	    query += path;
 	    $http.get(query).then(function(res){
-	       console.log(res.data);
-	       $scope.result = res.data;
-	   	});
+
+	       	// Update page
+	       	$scope.result = res.data;
+
+	   	}, function(res) {
+
+	    	// Abuse our name placeholder for the error
+       		$scope.result = {
+       			name: res.data
+       		};
+
+	    });
 
 	} else {
 
@@ -20,7 +29,7 @@ goGive.controller('content', ['$scope', '$location', '$http', function($scope, $
 		// Results
 		$scope.results = [];
 		$http.get(query).then(function(res){
-	       $scope.results = res.data;
+	       $scope.results = res.data.places;
 	   	});
 
 	   	// Pagination
