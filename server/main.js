@@ -101,8 +101,10 @@ app.get('/api/places', logRequest, function (req, res) {
 	var search = {};
 
 	if (req.query.needs) {
-		search.needs = req.query.needs.toLowerCase().split(',');
+		search.needs = { $all: req.query.needs.toLowerCase().split(',') };
 	}
+
+	console.log('Search is ', search);
 
 	if (req.query.location) {
 		var locationParts = req.query.location.split(',');
