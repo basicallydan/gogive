@@ -1,28 +1,33 @@
 goGive.controller('content', ['$scope', '$location', '$http', function($scope, $location, $http) {
 	var path = $location.$$path,
 		query = 'api/places',
-		needs = [];
+		needs = [],
+		currentLocation = [51.5072, 0.1275];
+
+	navigator.geolocation.getCurrentPosition(function(position) {
+		currentLocation = [position.coords.latitude, position.coords.longitude];
+	});
 
 	if(path !== '/') {
 
 		// Details
-	    $scope.result = {};
+		$scope.result = {};
 
-	    query = 'api/places' + path;
-	    $http.get(query).then(function(res){
+		query = 'api/places' + path;
+		$http.get(query).then(function(res){
 
-	       	// Update page
-	       	$scope.result = res.data;
+			// Update page
+			$scope.result = res.data;
 
-	   	}, function(res) {
+		}, function(res) {
 
-	    	// Abuse our name placeholder for the error
-       		$scope.result = {
-       			name: res.data
-       		};
+			// Abuse our name placeholder for the error
+			$scope.result = {
+				name: res.data
+			};
 
-	    });
-	    needs = $scope.result.needs || [];
+		});
+		needs = $scope.result.needs || [];
 
 	} else {
 
@@ -31,28 +36,28 @@ goGive.controller('content', ['$scope', '$location', '$http', function($scope, $
 		// Results
 		$scope.results = [];
 		$http.get(query).then(function(res){
-	       $scope.results = res.data.places;
-	   	});
+			$scope.results = res.data.places;
+		});
 
-	   	// Pagination
+		// Pagination
 		$scope.currentPage = 0;
 		$scope.pageSize = 10;
 		$scope.numberOfPages = function(){
-		    return Math.ceil(
-		        $scope.results.length / $scope.pageSize
-		    );
-		}
+			return Math.ceil(
+				$scope.results.length / $scope.pageSize
+			);
+		};
 
 		needs = $scope.results.needs || [];
 
 		$scope.needChange = function() {
 
-		   	$scope.results = {};
-		   	query = 'api/places?needs=' + this.selectedItem;
-		   	$http.get(query).then(function(res){
+			$scope.results = {};
+			query = 'api/places?needs=' + this.selectedItem + '&location=' + currentLocation[0] + ',' + currentLocation[1] + ',' + 10;
+			$http.get(query).then(function(res){
 				$scope.results = res.data.places;
-		    });
-		}
+			});
+		};
 
 	}
 
@@ -70,7 +75,7 @@ goGive.controller('content', ['$scope', '$location', '$http', function($scope, $
 
 	// Helper function for use in ng-switch
 	$scope.isExists = function(item) {
-	    return !(typeof item == 'undefined');
+		return !(typeof item == 'undefined');
 	};
 
 }]);

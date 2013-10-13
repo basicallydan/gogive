@@ -1,0 +1,1 @@
+curl -X POST http://gogive.co/api/places/525a4aff7c11a6dde9000002/notification -H "Content-Type:application/json" -d '{}'
