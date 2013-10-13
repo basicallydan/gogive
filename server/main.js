@@ -20,6 +20,10 @@ function sfy(d) {
 	return JSON.stringify(d, null, 2);
 }
 
+function isArray(o) {
+	return typeof o !== 'undefined' && typeof o === 'Array';
+}
+
 app.configure(function(){
 	// Middleware for static file requests
 	app.use('/assets', express.static(path.join(clientPath, '/assets')));
@@ -31,29 +35,40 @@ app.configure(function(){
 });
 
 app.put('/api/places/:id', logRequest, function (req, res) {
+	console.log('Updaating ' + req.params.id);
 	var query = Place.findById(req.params.id);
 	var promise = query.exec();
 	promise.addBack(function (err, place) {
 		if (err) {
 			return res.send(500, err);
 		}
+		console.log(req.body);
 
 		if (req.body.urgency) {
 			var i;
-			if (req.body.urgency.normal) {
+			if (isArray(req.body.urgency.normal)) {
 				for (i = req.body.urgency.normal.length - 1; i >= 0; i--) {
-					place.setUrgencyOfNeed('normal', req.body.urgency.normal[i]);
+					place.setUrgencyOfNeed(req.body.urgency.normal[i], 'normal');
 				}
+			} else if (req.body.urgency.normal) {
+				place.setUrgencyOfNeed(req.body.urgency.normal, 'normal');
 			}
-			if (req.body.urgency.seeking) {
+
+			if (isArray(req.body.urgency.seeking)) {
 				for (i = req.body.urgency.seeking.length - 1; i >= 0; i--) {
-					place.setUrgencyOfNeed('seeking', req.body.urgency.seeking[i]);
+					place.setUrgencyOfNeed(req.body.urgency.seeking[i], 'seeking');
 				}
+			} else if (req.body.urgency.seeking) {
+				place.setUrgencyOfNeed(req.body.urgency.seeking, 'seeking');
 			}
-			if (req.body.urgency.emergency) {
+
+			if (isArray(req.body.urgency.emergency)) {
 				for (i = req.body.urgency.emergency.length - 1; i >= 0; i--) {
-					place.setUrgencyOfNeed('emergency', req.body.urgency.emergency[i]);
+					console.log('Setting ' + req.body.urgency.emergency[i] + ' to emergency');
+					place.setUrgencyOfNeed(req.body.urgency.emergency[i], 'emergency');
 				}
+			} else if (req.body.urgency.emergency) {
+				place.setUrgencyOfNeed(req.body.urgency.emergency, 'emergency');
 			}
 
 			place.save(function (err) {
@@ -82,29 +97,24 @@ app.get('/api/places', logRequest, function (req, res) {
 		};
 	}
 
-	console.log('Searching for: ' + JSON.stringify(search));
-
 	var query = Place.find(search);
 	var promise = query.exec();
 	promise.addBack(function (err, places) {
 		if (err) {
 			return res.send(500, err);
 		}
+		var placeModels = [];
+		var placeModel;
 
-		var place = places[0];
-		if (place.urgency.seeking) {
-			for (var i = place.needs.length - 1; i >= 0; i--) {
-				if (place.urgency.emergency.indexOf(place.needs[i]) !== -1) {
-					place.needs[i] = { description: place.needs[i], urgency: 'emergency' };
-				} else if (place.urgency.seeking.indexOf(place.needs[i]) !== -1) {
-					place.needs[i] = { description: place.needs[i], urgency: 'seeking' };
-				} else {
-					place.needs[i] = { description: place.needs[i], urgency: 'normal' };
-				}
-			}
+		for (var i = places.length - 1; i >= 0; i--) {
+			placeModel = places[i];
+			placeModel.needs = places[i].getNeedsAsObjects();
+			placeModels.push(placeModel);
 		}
 
-		return res.send(200, place);
+		return res.send(200, {
+			places: placeModels
+		});
 	});
 });
 
