@@ -19,18 +19,35 @@ function checkIfDone() {
 	}
 }
 
-function getGeocodedAddress(place) {
+function getGeocodedAddress(place, count) {
 	function save() {
 		place.save(function() {
 			checkIfDone();
 		});
 	}
-	if (place.address) {
-		client.get('/maps/api/geocode/json?address=14+langdon+court,+EC1V+1LH&sensor=false', function(err, res, body) {
-			return console.log(res.body);
-		});
+	if (place.address && count > 0) {
+		setTimeout(function () {
+			var address = encodeURIComponent(place.address);
+			var requestURI = '/maps/api/geocode/json?address=' + address + '&sensor=false';
+			console.log('Requesting ' + requestURI);
+			client.get(requestURI, function(err, res, body) {
+				if ((body.status && body.status !== 'OK') || !body.results || body.results.length === 0) {
+					console.log('Retrying ' + requestURI);
+					return getGeocodedAddress(place, count - 1);
+				}
+
+				if (body.results && body.results[0] && body.results[0].geometry) {
+					place.location = [body.results[0].geometry.location.lat, body.results[0].geometry.location.lng];
+					return save();
+				}
+
+				console.log('Retrying ' + requestURI);
+				return getGeocodedAddress(place, count - 1);
+			});
+		}, 1000);
 	} else {
 		place.location = [51.5072, 0.1275];
+		save();
 	}
 }
 
@@ -43,6 +60,6 @@ promise.addBack(function (err, places) {
 	totalPlaces = 2;
 
 	places.forEach(function (place, i) {
-		getGeocodedAddress(place);
+		getGeocodedAddress(place, 3);
 	});
 });
