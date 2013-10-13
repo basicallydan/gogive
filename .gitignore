@@ -20,4 +20,6 @@ config/config.json
 
 .DS_Store
 
+client/assets/js/gogive.js
 client/assets/js/goGive.min.js
+client/assets/js/src/templates.js
