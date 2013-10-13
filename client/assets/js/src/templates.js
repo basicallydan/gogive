@@ -48,7 +48,7 @@ angular.module("components/hero.html", []).run(["$templateCache", function($temp
   $templateCache.put("components/hero.html",
     "<div class=\"hero\">\n" +
     "    I have\n" +
-    "        <select name=\"category\" ng-model=\"selectedItem\" ng-change=\"needChange(value)\">\n" +
+    "        <select name=\"category\" ng-model=\"selectedItem\" ng-change=\"needChange()\">\n" +
     "            <option></option>\n" +
     "            <option>Food</option>\n" +
     "            <option>Money</option>\n" +

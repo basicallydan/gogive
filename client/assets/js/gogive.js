@@ -48,7 +48,7 @@ angular.module("components/hero.html", []).run(["$templateCache", function($temp
   $templateCache.put("components/hero.html",
     "<div class=\"hero\">\n" +
     "    I have\n" +
-    "        <select name=\"category\" ng-model=\"selectedItem\" ng-change=\"needChange(value)\">\n" +
+    "        <select name=\"category\" ng-model=\"selectedItem\" ng-change=\"needChange()\">\n" +
     "            <option></option>\n" +
     "            <option>Food</option>\n" +
     "            <option>Money</option>\n" +
@@ -183,7 +183,7 @@ angular.module("components/search.html", []).run(["$templateCache", function($te
 		// Details
 	    $scope.result = {};
 
-	    query += path;
+	    query = 'api/places' + path;
 	    $http.get(query).then(function(res){
 
 	       	// Update page
@@ -220,24 +220,16 @@ angular.module("components/search.html", []).run(["$templateCache", function($te
 
 		needs = $scope.results.needs || [];
 
-		$scope.needChange = function(value) {
-		   console.log($scope.selectedItem);
-		   console.log(value);
+		$scope.needChange = function() {
+
+		   	$scope.results = {};
+		   	query = 'api/places?needs=' + this.selectedItem;
+		   	$http.get(query).then(function(res){
+				$scope.results = res.data.places;
+		    });
 		}
 
 	}
-
-	// "needs": [
-	//    {
-	//		"urgency": "emergency",
-	//		"urgency": "seeking",
-	//      "description": "food"
-	//    },
-	//    {
-	//      "urgency": "normal",
-	//      "description": "clothes"
-	//    }
-	//  ],
 
 	// Needs
 	$scope.needs = [];
