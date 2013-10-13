@@ -32,3 +32,13 @@
 		}
 	}
 }
+
+.pagination {
+	@include cf;
+	padding: 20px;
+	text-align: center;
+	.btn {
+		float: none;
+		display: inline-block;
+	}
+}

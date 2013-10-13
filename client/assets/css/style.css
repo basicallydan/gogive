@@ -226,6 +226,15 @@ footer { padding: 10px 20px; border-top: 1px solid #cccccc; }
 /* line 28, ../sass/_results.scss */
 .result .head .btn { position: absolute; right: 0; top: 3px; }
 
+/* line 36, ../sass/_results.scss */
+.pagination { padding: 20px; text-align: center; }
+/* line 16, ../sass/_variables.scss */
+.pagination:before, .pagination:after { content: " "; display: table; }
+/* line 21, ../sass/_variables.scss */
+.pagination:after { clear: both; }
+/* line 40, ../sass/_results.scss */
+.pagination .btn { float: none; display: inline-block; }
+
 /* line 1, ../sass/_details.scss */
 .details { padding: 20px; }
 /* line 16, ../sass/_variables.scss */

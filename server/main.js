@@ -23,6 +23,7 @@ function sfy(d) {
 app.configure(function(){
 	// Middleware for static file requests
 	app.use('/assets', express.static(path.join(clientPath, '/assets')));
+	app.use('/components', express.static(path.join(clientPath, '/components')));
 
 	// Middleware for API requests
 	app.use('/api', express.bodyParser());

@@ -1,15 +1,17 @@
 <div class="results" ng-controller="results">
-    <div class="filter"></div>
+    <div class="filter">
+        {{results.length}} Results
+    </div>
 
     <h2 class="access">Results</h2>
 
     <div class="results-list">
-        <div class="result" ng-repeat="result in results">
+        <div class="result" ng-repeat="result in results | startFrom: currentPage * pageSize | limitTo: pageSize">
             <div class="head">
                 <h3>
-                    <a href="{{result.url}}">{{result.name}}</a>
+                    <a href="/{{result.publicId}}">{{result.name}}</a>
                 </h3>
-                <a href="details.html" class="btn btn-sml">
+                <a href="/{{result.publicId}}" class="btn btn-sml">
                     Give &#187;
                 </a>
             </div>
@@ -38,7 +40,7 @@
                     <div class="pad location">
 
                         <h4 class="access">Location</h4>
-                        <p>{{result.address}}</p>
+                        <p ng-show="isExists(result.address)" ng-bind-html-unsafe="result.address"></p>
                         <div class="website">
                             <a href="{{result.website}}">
                                 {{result.website}}
@@ -49,5 +51,21 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="pagination" ng-show="numberOfPages() > 1">
+        <button
+            ng-disabled="currentPage == 0"
+            ng-click="currentPage=currentPage-1"
+            class="btn btn-alt">
+            Previous
+        </button>
+        {{currentPage + 1}} / {{numberOfPages()}}
+        <button
+            ng-disabled="currentPage >= numberOfPages() - 1"
+            ng-click="currentPage=currentPage+1"
+            class="btn btn-alt">
+            Next
+        </button>
     </div>
 </div>
