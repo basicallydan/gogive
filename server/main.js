@@ -82,6 +82,21 @@ app.put('/api/places/:id', logRequest, function (req, res) {
 	});
 });
 
+function buildPlaceView(place) {
+	var placeView = place;
+	var needs = [];
+	for (var i = place.needs.length - 1; i >= 0; i--) {
+		if (place.hasNeedWithUrgency(place.needs[i], 'emergency')) {
+			placeView.needs[i] = { description: place.needs[i], urgency: 'emergency' };
+		} else if (place.hasNeedWithUrgency(place.needs[i], 'seeking')) {
+			placeView.needs[i] = { description: place.needs[i], urgency: 'seeking' };
+		} else {
+			placeView.needs[i] = { description: place.needs[i], urgency: 'normal' };
+		}
+	}
+	return placeView;
+}
+
 app.get('/api/places', logRequest, function (req, res) {
 	var search = {};
 
@@ -103,18 +118,31 @@ app.get('/api/places', logRequest, function (req, res) {
 		if (err) {
 			return res.send(500, err);
 		}
-		var placeModels = [];
-		var placeModel;
+		var placeViews = [];
 
 		for (var i = places.length - 1; i >= 0; i--) {
-			placeModel = places[i];
-			placeModel.needs = places[i].getNeedsAsObjects();
-			placeModels.push(placeModel);
+			placeViews.push(buildPlaceView(places[i]));
 		}
 
 		return res.send(200, {
-			places: placeModels
+			places: placeViews
 		});
+	});
+});
+
+app.get('/api/places/:publicId', logRequest, function (req, res) {
+	var publicId = req.params.publicId;
+	var placeQuery = Place.find({ publicId : publicId });
+	var promise = placeQuery.exec();
+	promise.addBack(function (err, places) {
+		if (err) {
+			return res.send(400);
+		}
+		if (!places || places.length === 0) {
+			return res.send(404);
+		}
+
+		res.send(200, buildPlaceView(places[0]));
 	});
 });
 

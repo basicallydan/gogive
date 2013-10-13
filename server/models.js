@@ -77,11 +77,11 @@ PlaceSchema.methods.getNeedsAsObjects = function () {
 	var needs = [];
 	for (var i = this.needs.length - 1; i >= 0; i--) {
 		if (this.hasNeedWithUrgency(this.needs[i], 'emergency')) {
-			needs[i] = { description: this.needs[i], urgency: 'emergency' };
+			needs.push({ description: this.needs[i], urgency: 'emergency' });
 		} else if (this.hasNeedWithUrgency(this.needs[i], 'seeking')) {
-			needs[i] = { description: this.needs[i], urgency: 'seeking' };
+			needs.push({ description: this.needs[i], urgency: 'seeking' });
 		} else {
-			needs[i] = { description: this.needs[i], urgency: 'normal' };
+			needs.push({ description: this.needs[i], urgency: 'normal' });
 		}
 	}
 	return needs;
