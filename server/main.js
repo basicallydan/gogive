@@ -30,6 +30,43 @@ app.configure(function(){
 	app.use(express.cookieParser());
 });
 
+app.put('/api/places/:id', logRequest, function (req, res) {
+	var query = Place.findById(req.params.id);
+	var promise = query.exec();
+	promise.addBack(function (err, place) {
+		if (err) {
+			return res.send(500, err);
+		}
+
+		if (req.body.urgency) {
+			var i;
+			if (req.body.urgency.normal) {
+				for (i = req.body.urgency.normal.length - 1; i >= 0; i--) {
+					place.setUrgencyOfNeed('normal', req.body.urgency.normal[i]);
+				}
+			}
+			if (req.body.urgency.seeking) {
+				for (i = req.body.urgency.seeking.length - 1; i >= 0; i--) {
+					place.setUrgencyOfNeed('seeking', req.body.urgency.seeking[i]);
+				}
+			}
+			if (req.body.urgency.emergency) {
+				for (i = req.body.urgency.emergency.length - 1; i >= 0; i--) {
+					place.setUrgencyOfNeed('emergency', req.body.urgency.emergency[i]);
+				}
+			}
+
+			place.save(function (err) {
+				if (err) {
+					return res.send(400, err);
+				}
+
+				return res.send(200, place);
+			});
+		}
+	});
+});
+
 app.get('/api/places', logRequest, function (req, res) {
 	var search = {};
 
@@ -49,12 +86,25 @@ app.get('/api/places', logRequest, function (req, res) {
 
 	var query = Place.find(search);
 	var promise = query.exec();
-	promise.addBack(function (err, docs) {
+	promise.addBack(function (err, places) {
 		if (err) {
 			return res.send(500, err);
 		}
 
-		return res.send(200, docs);
+		var place = places[0];
+		if (place.urgency.seeking) {
+			for (var i = place.needs.length - 1; i >= 0; i--) {
+				if (place.urgency.emergency.indexOf(place.needs[i]) !== -1) {
+					place.needs[i] = { description: place.needs[i], urgency: 'emergency' };
+				} else if (place.urgency.seeking.indexOf(place.needs[i]) !== -1) {
+					place.needs[i] = { description: place.needs[i], urgency: 'seeking' };
+				} else {
+					place.needs[i] = { description: place.needs[i], urgency: 'normal' };
+				}
+			}
+		}
+
+		return res.send(200, place);
 	});
 });
 
