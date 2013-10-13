@@ -186,9 +186,8 @@ app.post('/api/places/:id/subscribe', logRequest, function (req, res) {
 
 // This is the one that Twilio hits
 app.post('/api/twilio-subscription/places', logRequest, function (req, res) {
-	console.log('The FUCKING BODY IS ' + JSON.stringify(req.body));
 	var phoneNumber = req.body.From;
-	var publicId = req.body.Body;
+	var publicId = req.body.Body.replace(/[^A-Za-z0-9]/g, '');
 	var placeQuery = Place.find({ publicId : publicId });
 	var promise = placeQuery.exec();
 	promise.addBack(function (err, places) {
@@ -231,26 +230,22 @@ app.post('/api/places/:id/notification', logRequest, function (req, res) {
 	var promise = placeQuery.exec();
 	promise.addBack(function (err, place) {
 		console.log(place);
+		if (place.phoneSubscribers.length === 0) {
+			return res.send(201);
+		}
 		for (var i = place.phoneSubscribers.length - 1; i >= 0; i--) {
 			sendNotificationOnBehalfOfPlace(place, place.phoneSubscribers[i], function(error, message) {
-				// The HTTP request to Twilio will run asynchronously. This callback
-				// function will be called when a response is received from Twilio
-				// The "error" variable will contain error information, if any.
-				// If the request was successful, this value will be "falsy"
 				if (!error) {
-					// The second argument to the callback will contain the information
-					// sent back by Twilio for the request. In this case, it is the
-					// information about the text messsage you just sent:
 					console.log('Success! The SID for this SMS message is:');
 					console.log(message.sid);
 					 
 					console.log('Message sent on:');
 					console.log(message.dateCreated);
 
-					res.send(201);
+					return res.send(201);
 				} else {
 					console.log('Oops! There was an error. ', error);
-					res.send(400);
+					return res.send(400);
 				}
 			});
 		}
