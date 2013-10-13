@@ -11,9 +11,8 @@
 
     <div class="grid">
         <div class="col w-66">
-            <div class="pad">
 
-                <h3 class="access">Needs</h3>
+            <h3 class="access">Needs</h3>
 
                 <div ng-include src="'/components/needs.html'"></div>
                 <div class="description">
@@ -24,20 +23,18 @@
                         <script src="/assets/js/libs/paypal-bugitton.min.js?merchant=daniel.hough-facilitator@gmail.com" data-button="donate"></script>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="col w-33">
-            <div class="pad">
-
-                <div class="location">
-                    <h3 class="access">Location</h4>
-                    <div ng-include src="'/components/location.html'"></div>
-                </div>
 
             </div>
+
+            <div class="location">
+                <h3 class="access">Location</h3>
+                <div ng-include src="'/components/location.html'"></div>
+            </div>
         </div>
+
         <div class="col w-100">
             <p class="subscribe-number">Text <strong>#{{result.publicId}}</strong> to <strong>01443 606 412</strong> to subscribe to updates</p>
         </div>
+
     </div>
 </div>
