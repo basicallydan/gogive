@@ -38,13 +38,6 @@
                     {{result.description}}
                 </p>
 
-                </div>
-                <div ng-switch on="isExists(result.paypalEmail)">
-                    <div ng-switch-when="true">
-                        <script src="/assets/js/libs/paypal-button.min.js?merchant=daniel.hough-facilitator@gmail.com" data-button="donate"></script>
-                    </div>
-                </div>
-
                 <div class="location">
                     <h3 class="access">Location</h3>
                     <div ng-include src="'/components/location.html'"></div>
