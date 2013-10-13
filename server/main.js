@@ -10,6 +10,7 @@ var twilio = require('twilio');
 var applicationRoot = __dirname;
 var clientPath = path.join(applicationRoot, '/../client');
 var indexPath = path.join(applicationRoot, '/../client/index.html');
+var geoDistance = require('./geoDistance');
  
 // Create a new REST API client to make authenticated requests against the
 // twilio back end
@@ -35,7 +36,7 @@ app.configure(function(){
 });
 
 app.put('/api/places/:id', logRequest, function (req, res) {
-	console.log('Updaating ' + req.params.id);
+	console.log('Updating ' + req.params.id);
 	var query = Place.findById(req.params.id);
 	var promise = query.exec();
 	promise.addBack(function (err, place) {
@@ -99,6 +100,8 @@ function buildPlaceView(place) {
 
 app.get('/api/places', logRequest, function (req, res) {
 	var search = {};
+	var locationParts;
+	var circle;
 
 	if (req.query.needs) {
 		search.needs = { $all: req.query.needs.toLowerCase().split(',') };
@@ -107,10 +110,16 @@ app.get('/api/places', logRequest, function (req, res) {
 	console.log('Search is ', search);
 
 	if (req.query.location) {
-		var locationParts = req.query.location.split(',');
-		var circle = [ [locationParts[0], locationParts[1]], locationParts[2] ];
+		locationParts = req.query.location.split(',');
+		circle = [ [locationParts[0], locationParts[1]], locationParts[2] ];
 		search.latLng = { $within :
-			{ $center :  circle}
+			{ $center :  circle }
+		};
+	} else {
+		locationParts = [51.5072, 0.1275, 10];
+		circle = [ [locationParts[0], locationParts[1]], locationParts[2] ];
+		search.latLng = { $within :
+			{ $center :  circle }
 		};
 	}
 
@@ -123,8 +132,13 @@ app.get('/api/places', logRequest, function (req, res) {
 		var placeViews = [];
 
 		for (var i = places.length - 1; i >= 0; i--) {
+			places[i].distance = geoDistance.getDistance(locationParts, places[i].latLng);
 			placeViews.push(buildPlaceView(places[i]));
 		}
+
+		placeViews = placeViews.sort(function (a, b) {
+			return a.distance - b.distance;
+		});
 
 		return res.send(200, {
 			places: placeViews
