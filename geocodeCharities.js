@@ -19,7 +19,8 @@ function checkIfDone() {
 	}
 }
 
-function getGeocodedAddress(place, count) {
+function getGeocodedAddress(place, index, count) {
+	console.log('Geocoding ' + place.name + ' in ' + ((500 * index) / 1000) + ' seconds');
 	function save() {
 		place.save(function() {
 			checkIfDone();
@@ -27,13 +28,17 @@ function getGeocodedAddress(place, count) {
 	}
 	if (place.address && count > 0) {
 		setTimeout(function () {
-			var address = encodeURIComponent(place.address);
+			var address = place.address;
+			if (address.search(/UK$/i) === -1) {
+				address += ', UK';
+			}
+			address = encodeURIComponent(address);
 			var requestURI = '/maps/api/geocode/json?address=' + address + '&sensor=false';
-			console.log('Requesting ' + requestURI);
+			console.log(new Date() + ': Making request to ' +requestURI);
 			client.get(requestURI, function(err, res, body) {
 				if ((body.status && body.status !== 'OK') || !body.results || body.results.length === 0) {
 					console.log('Retrying ' + requestURI);
-					return getGeocodedAddress(place, count - 1);
+					return getGeocodedAddress(place, index, count - 1);
 				}
 
 				if (body.results && body.results[0] && body.results[0].geometry) {
@@ -42,9 +47,9 @@ function getGeocodedAddress(place, count) {
 				}
 
 				console.log('Retrying ' + requestURI);
-				return getGeocodedAddress(place, count - 1);
+				return getGeocodedAddress(place, index, count - 1);
 			});
-		}, 1000);
+		}, 500 * index);
 	} else {
 		place.location = [51.5072, 0.1275];
 		save();
@@ -60,6 +65,6 @@ promise.addBack(function (err, places) {
 	totalPlaces = 2;
 
 	places.forEach(function (place, i) {
-		getGeocodedAddress(place, 3);
+		getGeocodedAddress(place, i, 3);
 	});
 });
