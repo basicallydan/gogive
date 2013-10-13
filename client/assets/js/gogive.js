@@ -9,18 +9,20 @@ var goGive = angular.module('goGive', [], function($routeProvider, $locationProv
     });
  
     $locationProvider.html5Mode(true);
-});
-
-goGive.controller('content', ['$scope', function($scope) {
+});;goGive.controller('content', ['$scope', function($scope) {
+	
 }]);
 
 function Content($scope, $route, $routeParams, $location) {
     $scope.$route = $route;
     $scope.$location = $location;
     $scope.$routeParams = $routeParams;
-}
-
-goGive.controller('results', ['$scope', '$http', function($scope, $http) {
+};goGive.filter('startFrom', function() {
+    return function(input, start) {
+        start = +start;
+        return input.slice(start);
+    }
+});;goGive.controller('results', ['$scope', '$http', function($scope, $http) {
 
     $scope.results = [];
     $http.get('api/places').then(function(res){
@@ -36,11 +38,4 @@ goGive.controller('results', ['$scope', '$http', function($scope, $http) {
     $scope.isExists = function(item) {
         return !(typeof item == 'undefined');
     };
-}]);
-
-goGive.filter('startFrom', function() {
-    return function(input, start) {
-        start = +start;
-        return input.slice(start);
-    }
-});
+}]);;
