@@ -34,3 +34,12 @@ p {
 	max-width: 540px;
 	line-height: 1.5;
 }
+
+.load {
+	height: 35px;
+	background: url(img/load.gif) center no-repeat;
+
+	.results & {
+		margin: $pad-lrg;
+	}
+}

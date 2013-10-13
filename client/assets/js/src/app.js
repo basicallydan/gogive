@@ -1,10 +1,10 @@
 var goGive = angular.module('goGive', [], function($routeProvider, $locationProvider) {
 
     $routeProvider.when('/', {
-        templateUrl: '/components/search.html',
+        templateUrl: 'components/search.html',
         controller: 'content'
     }).otherwise({
-        templateUrl: '/components/details.html',
+        templateUrl: 'components/details.html',
         controller: 'content'
     });
  

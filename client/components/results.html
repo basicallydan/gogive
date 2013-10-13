@@ -1,71 +1,66 @@
 <div class="results" ng-controller="results">
-    <div class="filter">
-        {{results.length}} Results
-    </div>
+    <div ng-switch on="isExists(results[0].name)">
+        <div ng-switch-when="true">
 
-    <h2 class="access">Results</h2>
-
-    <div class="results-list">
-        <div class="result" ng-repeat="result in results | startFrom: currentPage * pageSize | limitTo: pageSize">
-            <div class="head">
-                <h3>
-                    <a href="/{{result.publicId}}">{{result.name}}</a>
-                </h3>
-                <a href="/{{result.publicId}}" class="btn btn-sml">
-                    Give &#187;
-                </a>
+            <div class="filter">
+                {{results.length}} Results
             </div>
-            <div class="grid">
-                <div class="col w-66">
-                    <div class="pad">
-                       
-                        <h4 class="access">Needs</h4>
-                        <ul class="needs">
-                            <li ng-repeat="need in result.needs" ng-switch on="isExists(need.style)">
-                                <div ng-switch-when="true" class="{{need.style}}">
-                                    {{need.title}}
+
+            <h2 class="access">Results</h2>
+
+            <div class="results-list">
+                <div class="result" ng-repeat="result in results | startFrom: currentPage * pageSize | limitTo: pageSize">
+                    <div class="head">
+                        <h3>
+                            <a href="/{{result.publicId}}">{{result.name}}</a>
+                        </h3>
+                        <a href="/{{result.publicId}}" class="btn btn-sml">
+                            Give &#187;
+                        </a>
+                    </div>
+                    <div class="grid">
+                        <div class="col w-66">
+                            <div class="pad">
+
+                                <h4 class="access">Needs</h4>
+                                <div ng-include src="'/components/needs.html'"></div>
+                                <div class="description">
+                                    {{result.description}}
                                 </div>
-                                <a ng-switch-default href="{{need.url}}">
-                                    {{need.title}}
-                                </a>
-                            </li>                            
-                        </ul>
-                        <div class="description">
-                            {{result.description}}
+
+                            </div>
                         </div>
+                        <div class="col w-33">
+                            <div class="pad location">
 
-                    </div>
-                </div>
-                <div class="col w-33">
-                    <div class="pad location">
+                                <h4 class="access">Location</h4>
+                                <div ng-include src="'/components/location.html'"></div>
 
-                        <h4 class="access">Location</h4>
-                        <p ng-show="isExists(result.address)" ng-bind-html-unsafe="result.address"></p>
-                        <div class="website">
-                            <a href="{{result.website}}">
-                                {{result.website}}
-                            </a>
+                            </div>
                         </div>
-
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <div class="pagination" ng-show="numberOfPages() > 1">
-        <button
-            ng-disabled="currentPage == 0"
-            ng-click="currentPage=currentPage-1"
-            class="btn btn-alt">
-            Previous
-        </button>
-        {{currentPage + 1}} / {{numberOfPages()}}
-        <button
-            ng-disabled="currentPage >= numberOfPages() - 1"
-            ng-click="currentPage=currentPage+1"
-            class="btn btn-alt">
-            Next
-        </button>
+            <div class="pagination" ng-show="numberOfPages() > 1">
+                <button
+                    ng-disabled="currentPage == 0"
+                    ng-click="currentPage=currentPage-1"
+                    class="btn btn-alt">
+                    Previous
+                </button>
+                {{currentPage + 1}} / {{numberOfPages()}}
+                <button
+                    ng-disabled="currentPage >= numberOfPages() - 1"
+                    ng-click="currentPage=currentPage+1"
+                    class="btn btn-alt">
+                    Next
+                </button>
+            </div>
+
+        </div>
+        <div ng-switch-default>
+            <div class="load"></div>
+        </div>
     </div>
 </div>

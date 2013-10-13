@@ -10,7 +10,8 @@ module.exports = function(grunt) {
         files: [
           {
             src: [
-              'client/assets/js/src/*.js',
+              'client/assets/js/src/templates.js',
+              'client/assets/js/src/*.js'
             ],
             dest: 'client/assets/js/goGive.js'
           }
@@ -37,18 +38,29 @@ module.exports = function(grunt) {
     },
     watch: {
       files: [
-        'client/assets/js/src/**/*.js',
-        'client/assets/sass/**/*.scss'
+        'client/assets/js/src/**/*',
+        'client/assets/sass/**/*',
+        'client/assets/components/**/*'
       ],
       tasks: ['default']
-    }
+    },
+    html2js: {
+        options: {
+          base: 'client'
+        },
+        main: {
+          src: ['client/components/**/*.html'],
+          dest: 'client/assets/js/src/templates.js'
+        },
+      }
   });
 
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-compass');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-html2js');
 
-  grunt.registerTask('default', ['concat', 'compass', 'uglify']);
+  grunt.registerTask('default', ['html2js', 'concat', 'compass', 'uglify']);
 
 };

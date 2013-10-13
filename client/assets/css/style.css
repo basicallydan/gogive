@@ -44,6 +44,11 @@ a { color: #26d2ac; }
 /* line 32, ../sass/_global.scss */
 p { margin-bottom: 10px; max-width: 540px; line-height: 1.5; }
 
+/* line 38, ../sass/_global.scss */
+.load { height: 35px; background: url(img/load.gif) center no-repeat; }
+/* line 42, ../sass/_global.scss */
+.results .load { margin: 20px; }
+
 /* line 2, ../sass/_headings.scss */
 h1, h2, h3, h4, h5, h6 { margin: 0 0 10px; }
 /* line 5, ../sass/_headings.scss */
