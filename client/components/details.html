@@ -19,7 +19,11 @@
                 <div class="description">
                     {{result.description}}
                 </div>
-
+                <div ng-switch on="isExists(result.paypalEmail)">
+                    <div ng-switch-when="true">
+                        <script src="/assets/js/libs/paypal-button.min.js?merchant=daniel.hough-facilitator@gmail.com" data-button="donate"></script>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="col w-33">

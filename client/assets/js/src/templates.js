@@ -23,7 +23,11 @@ angular.module("components/details.html", []).run(["$templateCache", function($t
     "                <div class=\"description\">\n" +
     "                    {{result.description}}\n" +
     "                </div>\n" +
-    "\n" +
+    "                <div ng-switch on=\"isExists(result.paypalEmail)\">\n" +
+    "                    <div ng-switch-when=\"true\">\n" +
+    "                        <script src=\"/assets/js/libs/paypal-button.min.js?merchant=daniel.hough-facilitator@gmail.com\" data-button=\"donate\"></script>\n" +
+    "                    </div>\n" +
+    "                </div>\n" +
     "            </div>\n" +
     "        </div>\n" +
     "        <div class=\"col w-33\">\n" +
