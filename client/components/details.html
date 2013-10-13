@@ -21,7 +21,7 @@
                 </div>
                 <div ng-switch on="isExists(result.paypalEmail)">
                     <div ng-switch-when="true">
-                        <script src="/assets/js/libs/paypal-button.min.js?merchant=daniel.hough-facilitator@gmail.com" data-button="donate"></script>
+                        <script src="/assets/js/libs/paypal-bugitton.min.js?merchant=daniel.hough-facilitator@gmail.com" data-button="donate"></script>
                     </div>
                 </div>
             </div>
@@ -37,7 +37,7 @@
             </div>
         </div>
         <div class="col w-100">
-            <p class="subscribe-number">Text #{{result.publicId}} to 01443 606 412 to subscribe to updates!</p>
+            <p class="subscribe-number">Text <strong>#{{result.publicId}}</strong> to <strong>01443 606 412</strong> to subscribe to updates</p>
         </div>
     </div>
 </div>
