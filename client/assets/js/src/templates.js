@@ -40,6 +40,9 @@ angular.module("components/details.html", []).run(["$templateCache", function($t
     "\n" +
     "            </div>\n" +
     "        </div>\n" +
+    "        <div class=\"col w-100\">\n" +
+    "            <p class=\"subscribe-number\">Text #{{result.publicId}} to 01443 606 412 to subscribe to updates!</p>\n" +
+    "        </div>\n" +
     "    </div>\n" +
     "</div>");
 }]);

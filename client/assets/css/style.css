@@ -247,6 +247,9 @@ footer { padding: 10px 20px; border-top: 1px solid #cccccc; }
 /* line 21, ../sass/_variables.scss */
 .details:after { clear: both; }
 
+/* line 6, ../sass/_details.scss */
+.subscribe-number { font-size: 20pt; }
+
 /* line 1, ../sass/_needs.scss */
 .needs { margin-top: -3px; }
 /* line 16, ../sass/_variables.scss */
