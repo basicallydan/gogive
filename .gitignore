@@ -19,3 +19,5 @@ node_modules
 config/config.json
 
 .DS_Store
+
+client/assets/js/goGive.min.js
