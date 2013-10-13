@@ -57,26 +57,26 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { text-decoration: none; color: #6e7372; }
 h1 a:hover, h1 a:focus, h2 a:hover, h2 a:focus, h3 a:hover, h3 a:focus, h4 a:hover, h4 a:focus, h5 a:hover, h5 a:focus, h6 a:hover, h6 a:focus { text-decoration: underline; }
 
 /* line 16, ../sass/_headings.scss */
-h1 { font-size: 48px; }
+h1, .h1 { font-size: 48px; }
 /* line 18, ../sass/_headings.scss */
-h1 strong { color: #26d2ac; }
+h1 strong, .h1 strong { color: #26d2ac; }
 /* line 20, ../sass/_headings.scss */
-.admin h1 strong { color: #804cab; }
+.admin h1 strong, .admin .h1 strong { color: #804cab; }
 
 /* line 26, ../sass/_headings.scss */
-h2 { font-size: 36px; }
+h2, .h2 { font-size: 36px; }
 
 /* line 30, ../sass/_headings.scss */
-h3 { font-size: 28px; }
+h3, .h3 { font-size: 28px; }
 
 /* line 34, ../sass/_headings.scss */
-h4 { font-size: 28px; }
+h4, .h4 { font-size: 24px; }
 
 /* line 38, ../sass/_headings.scss */
-h5 { font-size: 22px; }
+h5, .h5 { font-size: 20px; }
 
 /* line 42, ../sass/_headings.scss */
-h6 { font-size: 20px; }
+h6, .h6 { font-size: 28px; }
 
 /* line 3, ../sass/_forms.scss */
 input, button { line-height: 1; }
@@ -241,18 +241,32 @@ footer { padding: 10px 20px; border-top: 1px solid #cccccc; }
 .pagination .btn { float: none; display: inline-block; }
 
 /* line 1, ../sass/_details.scss */
-.details { padding: 20px; }
+.details { padding: 20px; position: relative; }
 /* line 16, ../sass/_variables.scss */
 .details:before, .details:after { content: " "; display: table; }
 /* line 21, ../sass/_variables.scss */
 .details:after { clear: both; }
-
 /* line 6, ../sass/_details.scss */
-.subscribe-number { font-size: 20pt; }
-/* line 9, ../sass/_details.scss */
-.subscribe-number .location { text-align: left; }
-/* line 13, ../sass/_details.scss */
-.subscribe-number .description { margin-bottom: 10px; }
+.details .location { text-align: left; }
+/* line 10, ../sass/_details.scss */
+.details .description { font-size: 16px; }
+/* line 14, ../sass/_details.scss */
+.details h2 { padding-right: 120px; }
+/* line 18, ../sass/_details.scss */
+.details .donate-button { position: absolute; top: 13px; right: 0; padding: 20px; }
+/* line 24, ../sass/_details.scss */
+.details .donate-button input { padding: 0; border: 0; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; }
+/* line 31, ../sass/_details.scss */
+.details .needs { margin-bottom: 20px; }
+
+/* line 36, ../sass/_details.scss */
+.subscribe-number { background: #f6f6f6; padding: 20px; }
+/* line 40, ../sass/_details.scss */
+.subscribe-number .big { font-size: 18px; line-height: 2; }
+/* line 44, ../sass/_details.scss */
+.subscribe-number .big em { float: left; clear: left; width: 55px; }
+/* line 51, ../sass/_details.scss */
+.subscribe-number strong { color: #fff; background: #333; font-weight: 400; padding: 3px 5px; text-transform: uppercase; }
 
 /* line 1, ../sass/_needs.scss */
 .needs { margin-top: -3px; }
@@ -268,6 +282,8 @@ footer { padding: 10px 20px; border-top: 1px solid #cccccc; }
 
 /* line 6, ../sass/_locations.scss */
 .website { word-wrap: break-word; }
+/* line 9, ../sass/_locations.scss */
+.results .website { display: none; }
 
 /* line 2, ../sass/_donations.scss */
 .urgency-seeking, .urgency-emergency { color: #fff; padding: 5px 10px; background-color: #5d86ee; }

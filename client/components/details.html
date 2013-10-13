@@ -3,38 +3,63 @@
     <div ng-switch on="isExists(result.name)">
         <div ng-switch-when="true">
             <h2>{{result.name}}</h2>
+
+            <div ng-switch on="isExists(result.paypalEmail)" class="donate-button">
+                <div ng-switch-when="true">
+
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_donations">
+                        <input type="hidden" name="business" value="daniel.hough-facilitator@gmail.com">
+                        <input type="hidden" name="lc" value="GB">
+                        <input type="hidden" name="item_name" value="Donate">
+                        <input type="hidden" name="no_note" value="0">
+                        <input type="hidden" name="currency_code" value="GBP">
+                        <input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_LG.gif:NonHostedGuest">
+                        <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+                        <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+
+                </div>
+            </div>
         </div>
         <div ng-switch-default>
             <div class="load"></div>
         </div>
     </div>
 
+    <h3 class="access">Needs</h3>
+    <div ng-include src="'/components/needs.html'"></div>
+
     <div class="grid">
-        <div class="col w-66">
+        <div class="col w-60">
+            <div class="pad">
 
-            <h3 class="access">Needs</h3>
-
-                <div ng-include src="'/components/needs.html'"></div>
-                <div class="description">
+                <p class="description">
                     {{result.description}}
-                </div>
-                <div ng-switch on="isExists(result.paypalEmail)">
-                    <div ng-switch-when="true">
-                        <script src="/assets/js/libs/paypal-bugitton.min.js?merchant=daniel.hough-facilitator@gmail.com" data-button="donate"></script>
-                    </div>
+                </p>
+
+                <div class="location">
+                    <h3 class="access">Location</h3>
+                    <div ng-include src="'/components/location.html'"></div>
                 </div>
 
-            </div>
-
-            <div class="location">
-                <h3 class="access">Location</h3>
-                <div ng-include src="'/components/location.html'"></div>
             </div>
         </div>
 
-        <div class="col w-100">
-            <p class="subscribe-number">Text <strong>#{{result.publicId}}</strong> to <strong>01443 606 412</strong> to subscribe to updates</p>
+        <div class="col w-40">
+            <div class="pad">
+
+                <div class="subscribe-number">
+                    <h3 class="h4">Help them when it's needed most</h3>
+                    <p class="big">
+                        <em>Text</em> <strong>#{{result.publicId}}</strong><br>
+                        <em>To</em> <strong>01443 606 412</strong></p>
+                    <p>Doing so will allow {{result.name}} to send you an alert when assistance is urgently needed.</p>
+                </div>
+
+            </div>
         </div>
 
     </div>
+
 </div>

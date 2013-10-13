@@ -1,16 +1,58 @@
 .details {
 	@include cf;
 	padding: $pad-lrg;
-}
-
-.subscribe-number {
-	font-size:20pt;
+	position: relative;
 
 	.location {
 		text-align: left;
 	}
 
 	.description {
-		margin-bottom: 10px;
+		font-size: 16px;
+	}
+
+	h2 {
+		padding-right: 120px;
+	}
+
+	.donate-button {
+		position: absolute;
+		top: 13px;
+		right: 0;
+		padding: $pad-lrg;
+
+		input {
+			padding: 0;
+			border: 0;
+			@include box-shadow(none);
+		}
+	}
+
+	.needs {
+		margin-bottom: $pad-lrg;
+	}
+}
+
+.subscribe-number {
+	background: #f6f6f6;
+	padding: $pad-lrg;
+
+	.big {
+		font-size: 18px;
+		line-height: 2;
+
+		em {
+			float: left;
+			clear: left;
+			width: 55px;
+		}
+	}
+
+	strong {
+		color: #fff;
+		background: #333;
+		font-weight: 400;
+		padding: 3px 5px;
+		text-transform: uppercase;
 	}
 }
